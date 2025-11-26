@@ -1,0 +1,95 @@
+﻿doctrine_core_tenets = {
+	group = "core_tenets"
+	number_of_picks = 3
+	tenet_extinction_of_dharma = {
+		icon = core_tenet_extinction_of_dharma
+
+		is_shown = {
+			religion_tag = buddhism_religion
+			has_tgp_dlc_trigger = yes
+		}
+		can_pick = {
+			custom_description = {
+				text = incompatible_tenet_pacifism_trigger
+				NOT = { doctrine:tenet_pacifism = { is_in_list = selected_doctrines } }
+			}
+			custom_description = {
+				text = incompatible_tenet_dharmic_pacifism_trigger
+				NOT = { doctrine:tenet_dharmic_pacifism = { is_in_list = selected_doctrines } }
+			}
+		}
+
+		piety_cost = {
+			if = {
+				limit = {
+					always = no
+				}
+				value = faith_tenet_cost_low
+			}
+			else = {
+				value = faith_tenet_cost_massive
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_extinction_of_dharma }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		parameters = {
+			hostility_same_religion = 3
+			destroying_artifacts_is_pious = yes
+			awaiting_the_maitreya_savior = yes
+			killing_buddhists_is_pious = yes
+		}
+
+		character_modifier = {
+			monthly_piety_gain_mult = -1
+		}
+	}
+}
+
+	#############################
+	# Empty Template Tenet 		#
+	#############################
+
+	#tenets = {
+	#	is_shown = {
+	#		always = no
+	#	}
+	#	can_pick = {
+	#		always = yes
+	#	}
+
+	#	piety_cost = {
+	#		if = {
+	#			limit = {
+	#				always = no
+	#			}
+	#			value = faith_tenet_cost_low
+	#		}
+	#		else = {
+	#			value = faith_tenet_cost_massive
+	#		}
+
+	#		# Multiplier for keeping same tenet
+	#		if = {
+	#			limit = { has_doctrine = tenets }
+	#			multiply = faith_unchanged_doctrine_cost_mult
+	#		}
+	#	}
+
+	#	parameters = {
+	#		tenets_active = yes
+	#	}
+
+	#	character_modifier = {
+
+	#	}
+
+	#	traits = {
+	#		virtues = { brave = 2}
+	#		sins = { craven = 2}
+	#	}
+	#}

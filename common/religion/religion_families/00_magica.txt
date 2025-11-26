@@ -1,0 +1,6 @@
+﻿rf_magica = {
+	piety_icon_group = "taoism"
+	graphical_faith = "dharmic_gfx"
+	hostility_doctrine = magica_hostility_doctrine
+	doctrine_background_icon = core_tenet_banner_eastern.dds
+}

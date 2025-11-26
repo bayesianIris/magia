@@ -1,0 +1,134 @@
+﻿l_simp_chinese:
+ 
+ madokamist: "圆环之理"
+ madokamist_adj: "圆环之理"
+ madokamist_adherent: "圆环之理信徒"
+ madokamist_adherent_plural: "圆环之理信徒"
+ madokamist_desc: "正统派的圆环之理的核心是实现圆神的愿望。因为圆神的救赎，一切魔法少女因她得到了希望的永恒，使其成果不至于被绝望所湮灭。他们致力于传播圆神的教义，在希望的实践中让圆神的愿望更接近于实现，走入一个新的世界。"
+ rf_magica: "魔法少女宗教组"
+ ### 基础宗教名称
+ magica_religion: "圆环之理信仰"
+ magica_religion_adj: "圆环之理信仰"
+ magica_religion_adherent: "圆环之理信徒"
+ magica_religion_adherent_plural: "圆环之理信徒"
+ magica_religion_desc: "圆环之理贯穿过去、现在与所有可能的世界。魔法少女以希望为誓愿，以牺牲为道路，最终由圆神超越因果，成为永恒的救赎者。信徒在魔法少女的指引下，致力于实现圆神的愿望：使苦难化为希望，使绝望化为救赎。"
+
+ ### 高神（圆神）
+ magica_high_god_name: "圆神"
+ magica_high_god_name_2: "$magica_high_god_name$"
+ magica_high_god_name_3: "$magica_high_god_name$"
+ magica_high_god_name_possessive: "圆神"
+ magica_high_god_name_alternate: "她"
+ magica_high_god_name_alternate_possessive: "她"
+
+ ### 创造神（fallback：圆神）
+ magica_creator_god_name: "$magica_high_god_name$"
+ magica_creator_god_name_possessive: "$magica_high_god_name_possessive$"
+
+ ### 健康神（鹿目圆在人间时的形象）
+ magica_health_god_name: "鹿目圆"
+ magica_health_god_name_possessive: "鹿目圆"
+
+ ### 生育神（无对应 → fallback 到圆神）
+ magica_fertility_god_name: "$magica_high_god_name$"
+ magica_fertility_god_name_possessive: "$magica_high_god_name_possessive$"
+
+ ### 财富神（无对应 → fallback 到圆神）
+ magica_wealth_god_name: "$magica_high_god_name$"
+ magica_wealth_god_name_possessive: "$magica_high_god_name_possessive$"
+
+ ### 家宅神（无对应 → fallback 到鹿目圆）
+ magica_household_god_name: "$magica_health_god_name$"
+ magica_household_god_name_possessive: "$magica_health_god_name_possessive$"
+
+ ### 命运神（无对应 → fallback 到圆神）
+ magica_fate_god_name: "$magica_high_god_name$"
+ magica_fate_god_name_possessive: "$magica_high_god_name_possessive$"
+
+ ### 知识神（无对应 → fallback 到圆神）
+ magica_knowledge_god_name: "$magica_high_god_name$"
+ magica_knowledge_god_name_possessive: "$magica_high_god_name_possessive$"
+
+ ### 战争神（无对应 → fallback 到圆神）
+ magica_war_god_name: "$magica_high_god_name$"
+ magica_war_god_name_possessive: "$magica_high_god_name_possessive$"
+
+ ### 欺诳/诡计之神（无对应 → 参考基督教 → 给一位魔法少女）
+ magica_trickster_god_name: "佐仓杏子"
+ magica_trickster_god_name_possessive: "佐仓杏子"
+
+ ### 夜之神（无对应 → fallback 到圆神）
+ magica_night_god_name: "$magica_high_god_name$"
+ magica_night_god_name_possessive: "$magica_high_god_name_possessive$"
+
+ ### 水神（无对应 → fallback 到鹿目圆，如基督教 water=health）
+ magica_water_god_name: "$magica_health_god_name$"
+ magica_water_god_name_possessessive: "$magica_health_god_name_possessive$"
+
+ ### 善神列表
+ magica_good_god_jesus: "$magica_health_god_name$"
+ magica_good_god_christ: "$magica_high_god_name$"
+
+ ### 魔神 / 恶神（魔女体系化）
+ magica_devil_name: "魔女"
+ magica_devil_name_possessive: "魔女"
+ magica_evil_god_lucifer: "原罪魔女"
+ magica_evil_god_beelzebub: "暴食魔女"
+ magica_evil_god_mephistopheles: "诅咒魔女"
+
+ ### 死亡神
+ magica_death_deity_name: "终焉魔女"
+ magica_death_deity_name_possessive: "终焉魔女"
+
+ ### 信仰建筑 / 圣物
+ magica_house_of_worship: "祈愿殿"
+ magica_house_of_worship_2: "$magica_house_of_worship$"
+ magica_house_of_worship_3: "$magica_house_of_worship$"
+ magica_house_of_worship_plural: "祈愿殿堂"
+
+ ### 神圣符号
+ magica_religious_symbol: "灵魂宝石"
+ magica_religious_symbol_2: "$magica_religious_symbol$"
+ magica_religious_symbol_3: "$magica_religious_symbol$"
+
+ ### 宗教经典（你指定的）
+ magica_religious_text: "《魔法少女小圆》"
+ magica_religious_text_2: "《魔法纪录》"
+ magica_religious_text_3: "《小圆外传》"
+
+ ### 宗教领袖
+ magica_religious_head_title: "圆理导师"
+ magica_religious_head_title_name: "圆理院"
+
+ ### 信徒称呼
+ magica_devotee_male: "圆理侍者"
+ magica_devotee_male_plural: "圆理侍者"
+ magica_devotee_female: "圆理侍女"
+ magica_devotee_female_plural: "圆理侍女"
+ magica_devotee_neuter: "圆理侍从"
+ magica_devotee_neuter_plural: "圆理侍从"
+
+ ### 司祭 / 神职
+ magica_priest_male: "引导者"
+ magica_priest_male_plural: "引导者"
+ magica_priest_alternate_plural: "圆理使徒"
+
+ ### 主教
+ magica_bishop: "光环导师"
+ magica_bishop_plural: "光环导师"
+
+ ### 来世
+ magica_positive_afterlife: "希望之界"
+ magica_positive_afterlife_2: "圆环之境"
+ magica_positive_afterlife_3: "圆神的怀抱"
+
+ magica_negative_afterlife: "绝望深渊"
+ magica_negative_afterlife_2: "魔女化之冢"
+ magica_negative_afterlife_3: "黑暗轮回"
+
+ ### 巫术之神（你指定“美德” → 直接写“圆环之理”）
+ magica_witchgodname_the_horned_god: "圆环之理"
+ magica_witchgodname_the_horned_god_possessive: "圆环之理"
+
+ madokamist_war_god_name: "$magica_war_god_name$"
+ madokamist_war_god_name_possessive: "$magica_war_god_name_possessive$"

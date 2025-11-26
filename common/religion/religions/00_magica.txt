@@ -1,0 +1,325 @@
+﻿magica_religion = {
+	family = rf_magica
+
+	doctrine_background_icon = core_tenet_banner_christian.dds
+	doctrine = magica_hostility_doctrine
+
+	#Main Group
+	doctrine = doctrine_monotheist
+	doctrine = doctrine_spiritual_head
+	doctrine = doctrine_magica_gender_law
+	doctrine = doctrine_pluralism_righteous
+	doctrine = doctrine_theocracy_temporal
+
+	#Marriage
+	doctrine = doctrine_monogamy
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_none
+	doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
+
+	#Crimes
+	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_adultery_men_shunned
+	doctrine = doctrine_adultery_women_accepted
+	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_deviancy_accepted
+	doctrine = doctrine_witchcraft_virtuous
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_recruitment
+	doctrine = doctrine_clerical_gender_female_only
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_temporal_appointment
+
+	#Special Doctrine for Magica
+	
+
+	#Allow pilgrimages
+	doctrine = doctrine_pilgrimage_encouraged
+
+	#Funeral tradition
+	doctrine = doctrine_funeral_stoic
+
+	#Coronation tradition
+	doctrine = doctrine_anointment_permitted
+
+	traits = {
+		virtues = { forgiving compassionate just diligent}
+		sins = { vengeful sadistic lazy}
+	}
+
+	reserved_male_names = {
+		Andrew Antoninus Bartolomeus Benedict Christian Christopher Clement Constantine David Demetrius Eustace George Gregory
+		Hans Isaac Joakim Jacob John Jordan Joseph Laurence Magnus Marcus Martin Matthew Michael Nicholas Patrick Paul Peter Philip
+		Salvador Samuel Sebastian Simon Stephen Thomas Abraham Alexander Daniel Job Joshua Cyrus Luke Zachariah
+	}
+	reserved_female_names = {
+		Aimi Akari Akira Alexandra Alina Amaryllis Ao Arisa Asahi Asuka Ayaka Ayame Celjska Chiharu Chika Chisato Chizuru Corbeau Ebony Emiri Felicia Felicia-chan Gray Gunhild Hagumu Hanna Harlaown Haruka Hawkwood Hayate Hazuki Heruka Hikaru Himena Himika Hinano Hitagi Homura Homura-chan Hotaru Hotori Ikumi Iroha Iroha-chan Isabeau Jun Juri Kaede Kagome Kako Kanae Kanagi Kanoko Kaome Kaoru Karin Kazumi Kirika Kokoro Konoha Konomi Kuro Kuroe Kushu Kyouko Kyubey Lapine Lavi Mabayu Madoka Madoka-senpai Mami Manaka Maria Masara Matsuri Mayoi Mayu Medeiros Meguru Meiyui Meru Mifuyu Mikage Mikoto Mikura Minou Mitama Mito Mitsune Mitsuru Miyuri Moka Momoko Nadeko Nagisa Nanaka Nanoha Natsuki Nayuta Nemu Olga Oriko Pernelle Ranka Reira Ren Rena Rena-chan Ria Rika Riko Rion Rui Ryou Ryouko Sae Sakura Sakuya San Sana Sasara Sayaka Sayuki Seika Seira Shi Shigure Shinobu Shizuka Shizuku Sisters Sudachi Sunao Suruga Suzune Takina Tart Taylor Temari Touka Toyo Tsubaki Tsubasa Tsukasa Tsukuyo Tsumugi Tsuruno Tsuyu Ui Umika Urara Vignolles Yachiyo Yozuru Yukika Yuma Yuna Yuu Yuuna
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil custom_faith_boromian_circles custom_faith_lotus custom_faith_aum_tibetan custom_faith_pentagram custom_faith_pentagram_inverted custom_faith_burning_bush custom_faith_allah custom_faith_gankyil custom_faith_eye_of_providence custom_faith_dove custom_faith_ichthys custom_faith_lamb custom_faith_black_sheep custom_faith_ankh custom_faith_chi_rho custom_faith_hamsa custom_faith_cool_s custom_faith_magatama custom_faith_soto custom_faith_benzhuism
+	}
+
+	holy_order_names = {
+		{ name = "holy_order_knights_of_the_chalice" }
+		{ name = "holy_order_order_of_the_holy_communion" }
+		{ name = "holy_order_knights_of_the_first_gospel" }
+		{ name = "holy_order_guardians_of_the_shroud" }
+		{ name = "holy_order_knights_of_the_reliquary" }
+		{ name = "holy_order_warriors_of_the_cross" }
+		{ name = "holy_order_christian" coat_of_arms = "ho_christian" }
+	}
+
+	holy_order_maa = { teutonic_knights }
+
+	localization = {
+		#HighGod
+		HighGodName = magica_high_god_name
+		HighGodName2 = magica_high_god_name_2
+		HighGodNamePossessive = magica_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_SHE
+		HighGodHerselfHimself = CHARACTER_HERSELF
+		HighGodHerHis = CHARACTER_HERHIS_HER
+		HighGodNameAlternate = magica_high_god_name_alternate
+		HighGodNameAlternatePossessive = magica_high_god_name_alternate_possessive
+
+		#Creator
+		CreatorName = magica_creator_god_name
+		CreatorNamePossessive = magica_creator_god_name_possessive
+		CreatorSheHe = CHARACTER_SHEHE_SHE
+		CreatorHerHis = CHARACTER_HERHIS_HER
+		CreatorHerHim = CHARACTER_HERHIM_HER
+
+		#HealthGod
+		HealthGodName = magica_health_god_name
+		HealthGodNamePossessive = magica_health_god_name_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_SHE
+		HealthGodHerHis = CHARACTER_HERHIS_HER
+		HealthGodHerHim = CHARACTER_HERHIM_HER
+		
+		#FertilityGod
+		FertilityGodName = magica_fertility_god_name
+		FertilityGodNamePossessive = magica_fertility_god_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+		#WealthGod
+		WealthGodName = magica_wealth_god_name
+		WealthGodNamePossessive = magica_wealth_god_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_SHE
+		WealthGodHerHis = CHARACTER_HERHIS_HER
+		WealthGodHerHim = CHARACTER_HERHIM_HER
+
+		#HouseholdGod
+		HouseholdGodName = magica_household_god_name
+		HouseholdGodNamePossessive = magica_household_god_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HER
+		HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+		#FateGod
+		FateGodName = magica_fate_god_name
+		FateGodNamePossessive = magica_fate_god_name_possessive
+		FateGodSheHe = CHARACTER_SHEHE_SHE
+		FateGodHerHis = CHARACTER_HERHIS_HER
+		FateGodHerHim = CHARACTER_HERHIM_HER
+
+		#KnowledgeGod
+		KnowledgeGodName = magica_knowledge_god_name
+		KnowledgeGodNamePossessive = magica_knowledge_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+		#WarGod
+		WarGodName = magica_war_god_name
+		WarGodNamePossessive = magica_war_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_SHE
+		WarGodHerHis = CHARACTER_HERHIS_HER
+		WarGodHerHim = CHARACTER_HERHIM_HER
+
+		#TricksterGod
+		TricksterGodName = magica_trickster_god_name
+		TricksterGodNamePossessive = magica_trickster_god_name_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_SHE
+		TricksterGodHerHis = CHARACTER_HERHIS_HER
+		TricksterGodHerHim = CHARACTER_HERHIM_HER
+
+		#NightGod
+		NightGodName = magica_night_god_name
+		NightGodNamePossessive = magica_night_god_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_SHE
+		NightGodHerHis = CHARACTER_HERHIS_HER
+		NightGodHerHim = CHARACTER_HERHIM_HER
+
+		#WaterGod
+		WaterGodName = magica_water_god_name
+		WaterGodNamePossessive = magica_water_god_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_SHE
+		WaterGodHerHis = CHARACTER_HERHIS_HER
+		WaterGodHerHim = CHARACTER_HERHIM_HER
+
+		PantheonTerm = magica_high_god_name
+		PantheonTerm2 = magica_high_god_name_2
+		PantheonTerm3 = magica_high_god_name_3
+		PantheonTermHasHave = pantheon_term_has
+		GoodGodNames = {
+			magica_high_god_name
+			magica_high_god_name_alternate
+			magica_good_god_jesus
+			magica_good_god_christ
+		}
+		DevilName = magica_devil_name
+		DevilNamePossessive = magica_devil_name_possessive
+		DevilSheHe = CHARACTER_SHEHE_SHE
+		DevilHerHis = CHARACTER_HERHIS_HER
+		DevilHerHis = CHARACTER_HERHIS_HER
+		DevilHerselfHimself = CHARACTER_HERSELF
+		EvilGodNames = {
+			magica_devil_name
+			magica_evil_god_lucifer
+			magica_evil_god_beelzebub
+			magica_evil_god_mephistopheles
+		}
+		HouseOfWorship = magica_house_of_worship
+		HouseOfWorship2 = magica_house_of_worship_2
+		HouseOfWorship3 = magica_house_of_worship_3
+		HouseOfWorshipPlural = magica_house_of_worship_plural
+		ReligiousSymbol = magica_religious_symbol
+		ReligiousSymbol2 = magica_religious_symbol_2
+		ReligiousSymbol3 = magica_religious_symbol_3
+		ReligiousText = magica_religious_text
+		ReligiousText2 = magica_religious_text_2
+		ReligiousText3 = magica_religious_text_3
+		ReligiousHeadName = magica_religious_head_title
+		ReligiousHeadTitleName = magica_religious_head_title_name
+		DevoteeMale = magica_devotee_male
+		DevoteeMalePlural = magica_devotee_male_plural
+		DevoteeFemale = magica_devotee_female
+		DevoteeFemalePlural = magica_devotee_female_plural
+		DevoteeNeuter = magica_devotee_neuter
+		DevoteeNeuterPlural = magica_devotee_neuter_plural
+		PriestMale = magica_priest_male
+		PriestMalePlural = magica_priest_male_plural
+		PriestFemale = magica_priest_male
+		PriestFemalePlural = magica_priest_male_plural
+		PriestNeuter = magica_priest_male
+		PriestNeuterPlural = magica_priest_male_plural
+		AltPriestTermPlural = magica_priest_alternate_plural
+		BishopMale = magica_bishop
+		BishopMalePlural = magica_bishop_plural
+		BishopFemale = magica_bishop
+		BishopFemalePlural = magica_bishop_plural
+		BishopNeuter = magica_bishop
+		BishopNeuterPlural = magica_bishop_plural
+		DivineRealm = magica_positive_afterlife
+		DivineRealm2 = magica_positive_afterlife_2
+		DivineRealm3 = magica_positive_afterlife_3
+		PositiveAfterLife = magica_positive_afterlife
+		PositiveAfterLife2 = magica_positive_afterlife_2
+		PositiveAfterLife3 = magica_positive_afterlife_3
+		NegativeAfterLife = magica_negative_afterlife
+		NegativeAfterLife2 = magica_negative_afterlife_2
+		NegativeAfterLife3 = magica_negative_afterlife_3
+		DeathDeityName = magica_death_deity_name
+		DeathDeityNamePossessive = magica_death_deity_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_SHE
+		DeathDeityHerHis = CHARACTER_HERHIS_HER
+		DeathDeityHerHim = CHARACTER_HERHIM_HER
+		WitchGodName = magica_witchgodname_the_horned_god
+		WitchGodNamePossessive = magica_witchgodname_the_horned_god_possessive
+		WitchGodHerHis = CHARACTER_HERHIS_HER
+		WitchGodSheHe = CHARACTER_SHEHE_SHE
+		WitchGodHerHim = CHARACTER_HERHIM_HER
+		WitchGodMistressMaster = mistress
+		WitchGodMotherFather = mother
+
+
+		GHWName = ghw_crusade
+		GHWNamePlural = ghw_crusades
+
+	}
+	
+	piety_icon_group = "christian"
+
+	faiths = {
+		madokamist = {
+			color = { 0.8 0.8 0.6 }
+			graphical_faith = "catholic_gfx"
+			icon = madokami
+
+			holy_site = jerusalem        # 中东三大宗教核心圣地
+			holy_site = mecca            # 伊斯兰世界中心
+			holy_site = rome             # 西方基督教中心
+			holy_site = santiago         # 西欧著名朝圣目的地
+			holy_site = cologne          # 中欧重要圣徒遗骨圣地
+			holy_site = constantinople   # 东正教历史核心
+			holy_site = sarnath          # 印度教最神圣城市
+			holy_site = lhasa            # 藏传佛教圣城
+			holy_site = bodh_gaya        # 佛陀成道地
+			holy_site = ise_jingu       # 日本神道最高圣地
+			
+			#Special Tolerance
+
+			#Tenets
+			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_legalism
+			doctrine = tenet_mystical_birthright
+
+			holy_order_names = {
+				{ name = "holy_order_knights_templar" coat_of_arms = "ho_knights_templar" }
+				{ name = "holy_order_knights_hospitaller" coat_of_arms = "ho_knights_hospitaller"  }
+				{ name = "holy_order_teutonic_order" coat_of_arms = "ho_teutonic_order"  }
+				{ name = "holy_order_order_of_calatrava" coat_of_arms = "ho_order_of_calatrava"  }
+				{ name = "holy_order_order_of_alcantara" coat_of_arms = "ho_order_of_alcantara"  }
+				{ name = "holy_order_knights_of_santiago" coat_of_arms = "ho_knights_of_santiago"  }
+			}
+
+			localization = { # Utilizes the 'West Christian' Saints, shared by Catholics and Orthodox
+				#FertilityGod
+				FertilityGodName = madokamist_fertility_god_name
+				FertilityGodNamePossessive = madokamist_fertility_god_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				#WealthGod
+				WealthGodName = madokamist_wealth_god_name
+				WealthGodNamePossessive = madokamist_wealth_god_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_SHE
+				WealthGodHerHis = CHARACTER_HERHIS_HER
+				WealthGodHerHim = CHARACTER_HERHIM_HER
+
+				#HouseholdGod
+				HouseholdGodName = madokamist_household_god_name
+				HouseholdGodNamePossessive = madokamist_household_god_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HER
+				HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+				#KnowledgeGod
+				KnowledgeGodName = madokamist_knowledge_god_name
+				KnowledgeGodNamePossessive = madokamist_knowledge_god_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+				#WarGod
+				WarGodName = madokamist_war_god_name
+				WarGodNamePossessive = madokamist_war_god_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_SHE
+				WarGodHerHis = CHARACTER_HERHIS_HER
+				WarGodHerHim = CHARACTER_HERHIM_HER
+
+				#WaterGod
+				WaterGodName = madokamist_water_god_name
+				WaterGodNamePossessive = madokamist_water_god_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_SHE
+				WaterGodHerHis = CHARACTER_HERHIS_HER
+				WaterGodHerHim = CHARACTER_HERHIM_HER
+			}
+		}
+	}
+}
