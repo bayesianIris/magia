@@ -1,0 +1,61 @@
+﻿@magica_unique_laws_cooldown_value = 10
+@magica_unique_cost_value = 500
+
+
+magica_unique_laws = {
+	default = multiple_marriage_law
+	cumulative = no
+	flag = magica_unique
+
+	multiple_marriage_law = {
+		flag = multiple_marriage_law
+
+		can_keep = {
+			faith = {
+				has_doctrine = tenet_polyamory
+			}
+		}
+
+		can_pass = {
+		}
+
+		should_start_with = {
+			faith = {
+				has_doctrine = tenet_polyamory
+			}		
+		}
+
+		flag = men_can_have_multiple_spouses
+		flag = women_can_have_multiple_spouses
+
+		pass_cost = {
+			prestige = @magica_unique_cost_value
+		}
+
+		ai_will_do = {
+			value = 250
+		}
+	}
+	no_multiple_marriage_law = {
+		flag = no_multiple_marriage_law
+
+		can_keep = {
+			faith = {
+				NOT = {
+					has_doctrine = tenet_polyamory
+				}
+			}
+		}
+
+		can_pass = {
+		}
+
+		should_start_with = {
+			faith = {
+				NOT = {
+					has_doctrine = tenet_polyamory
+				}
+			}		
+		}
+	}
+}

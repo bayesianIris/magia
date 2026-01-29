@@ -1933,7 +1933,14 @@ succession_gender_laws = {
 		}
 		flag = women_can_have_multiple_spouses
 		flag = women_can_have_consorts
-
+		# if = {
+		# 	limit = {
+		# 		faith = {
+		# 			religion_tag = magica_religion
+		# 		}
+		# 	}
+		# 	flag = men_can_have_multiple_spouses
+		# }
 		pass_cost = {
 			prestige = change_succession_law_prestige_cost
 		}
@@ -1976,7 +1983,14 @@ succession_gender_laws = {
 		}
 		flag = women_can_have_multiple_spouses
 		flag = women_can_have_consorts
-
+		# if = {
+		# 	limit = {
+		# 		faith = {
+		# 			religion_tag = magica_religion
+		# 		}
+		# 	}
+		# 	flag = men_can_have_multiple_spouses
+		# }
 		pass_cost = {
 			prestige = change_succession_law_prestige_cost
 		}
@@ -1997,9 +2011,24 @@ succession_gender_laws = {
 					culture = { has_cultural_parameter = female_only_inheritance }
 					faith = { has_doctrine = doctrine_magica_gender_law }
 				}
-				
-				
 			}
+		}
+	}
+}
+
+succession_faith = {
+	same_faith_only_law = {
+		can_keep = {
+			should_have_same_faith_succession_trigger = yes
+		}
+		can_pass = {
+			should_have_same_faith_succession_trigger = yes
+		}
+		should_start_with = {
+			should_have_same_faith_succession_trigger = yes
+		}
+		succession = {
+			faith = same_faith
 		}
 	}
 }

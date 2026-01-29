@@ -71,6 +71,7 @@
 			men_cannot_be_granted_titles = yes
 			female_dominated_council = yes
 			combatant_must_be_female_if_no_roco = yes
+			men_can_have_multiple_spouses = no
 		}
 		character_modifier = {
 			name = male_ruler_female_dominant
@@ -105,9 +106,6 @@
 			opinion_of_male_rulers = -5
 		}
 		character_modifier = {
-			if = {
-				is_faith_dominant_gender = yes
-			}
 			name = magica_effect_name
 			prowess = 6
 		}

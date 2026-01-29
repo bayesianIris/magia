@@ -1,10 +1,19 @@
 ﻿l_simp_chinese:
  
- madokamist: "圆环之理"
- madokamist_adj: "圆环之理"
- madokamist_adherent: "圆环之理信徒"
- madokamist_adherent_plural: "圆环之理信徒"
- madokamist_desc: "正统派的圆环之理的核心是实现圆神的愿望。因为圆神的救赎，一切魔法少女因她得到了希望的永恒，使其成果不至于被绝望所湮灭。他们致力于传播圆神的教义，在希望的实践中让圆神的愿望更接近于实现，走入一个新的世界。"
+ madokamist_orthodox: "圆环之理-正统派"
+ madokamist_orthodox_adj: "圆环之理-正统派"
+ madokamist_orthodox_adherent: "圆环之理信徒"
+ madokamist_orthodox_adherent_plural: "圆环之理信徒"
+ madokamist_martial: "圆环之理-尚武派"
+ madokamist_martial_adj: "圆环之理-尚武派"
+ madokamist_martial_adherent: "圆环之理信徒"
+ madokamist_martial_adherent_plural: "圆环之理信徒"
+ madokamist_romance: "圆环之理-情感派"
+ madokamist_romance_adj: "圆环之理-情感派"
+ madokamist_romance_adherent: "圆环之理信徒"
+ madokamist_romance_adherent_plural: "圆环之理信徒"
+
+ madokamist_orthodox_desc: "正统派的圆环之理的核心是实现圆神的愿望。因为圆神的救赎，一切魔法少女因她得到了希望的永恒，使其成果不至于被绝望所湮灭。他们致力于传播圆神的教义，在希望的实践中让圆神的愿望更接近于实现，走入一个新的世界。"
  rf_magica: "魔法少女宗教组"
  ### 基础宗教名称
  magica_religion: "圆环之理信仰"
@@ -69,7 +78,7 @@
  magica_good_god_jesus: "$magica_health_god_name$"
  magica_good_god_christ: "$magica_high_god_name$"
 
- ### 魔神 / 恶神（魔女体系化）
+ ### 魔神 / 恶神
  magica_devil_name: "魔女"
  magica_devil_name_possessive: "魔女"
  magica_evil_god_lucifer: "原罪魔女"
@@ -97,7 +106,7 @@
  magica_religious_text_3: "《小圆外传》"
 
  ### 宗教领袖
- magica_religious_head_title: "圆理导师"
+ magica_religious_head_title: "导师"
  magica_religious_head_title_name: "圆理院"
 
  ### 信徒称呼
@@ -109,8 +118,8 @@
  magica_devotee_neuter_plural: "圆理侍从"
 
  ### 司祭 / 神职
- magica_priest_male: "引导者"
- magica_priest_male_plural: "引导者"
+ magica_priest_female: "引导者"
+ magica_priest_female_plural: "引导者"
  magica_priest_alternate_plural: "圆理使徒"
 
  ### 主教
@@ -126,7 +135,7 @@
  magica_negative_afterlife_2: "魔女化之冢"
  magica_negative_afterlife_3: "黑暗轮回"
 
- ### 巫术之神（你指定“美德” → 直接写“圆环之理”）
+ ### 巫术之神
  magica_witchgodname_the_horned_god: "圆环之理"
  magica_witchgodname_the_horned_god_possessive: "圆环之理"
 

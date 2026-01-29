@@ -1,0 +1,28 @@
+﻿is_magica_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_magica_faith
+	}
+
+	special_doctrine_is_magica_faith = {
+		parameters = {
+			combatant_including_magica = yes
+			female_dominated_council = no
+		}
+	}
+}
+
+special_tolerance_magica = {
+	group = "main_group"
+	
+	is_available_on_create = {
+		always = no # Goes away when creating a new Faith
+	}
+	
+	special_doctrine_madokamist = {
+		parameters = {
+			hostility_override_special_doctrine_madokamist = 0
+		}
+	}
+}

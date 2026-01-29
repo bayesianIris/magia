@@ -1,0 +1,1 @@
+这里记录一下，把所有的tenet_esotericism的判定改成了tenet_esotericism_mystic_education，更普适于魔法少女

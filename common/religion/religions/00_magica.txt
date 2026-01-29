@@ -7,7 +7,7 @@
 	#Main Group
 	doctrine = doctrine_monotheist
 	doctrine = doctrine_spiritual_head
-	doctrine = doctrine_magica_gender_law
+	doctrine = doctrine_gender_female_dominated
 	doctrine = doctrine_pluralism_righteous
 	doctrine = doctrine_theocracy_temporal
 
@@ -32,7 +32,7 @@
 	doctrine = doctrine_clerical_succession_temporal_appointment
 
 	#Special Doctrine for Magica
-	
+	doctrine = special_doctrine_is_magica_faith
 
 	#Allow pilgrimages
 	doctrine = doctrine_pilgrimage_encouraged
@@ -49,18 +49,20 @@
 	}
 
 	reserved_male_names = {
-		Andrew Antoninus Bartolomeus Benedict Christian Christopher Clement Constantine David Demetrius Eustace George Gregory
-		Hans Isaac Joakim Jacob John Jordan Joseph Laurence Magnus Marcus Martin Matthew Michael Nicholas Patrick Paul Peter Philip
-		Salvador Samuel Sebastian Simon Stephen Thomas Abraham Alexander Daniel Job Joshua Cyrus Luke Zachariah
+		
 	}
 	reserved_female_names = {
-		Aimi Akari Akira Alexandra Alina Amaryllis Ao Arisa Asahi Asuka Ayaka Ayame Celjska Chiharu Chika Chisato Chizuru Corbeau Ebony Emiri Felicia Felicia-chan Gray Gunhild Hagumu Hanna Harlaown Haruka Hawkwood Hayate Hazuki Heruka Hikaru Himena Himika Hinano Hitagi Homura Homura-chan Hotaru Hotori Ikumi Iroha Iroha-chan Isabeau Jun Juri Kaede Kagome Kako Kanae Kanagi Kanoko Kaome Kaoru Karin Kazumi Kirika Kokoro Konoha Konomi Kuro Kuroe Kushu Kyouko Kyubey Lapine Lavi Mabayu Madoka Madoka-senpai Mami Manaka Maria Masara Matsuri Mayoi Mayu Medeiros Meguru Meiyui Meru Mifuyu Mikage Mikoto Mikura Minou Mitama Mito Mitsune Mitsuru Miyuri Moka Momoko Nadeko Nagisa Nanaka Nanoha Natsuki Nayuta Nemu Olga Oriko Pernelle Ranka Reira Ren Rena Rena-chan Ria Rika Riko Rion Rui Ryou Ryouko Sae Sakura Sakuya San Sana Sasara Sayaka Sayuki Seika Seira Shi Shigure Shinobu Shizuka Shizuku Sisters Sudachi Sunao Suruga Suzune Takina Tart Taylor Temari Touka Toyo Tsubaki Tsubasa Tsukasa Tsukuyo Tsumugi Tsuruno Tsuyu Ui Umika Urara Vignolles Yachiyo Yozuru Yukika Yuma Yuna Yuu Yuuna
+		namae_1001_magica namae_1002_magica namae_1003_magica namae_1004_magica namae_1005_magica namae_1006_magica namae_1007_magica namae_1008_magica namae_1009_magica namae_1010_magica namae_1011_magica namae_1012_magica namae_1013_magica namae_1014_magica namae_1015_magica namae_1016_magica namae_1017_magica namae_1018_magica namae_1019_magica namae_1020_magica namae_1021_magica namae_1022_magica namae_1023_magica namae_1024_magica namae_1025_magica namae_1026_magica namae_1027_magica namae_1028_magica namae_1029_magica namae_1030_magica namae_1031_magica namae_1032_magica namae_1033_magica namae_1034_magica namae_1035_magica namae_1036_magica namae_1037_magica namae_1038_magica namae_1039_magica namae_1040_magica namae_1041_magica namae_1043_magica namae_1044_magica namae_1045_magica namae_1046_magica namae_1047_magica namae_1048_magica namae_1049_magica namae_1050_magica namae_1051_magica namae_1052_magica namae_1053_magica namae_2001_magica namae_2002_magica namae_2004_magica namae_2005_magica namae_2006_magica namae_2007_magica namae_2009_magica namae_3001_magica namae_3002_magica namae_3003_magica namae_3004_magica namae_3005_magica namae_3006_magica namae_3007_magica namae_3008_magica namae_3009_magica namae_3010_magica namae_3011_magica namae_3012_magica namae_3013_magica namae_3014_magica namae_3015_magica namae_3016_magica namae_3017_magica namae_3018_magica namae_3019_magica namae_3020_magica namae_3021_magica namae_3022_magica namae_3023_magica namae_3024_magica namae_3025_magica namae_3026_magica namae_3027_magica namae_3028_magica namae_3029_magica namae_3030_magica namae_3031_magica namae_3032_magica namae_3033_magica namae_3034_magica namae_3035_magica namae_3036_magica namae_3037_magica namae_3038_magica namae_3039_magica namae_3040_magica namae_3041_magica namae_3042_magica namae_3044_magica namae_3045_magica namae_3046_magica namae_3047_magica namae_3048_magica namae_3049_magica namae_3050_magica namae_3051_magica namae_3052_magica namae_3053_magica namae_3054_magica namae_3055_magica namae_3056_magica namae_3057_magica namae_3058_magica namae_3059_magica namae_3900_magica namae_3901_magica namae_3902_magica namae_4001_magica namae_4002_magica namae_4003_magica namae_4011_magica namae_4012_magica namae_4013_magica namae_4014_magica namae_4021_magica namae_4022_magica namae_4023_magica namae_4024_magica namae_4025_magica namae_4026_magica namae_4027_magica namae_4029_magica namae_4031_magica namae_4032_magica namae_4033_magica namae_4034_magica namae_4035_magica namae_4036_magica namae_4041_magica namae_4042_magica namae_4043_magica namae_4044_magica namae_4045_magica namae_4046_magica namae_4051_magica namae_4052_magica namae_4053_magica namae_4061_magica namae_4062_magica namae_4121_magica
 	}
-
+	reserved_male_names = {
+		namae_1001_magica namae_1002_magica namae_1003_magica namae_1004_magica namae_1005_magica namae_1006_magica namae_1007_magica namae_1008_magica namae_1009_magica namae_1010_magica namae_1011_magica namae_1012_magica namae_1013_magica namae_1014_magica namae_1015_magica namae_1016_magica namae_1017_magica namae_1018_magica namae_1019_magica namae_1020_magica namae_1021_magica namae_1022_magica namae_1023_magica namae_1024_magica namae_1025_magica namae_1026_magica namae_1027_magica namae_1028_magica namae_1029_magica namae_1030_magica namae_1031_magica namae_1032_magica namae_1033_magica namae_1034_magica namae_1035_magica namae_1036_magica namae_1037_magica namae_1038_magica namae_1039_magica namae_1040_magica namae_1041_magica namae_1043_magica namae_1044_magica namae_1045_magica namae_1046_magica namae_1047_magica namae_1048_magica namae_1049_magica namae_1050_magica namae_1051_magica namae_1052_magica namae_1053_magica namae_2001_magica namae_2002_magica namae_2004_magica namae_2005_magica namae_2006_magica namae_2007_magica namae_2009_magica namae_3001_magica namae_3002_magica namae_3003_magica namae_3004_magica namae_3005_magica namae_3006_magica namae_3007_magica namae_3008_magica namae_3009_magica namae_3010_magica namae_3011_magica namae_3012_magica namae_3013_magica namae_3014_magica namae_3015_magica namae_3016_magica namae_3017_magica namae_3018_magica namae_3019_magica namae_3020_magica namae_3021_magica namae_3022_magica namae_3023_magica namae_3024_magica namae_3025_magica namae_3026_magica namae_3027_magica namae_3028_magica namae_3029_magica namae_3030_magica namae_3031_magica namae_3032_magica namae_3033_magica namae_3034_magica namae_3035_magica namae_3036_magica namae_3037_magica namae_3038_magica namae_3039_magica namae_3040_magica namae_3041_magica namae_3042_magica namae_3044_magica namae_3045_magica namae_3046_magica namae_3047_magica namae_3048_magica namae_3049_magica namae_3050_magica namae_3051_magica namae_3052_magica namae_3053_magica namae_3054_magica namae_3055_magica namae_3056_magica namae_3057_magica namae_3058_magica namae_3059_magica namae_3900_magica namae_3901_magica namae_3902_magica namae_4001_magica namae_4002_magica namae_4003_magica namae_4011_magica namae_4012_magica namae_4013_magica namae_4014_magica namae_4021_magica namae_4022_magica namae_4023_magica namae_4024_magica namae_4025_magica namae_4026_magica namae_4027_magica namae_4029_magica namae_4031_magica namae_4032_magica namae_4033_magica namae_4034_magica namae_4035_magica namae_4036_magica namae_4041_magica namae_4042_magica namae_4043_magica namae_4044_magica namae_4045_magica namae_4046_magica namae_4051_magica namae_4052_magica namae_4053_magica namae_4061_magica namae_4062_magica namae_4121_magica
+	}
 	custom_faith_icons = {
 		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil custom_faith_boromian_circles custom_faith_lotus custom_faith_aum_tibetan custom_faith_pentagram custom_faith_pentagram_inverted custom_faith_burning_bush custom_faith_allah custom_faith_gankyil custom_faith_eye_of_providence custom_faith_dove custom_faith_ichthys custom_faith_lamb custom_faith_black_sheep custom_faith_ankh custom_faith_chi_rho custom_faith_hamsa custom_faith_cool_s custom_faith_magatama custom_faith_soto custom_faith_benzhuism
 	}
 
+
+	
 	holy_order_names = {
 		{ name = "holy_order_knights_of_the_chalice" }
 		{ name = "holy_order_order_of_the_holy_communion" }
@@ -201,12 +203,12 @@
 		DevoteeFemalePlural = magica_devotee_female_plural
 		DevoteeNeuter = magica_devotee_neuter
 		DevoteeNeuterPlural = magica_devotee_neuter_plural
-		PriestMale = magica_priest_male
-		PriestMalePlural = magica_priest_male_plural
-		PriestFemale = magica_priest_male
-		PriestFemalePlural = magica_priest_male_plural
-		PriestNeuter = magica_priest_male
-		PriestNeuterPlural = magica_priest_male_plural
+		PriestMale = magica_priest_female
+		PriestMalePlural = magica_priest_female_plural
+		PriestFemale = magica_priest_female
+		PriestFemalePlural = magica_priest_female_plural
+		PriestNeuter = magica_priest_female
+		PriestNeuterPlural = magica_priest_female_plural
 		AltPriestTermPlural = magica_priest_alternate_plural
 		BishopMale = magica_bishop
 		BishopMalePlural = magica_bishop_plural
@@ -245,8 +247,8 @@
 	piety_icon_group = "christian"
 
 	faiths = {
-		madokamist = {
-			color = { 0.8 0.8 0.6 }
+		madokamist_orthodox = {
+			color = { 1.0 0.6 0.94 }
 			graphical_faith = "catholic_gfx"
 			icon = madokami
 
@@ -262,11 +264,11 @@
 			holy_site = ise_jingu       # 日本神道最高圣地
 			
 			#Special Tolerance
-
+			doctrine = special_doctrine_madokamist
 			#Tenets
-			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_mendicant_preachers
 			doctrine = tenet_legalism
-			doctrine = tenet_mystical_birthright
+			doctrine = tenet_society_of_magica
 
 			holy_order_names = {
 				{ name = "holy_order_knights_templar" coat_of_arms = "ho_knights_templar" }
@@ -320,6 +322,168 @@
 				WaterGodHerHis = CHARACTER_HERHIS_HER
 				WaterGodHerHim = CHARACTER_HERHIM_HER
 			}
+		}
+
+		madokamist_martial = {
+			color = { 1.0 0.078 0.576 }
+			graphical_faith = "catholic_gfx"
+			icon = madokami
+
+			holy_site = jerusalem        # 中东三大宗教核心圣地
+			holy_site = mecca            # 伊斯兰世界中心
+			holy_site = rome             # 西方基督教中心
+			holy_site = santiago         # 西欧著名朝圣目的地
+			holy_site = cologne          # 中欧重要圣徒遗骨圣地
+			holy_site = constantinople   # 东正教历史核心
+			holy_site = sarnath          # 印度教最神圣城市
+			holy_site = lhasa            # 藏传佛教圣城
+			holy_site = bodh_gaya        # 佛陀成道地
+			holy_site = ise_jingu       # 日本神道最高圣地
+			
+			#Special Tolerance
+			doctrine = special_doctrine_madokamist
+			#Tenets
+			doctrine = tenet_legalism
+			doctrine = tenet_warmonger
+			doctrine = tenet_society_of_magica
+
+			holy_order_names = {
+				{ name = "holy_order_knights_templar" coat_of_arms = "ho_knights_templar" }
+				{ name = "holy_order_knights_hospitaller" coat_of_arms = "ho_knights_hospitaller"  }
+				{ name = "holy_order_teutonic_order" coat_of_arms = "ho_teutonic_order"  }
+				{ name = "holy_order_order_of_calatrava" coat_of_arms = "ho_order_of_calatrava"  }
+				{ name = "holy_order_order_of_alcantara" coat_of_arms = "ho_order_of_alcantara"  }
+				{ name = "holy_order_knights_of_santiago" coat_of_arms = "ho_knights_of_santiago"  }
+			}
+
+			localization = { # Utilizes the 'West Christian' Saints, shared by Catholics and Orthodox
+				#FertilityGod
+				FertilityGodName = madokamist_fertility_god_name
+				FertilityGodNamePossessive = madokamist_fertility_god_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				#WealthGod
+				WealthGodName = madokamist_wealth_god_name
+				WealthGodNamePossessive = madokamist_wealth_god_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_SHE
+				WealthGodHerHis = CHARACTER_HERHIS_HER
+				WealthGodHerHim = CHARACTER_HERHIM_HER
+
+				#HouseholdGod
+				HouseholdGodName = madokamist_household_god_name
+				HouseholdGodNamePossessive = madokamist_household_god_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HER
+				HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+				#KnowledgeGod
+				KnowledgeGodName = madokamist_knowledge_god_name
+				KnowledgeGodNamePossessive = madokamist_knowledge_god_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+				#WarGod
+				WarGodName = madokamist_war_god_name
+				WarGodNamePossessive = madokamist_war_god_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_SHE
+				WarGodHerHis = CHARACTER_HERHIS_HER
+				WarGodHerHim = CHARACTER_HERHIM_HER
+
+				#WaterGod
+				WaterGodName = madokamist_water_god_name
+				WaterGodNamePossessive = madokamist_water_god_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_SHE
+				WaterGodHerHis = CHARACTER_HERHIS_HER
+				WaterGodHerHim = CHARACTER_HERHIM_HER
+			}			
+		}
+
+		madokamist_romance = {
+			color = { 1.0 0.078 0.576 }
+			graphical_faith = "catholic_gfx"
+			icon = madokami
+
+			holy_site = jerusalem        # 中东三大宗教核心圣地
+			holy_site = mecca            # 伊斯兰世界中心
+			holy_site = rome             # 西方基督教中心
+			holy_site = santiago         # 西欧著名朝圣目的地
+			holy_site = cologne          # 中欧重要圣徒遗骨圣地
+			holy_site = constantinople   # 东正教历史核心
+			holy_site = sarnath          # 印度教最神圣城市
+			holy_site = lhasa            # 藏传佛教圣城
+			holy_site = bodh_gaya        # 佛陀成道地
+			holy_site = ise_jingu       # 日本神道最高圣地
+			
+
+			#Special Tolerance
+			doctrine = special_doctrine_madokamist
+
+			#Changed Doctrines
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_polygamy
+			doctrine = doctrine_consanguinity_unrestricted
+
+
+			#Tenets
+			doctrine = tenet_polyamory
+			doctrine = tenet_carnal_exaltation
+			doctrine = tenet_society_of_magica
+
+			holy_order_names = {
+				{ name = "holy_order_knights_templar" coat_of_arms = "ho_knights_templar" }
+				{ name = "holy_order_knights_hospitaller" coat_of_arms = "ho_knights_hospitaller"  }
+				{ name = "holy_order_teutonic_order" coat_of_arms = "ho_teutonic_order"  }
+				{ name = "holy_order_order_of_calatrava" coat_of_arms = "ho_order_of_calatrava"  }
+				{ name = "holy_order_order_of_alcantara" coat_of_arms = "ho_order_of_alcantara"  }
+				{ name = "holy_order_knights_of_santiago" coat_of_arms = "ho_knights_of_santiago"  }
+			}
+
+			localization = { # Utilizes the 'West Christian' Saints, shared by Catholics and Orthodox
+				#FertilityGod
+				FertilityGodName = madokamist_fertility_god_name
+				FertilityGodNamePossessive = madokamist_fertility_god_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				#WealthGod
+				WealthGodName = madokamist_wealth_god_name
+				WealthGodNamePossessive = madokamist_wealth_god_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_SHE
+				WealthGodHerHis = CHARACTER_HERHIS_HER
+				WealthGodHerHim = CHARACTER_HERHIM_HER
+
+				#HouseholdGod
+				HouseholdGodName = madokamist_household_god_name
+				HouseholdGodNamePossessive = madokamist_household_god_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HER
+				HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+				#KnowledgeGod
+				KnowledgeGodName = madokamist_knowledge_god_name
+				KnowledgeGodNamePossessive = madokamist_knowledge_god_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+				#WarGod
+				WarGodName = madokamist_war_god_name
+				WarGodNamePossessive = madokamist_war_god_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_SHE
+				WarGodHerHis = CHARACTER_HERHIS_HER
+				WarGodHerHim = CHARACTER_HERHIM_HER
+
+				#WaterGod
+				WaterGodName = madokamist_water_god_name
+				WaterGodNamePossessive = madokamist_water_god_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_SHE
+				WaterGodHerHis = CHARACTER_HERHIS_HER
+				WaterGodHerHim = CHARACTER_HERHIM_HER
+			}			
 		}
 	}
 }

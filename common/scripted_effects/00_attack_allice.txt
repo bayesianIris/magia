@@ -1,0 +1,20 @@
+﻿mpo_confederation_join_offensive_war_effect = {
+    scope:attacker.confederation = {
+        every_confederation_member = {
+            limit = {
+                highest_held_title_tier >= tier_county
+                NOR = {
+                    is_at_war_with = scope:attacker
+                    is_allied_to = scope:defender
+                    is_imprisoned_by = scope:attacker
+                    is_imprisoned_by = scope:defender
+                    is_defender_in_war = scope:war
+                    is_attacker_in_war = scope:war
+                }
+            }
+            scope:war = {
+                add_attacker = prev
+            }
+        }
+    }
+}
