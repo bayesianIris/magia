@@ -1,0 +1,43 @@
+namespace = magica_miracle
+
+magica_miracle.0001 = {
+	type = character_event
+	title = magica_miracle.0001.t
+	desc = magica_miracle.0001.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = prayer
+	}
+
+	trigger = {
+		is_playable_character = yes
+		faith.religion = religion:magica_religion
+	}
+
+	option = {
+		name = magica_miracle.0001.a
+		add_piety = medium_piety_gain
+		add_character_modifier = {
+			modifier = magica_miracle_guidance_modifier
+			years = 5
+		}
+	}
+
+	option = {
+		name = magica_miracle.0001.b
+		add_prestige = major_prestige_gain
+		add_character_modifier = {
+			modifier = magica_miracle_chronicle_modifier
+			years = 5
+		}
+	}
+
+	option = {
+		name = magica_miracle.0001.c
+		add_character_modifier = {
+			modifier = magica_miracle_skeptic_modifier
+			years = 5
+		}
+	}
+}

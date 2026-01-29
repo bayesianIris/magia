@@ -30,7 +30,7 @@ heresy.0001 = {
 			#Prefer Dukes with only 1 or 2 Duchies.
 			limit = {
 				is_valid_heresiarch = yes
-				highest_held_title_tier = tier_duchy
+				highest_held_title_tier = tier_kingdom
 				any_held_title = {
 					title_tier = duchy
 					# count < 3 #Limit the influence of Mega-Dukes

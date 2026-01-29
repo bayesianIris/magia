@@ -1,0 +1,11 @@
+magica_miracle_guidance_modifier = {
+	monthly_piety = 0.2
+}
+
+magica_miracle_chronicle_modifier = {
+	monthly_prestige = 0.2
+}
+
+magica_miracle_skeptic_modifier = {
+	learning = 1
+}

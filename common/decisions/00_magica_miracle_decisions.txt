@@ -1,0 +1,40 @@
+seek_magica_miracle_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+	}
+	decision_group_type = major
+	
+	desc = seek_magica_miracle_decision_desc
+	selection_tooltip = seek_magica_miracle_decision_tooltip
+
+	is_shown = {
+		is_playable_character = yes
+		is_landed = yes
+		faith.religion = religion:magica_religion
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		piety = 50
+	}
+
+	cooldown = { days = 1825 }
+
+	effect = {
+		trigger_event = {
+			id = magica_miracle.0001
+			days = 1
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 10
+	}
+}
