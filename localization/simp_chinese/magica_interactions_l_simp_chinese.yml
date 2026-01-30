@@ -1,0 +1,6 @@
+﻿l_simp_chinese:
+ magica_debug_interaction:0 "魔法少女Mod调试选项"
+ magica_hope_triumph_conversion_interaction:0 "要求回归正信"
+ magica_hope_triumph_conversion_desc:0 "请求此角色皈依我们的信仰。由于圆环之理的昭示，同宗教的信徒将更容易接受这一请求。"
+ HOPE_TRIUMPH_SAME_RELIGION_REASON:0 "希望的胜利：同宗教信仰者深受感召"
+ magica_hope_triumph_conversion_success:0 "改信成功"

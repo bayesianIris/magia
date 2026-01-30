@@ -1,0 +1,165 @@
+# Magica Hope Triumph Interactions
+
+# 1. Debug Interaction (To verify file loading)
+magica_debug_interaction = {
+	category = interaction_category_religion
+	desc = "Debug interaction to check if mod files are loaded"
+	
+	is_shown = {
+		# Always shown
+		OR = {
+			always = yes
+			always = no 
+		}
+	}
+
+	on_accept = {
+		scope:actor = {
+			send_interface_toast = {
+				title = "Debug Success"
+				left_icon = scope:actor
+			}
+		}
+	}
+}
+
+# 2. Hope Triumph Conversion Interaction
+# Based on demand_conversion_vassal_ruler_interaction structure
+magica_hope_triumph_conversion_interaction = {
+	category = interaction_category_religion
+	# Using standard religious icon
+	icon = religious
+	# notification_text = LIEGE_DEMAND_CONVERSION # Optional, maybe use custom?
+	
+	# AI behavior flags (Inherited from demand_conversion_vassal_ruler_interaction)
+	ai_maybe = yes
+	ai_min_reply_days = 4
+	ai_max_reply_days = 9
+	can_send_despite_rejection = yes
+	ai_accept_negotiation = yes 
+	popup_on_receive = yes
+
+	desc = magica_hope_triumph_conversion_desc
+
+	is_shown = {
+		# Basic checks
+		scope:actor.faith != scope:recipient.faith
+		scope:recipient = { is_alive = yes }
+		scope:actor = { is_alive = yes }
+		
+		# Core Feature condition: Hope Triumph Completed
+		scope:actor.faith = { has_variable = hope_triumph_completed }
+		
+		# Allow for anyone in the same religion (including foreigners)
+		scope:actor.faith.religion = scope:recipient.faith.religion
+	}
+
+	is_valid_showing_failures_only = {
+		# Using the validation trigger from demand conversion (checks for imprisonment, war, etc.)
+		valid_demand_conversion_conditions_trigger = yes
+	}
+	
+	ai_accept = {
+		base = 0
+		
+		# Original demand conversion modifier
+		# This modifier calculates acceptance based on traits (Zealous, etc.), fervor, and relations
+		religion_demand_conversion_default_modifier = yes
+
+		# Liege bonus (from original file)
+		modifier = {
+			add = 50
+			desc = EDUCATE_CHILD_ACTOR_IS_MY_LIEGE
+		}
+		
+		# Modifier regarding potential demands (flavor)
+		modifier = {
+			desc = might_ask_for_something_in_return_warning_line_break
+			add = 0
+		}
+
+		# Hope Triumph Massive Bonus
+		# This ensures that even with the "Demand" logic (which can be strict), same-religion chars will accept.
+		modifier = {
+			add = 100
+			desc = "HOPE_TRIUMPH_SAME_RELIGION_REASON"
+		}
+	}
+
+	on_accept = {
+		# Do conversion
+		scope:recipient = {
+			set_character_faith = scope:actor.faith
+		}
+		
+		# Notifications
+		scope:actor = {
+			send_interface_toast = {
+				title = magica_hope_triumph_conversion_success
+				right_icon = scope:recipient
+			}
+		}
+		
+		# Add Unity/Piety effects similar to original if applicable
+		state_faith_conversion_add_piety_effect = yes
+	}
+
+	on_decline = {
+		# Simple decline handling
+		scope:actor = {
+			send_interface_toast = {
+				type = event_toast_effect_bad
+				title = ask_for_conversion_decline_notification
+				right_icon = scope:recipient
+			}
+		}
+		
+		# Opinion penalty (copied logic from demand conversion, simplified)
+		scope:recipient = {
+			add_opinion = {
+				modifier = demanded_my_conversion_opinion # -10 opinion
+				target = scope:actor
+				opinion = -10
+			}
+		}
+	}
+
+	# AI Will Do - Determines if AI ACTOR will send this to others
+	# Based on demand_conversion_player_ruler_interaction logic
+	ai_will_do = {
+		base = 100
+
+		# Do not convert Righteous faith subjects, unless disturbingly zealous
+		modifier = { 
+			factor = 0
+			scope:actor = {
+				ai_zeal < 100
+				ai_rationality > -50
+				faith = {
+					faith_hostility_level = {
+						target = scope:recipient.faith
+						value <= faith_fully_accepted_level
+					}
+				}
+			}
+		}
+
+		# Astray faiths logic
+		modifier = { 
+			factor = 0
+			scope:actor = {
+				has_tolerant_faith_or_culture_trigger = yes
+				ai_zeal < 100
+				faith = {
+					faith_hostility_level = {
+						target = scope:recipient.faith
+						value <= faith_astray_level
+					}
+				}
+			}
+		}
+		
+		# Don't annoy player too much if not zealous?
+		# Original logic includes checks against "can upgrade contract" or "hooks", mostly irrelevant for foreigners.
+	}
+}
