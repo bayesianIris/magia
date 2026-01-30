@@ -1,7 +1,6 @@
 ﻿# Proven Magical Girl Trait for Magica Religion
 
 magica_mahou_shoujo = {
-	category = fame
 	icon = martial_prowess_good.dds
 	
 	prowess = 3

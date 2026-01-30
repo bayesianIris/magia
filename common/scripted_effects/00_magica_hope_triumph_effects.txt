@@ -54,4 +54,11 @@ hope_triumph_scripted_effect = {
 		trigger_event = magica_hope_triumph.0104
 	}
 	set_nickname_effect = { NICKNAME = nick_the_savior }
+	# Mark this faith as having completed the Hope Triumph decision
+	root.faith = {
+		set_variable = {
+			name = hope_triumph_completed
+			value = yes
+		}
+	}
 }
