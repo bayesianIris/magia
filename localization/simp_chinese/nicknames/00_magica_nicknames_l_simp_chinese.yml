@@ -1,0 +1,3 @@
+﻿l_simp_chinese:
+ nick_the_savior:0 "拯救者"
+ nick_the_savior_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat]在圆环之理的传播和统一世界信仰所付出的努力使得[Select_CString(CHARACTER.IsLocalPlayer,'你',Select_CString(CHARACTER.IsFemale,'她','他'))|U]成为无数信徒心目中的拯救者。"

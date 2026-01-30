@@ -1,7 +1,7 @@
 ﻿# 魔法少女修正
 
 magica_mahou_shoujo_awakening_modifier = {
-	icon = modifier_good.dds
+	icon = prowess_positive
 	prowess = 2
 	martial = 1
 	monthly_piety = 1

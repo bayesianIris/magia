@@ -1,0 +1,3 @@
+﻿l_english:
+ nick_the_savior:0 "The Savior"
+ nick_the_savior_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat]’s efforts to spread the Law of Cycles and unite the world’s faiths have made [Select_CString(CHARACTER.IsLocalPlayer,'you',Select_CString(CHARACTER.IsFemale,'her','him'))|U] a savior in the eyes of countless believers."
