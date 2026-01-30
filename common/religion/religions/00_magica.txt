@@ -64,12 +64,12 @@
 
 	
 	holy_order_names = {
-		{ name = "holy_order_knights_of_madoka" }
-		{ name = "holy_order_knights_of_homura" }
-		{ name = "holy_order_knights_of_mami" }
-		{ name = "holy_order_knights_of_sayaka" }
-		{ name = "holy_order_knights_of_kyoko" }
-		{ name = "holy_order_knights_of_nagisa" }
+		{ name = "holy_order_knights_of_madoka" coat_of_arms = "ho_knights_templar" }
+		{ name = "holy_order_knights_of_homura" coat_of_arms = "ho_knights_hospitaller" }
+		{ name = "holy_order_knights_of_mami" coat_of_arms = "ho_teutonic_order" }
+		{ name = "holy_order_knights_of_sayaka" coat_of_arms = "ho_order_of_calatrava" }
+		{ name = "holy_order_knights_of_kyoko" coat_of_arms = "ho_order_of_alcantara" }
+		{ name = "holy_order_knights_of_nagisa" coat_of_arms = "ho_knights_of_santiago" }
 	}
 
 	holy_order_maa = { cataphract }
@@ -270,12 +270,12 @@
 			doctrine = tenet_society_of_magica
 
 			holy_order_names = {
-				{ name = "holy_order_knights_of_madoka" }
-				{ name = "holy_order_knights_of_homura" }
-				{ name = "holy_order_knights_of_mami" }
-				{ name = "holy_order_knights_of_sayaka" }
-				{ name = "holy_order_knights_of_kyoko" }
-				{ name = "holy_order_knights_of_nagisa" }
+				{ name = "holy_order_knights_of_madoka" coat_of_arms = "ho_knights_templar" }
+				{ name = "holy_order_knights_of_homura" coat_of_arms = "ho_knights_hospitaller" }
+				{ name = "holy_order_knights_of_mami" coat_of_arms = "ho_teutonic_order" }
+				{ name = "holy_order_knights_of_sayaka" coat_of_arms = "ho_order_of_calatrava" }
+				{ name = "holy_order_knights_of_kyoko" coat_of_arms = "ho_order_of_alcantara" }
+				{ name = "holy_order_knights_of_nagisa" coat_of_arms = "ho_knights_of_santiago" }
 			}
 
 			localization = { # Utilizes the 'West Christian' Saints, shared by Catholics and Orthodox
@@ -347,12 +347,12 @@
 			doctrine = tenet_society_of_magica
 
 			holy_order_names = {
-				{ name = "holy_order_knights_of_madoka" }
-				{ name = "holy_order_knights_of_homura" }
-				{ name = "holy_order_knights_of_mami" }
-				{ name = "holy_order_knights_of_sayaka" }
-				{ name = "holy_order_knights_of_kyoko" }
-				{ name = "holy_order_knights_of_nagisa" }
+				{ name = "holy_order_knights_of_madoka" coat_of_arms = "ho_knights_templar" }
+				{ name = "holy_order_knights_of_homura" coat_of_arms = "ho_knights_hospitaller" }
+				{ name = "holy_order_knights_of_mami" coat_of_arms = "ho_teutonic_order" }
+				{ name = "holy_order_knights_of_sayaka" coat_of_arms = "ho_order_of_calatrava" }
+				{ name = "holy_order_knights_of_kyoko" coat_of_arms = "ho_order_of_alcantara" }
+				{ name = "holy_order_knights_of_nagisa" coat_of_arms = "ho_knights_of_santiago" }
 			}
 
 			localization = { # Utilizes the 'West Christian' Saints, shared by Catholics and Orthodox
@@ -432,12 +432,12 @@
 			doctrine = tenet_society_of_magica
 
 			holy_order_names = {
-				{ name = "holy_order_knights_of_madoka" }
-				{ name = "holy_order_knights_of_homura" }
-				{ name = "holy_order_knights_of_mami" }
-				{ name = "holy_order_knights_of_sayaka" }
-				{ name = "holy_order_knights_of_kyoko" }
-				{ name = "holy_order_knights_of_nagisa" }
+				{ name = "holy_order_knights_of_madoka" coat_of_arms = "ho_knights_templar" }
+				{ name = "holy_order_knights_of_homura" coat_of_arms = "ho_knights_hospitaller" }
+				{ name = "holy_order_knights_of_mami" coat_of_arms = "ho_teutonic_order" }
+				{ name = "holy_order_knights_of_sayaka" coat_of_arms = "ho_order_of_calatrava" }
+				{ name = "holy_order_knights_of_kyoko" coat_of_arms = "ho_order_of_alcantara" }
+				{ name = "holy_order_knights_of_nagisa" coat_of_arms = "ho_knights_of_santiago" }
 			}
 
 			localization = { # Utilizes the 'West Christian' Saints, shared by Catholics and Orthodox
