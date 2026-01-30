@@ -42,6 +42,62 @@ seek_magica_miracle_decision = {
 	}
 }
 
+# 建立圆环之理教首
+establish_magica_spiritual_head_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+	}
+	decision_group_type = major
+
+	desc = establish_magica_spiritual_head_decision_desc
+	selection_tooltip = establish_magica_spiritual_head_decision_tooltip
+
+	is_shown = {
+		is_ruler = yes
+		is_playable_character = yes
+		faith.religion = religion:magica_religion
+		NOT = { faith = { exists = religious_head } }
+	}
+
+	is_valid = {
+		faith = {
+			num_realm_holy_sites_faithful_holders = {
+				COUNT = 1
+				CHARACTER = ROOT
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+		top_liege = this
+	}
+
+	effect = {
+		custom_tooltip = establish_magica_spiritual_head_decision_effect_tooltip
+		show_as_tooltip = {
+			create_magica_spiritual_head_effect = yes
+		}
+		create_magica_spiritual_head_effect = yes
+		root = {
+			trigger_event = {
+				id = magica_religious_head.0001
+				on_created_character = scope:new_magica_head
+			}
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 50
+	}
+}
+
 # 希望得胜决议
 # Hope Triumph Decision for Magica Religion
 

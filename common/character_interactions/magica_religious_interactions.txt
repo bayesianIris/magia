@@ -1,27 +1,6 @@
 # Magica Hope Triumph Interactions
 
-# 1. Debug Interaction (To verify file loading)
-magica_debug_interaction = {
-	category = interaction_category_religion
-	desc = "Debug interaction to check if mod files are loaded"
-	
-	is_shown = {
-		# Always shown
-		OR = {
-			always = yes
-			always = no 
-		}
-	}
 
-	on_accept = {
-		scope:actor = {
-			send_interface_toast = {
-				title = "Debug Success"
-				left_icon = scope:actor
-			}
-		}
-	}
-}
 
 # 2. Hope Triumph Conversion Interaction
 # Based on demand_conversion_vassal_ruler_interaction structure

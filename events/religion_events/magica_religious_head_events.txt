@@ -1,0 +1,22 @@
+namespace = magica_religious_head
+
+# Event: Religious Head Established
+magica_religious_head.0001 = {
+	type = character_event
+	title = magica_religious_head.0001.t
+	desc = magica_religious_head.0001.desc
+	theme = realm
+	left_portrait = {   
+		character = root.faith.religious_head
+		animation = personality_zealous
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_sacredrite"
+	}
+
+	option = {
+		name = magica_religious_head.0001.a
+		ai_chance = { base = 100 }
+	}
+}

@@ -22,7 +22,7 @@ magica_unique_laws = {
 		should_start_with = {
 			faith = {
 				has_doctrine = tenet_polyamory
-			}		
+			}
 		}
 
 		flag = men_can_have_multiple_spouses

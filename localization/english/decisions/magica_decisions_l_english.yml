@@ -1,0 +1,13 @@
+﻿l_english:
+
+ establish_magica_spiritual_head_decision:0 "Establish the Law of Cycles"
+ establish_magica_spiritual_head_decision_desc:0 "With at least one holy site in our hands, we can proclaim a unified spiritual head to guide the faithful of the Law of Cycles."
+ establish_magica_spiritual_head_decision_tooltip:0 "Establish a unified Magica head of faith."
+ establish_magica_spiritual_head_decision_effect_tooltip:0 "Creates a landless, theocratic kingdom-tier head of faith and makes all Magica faiths recognize it."
+
+ k_magica_holy_see:0 "Holy See of the Law of Cycles"
+ k_magica_holy_see_adj:0 "Law of Cycles"
+
+ magica_religious_head.0001.t:0 "A New Head of the Law of Cycles"
+ magica_religious_head.0001.desc:0 "After long awaiting, the Law of Cycles has finally welcomed a new spiritual head. [ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName] has been chosen to lead the faith and guide all believers toward a radiant future.\n\nThis new head of faith represents the unity and hope of the Law of Cycles. [ROOT.Char.GetFaith.GetReligiousHead.GetSheHe|U] shall spread the truth of magical girls and bring salvation to the world. Countless faithful rejoice at this momentous occasion."
+ magica_religious_head.0001.a:0 "May the Law of Cycles ever shine"

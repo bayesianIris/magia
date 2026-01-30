@@ -1,0 +1,13 @@
+﻿l_simp_chinese:
+
+ establish_magica_spiritual_head_decision:0 "建立圆环之理教首"
+ establish_magica_spiritual_head_decision_desc:0 "如今我们已控制至少一处圣地，是时候确立统一的精神教首，以引导圆环之理的信众。"
+ establish_magica_spiritual_head_decision_tooltip:0 "建立一个统一的魔法宗教教首。"
+ establish_magica_spiritual_head_decision_effect_tooltip:0 "创建一个无地的王国级神权教首头衔，并让魔法宗教的所有信仰承认其为教首。"
+
+ k_magica_holy_see:0 "圆环之理教廷"
+ k_magica_holy_see_adj:0 "圆环之理教廷"
+
+ magica_religious_head.0001.t:0 "圆环之理的新导师"
+ magica_religious_head.0001.desc:0 "在漫长的等待之后，圆环之理终于迎来了新的精神教首。[ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName]被选为这一信仰的领导者，将引导所有信众走向光辉的未来。\n\n这位新的信仰领袖代表了圆环之理的统一与希望。[ROOT.Char.GetFaith.GetReligiousHead.GetSheHe]将传播魔法少女的真理，为世界带来救赎。无数信众为这一伟大时刻而欢欣鼓舞。"
+ magica_religious_head.0001.a:0 "愿圆环之理的光辉永远闪耀"
