@@ -1,4 +1,4 @@
-namespace = magica_hope_triumph
+﻿namespace = magica_hope_triumph
 
 # Emperor declares Hope Triumph
 magica_hope_triumph.0100 = {

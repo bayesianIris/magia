@@ -1,0 +1,18 @@
+﻿# 为魔法少女触发事件的 on_action 文件
+# 在每个 12-16 岁的女性角色生日时检查是否应该成为已被证实的魔法少女
+
+on_birthday_magica_mahou_shoujo = {
+	trigger = {
+		is_female = yes
+		age >= 12
+		age <= 16
+		faith.religion = religion:magica_religion
+		NOT = { has_trait = magica_mahou_shoujo }
+	}
+	effect = {
+		random = {
+			chance = 5
+			trigger_event = magica_mahou_shoujo_selection.0001
+		}
+	}
+}

@@ -1,0 +1,18 @@
+﻿l_simp_chinese:
+
+ # 魔法少女特质
+ trait_magica_mahou_shoujo:0 "已被证实的魔法少女"
+ magica_mahou_shoujo:0 "已被证实的魔法少女"
+ magica_mahou_shoujo_desc:0 "经过时间考验，这位女性已经证实了她的魔法力量，是一位真正的魔法少女。"
+ magica_mahou_shoujo_character_desc:0 "你已被证实为一位魔法少女。作为信仰圆环之理的忠实信徒，你拥有超凡的力量和使命。"
+
+ # 事件本地化 - 0001
+ magica_mahou_shoujo_selection.0001.t:0 "魔法少女的呼唤"
+ magica_mahou_shoujo_selection.0001.desc:0 "当你走过[Root.GetLocation]的街道时，一股神圣的光芒笼罩了你。来自圆环之理女神的力量在你的血管中觉醒。你感到前所未有的力量和使命——你被选中成为一位魔法少女，为信仰和善良而战。"
+ magica_mahou_shoujo_selection.0001.a:0 "我接受这份使命。"
+
+ # 事件本地化 - 0002
+ magica_mahou_shoujo_selection.0002.t:0 "年轻的魔法少女"
+ magica_mahou_shoujo_selection.0002.desc:0 "你的领地内出现了一位年轻的魔法少女——[scope:mahou_shoujo_recruit.GetName]。这样的人才应该被好好利用。你是否应该邀请她加入你的廷臣？"
+ magica_mahou_shoujo_selection.0002.a:0 "邀请她成为我的廷臣"
+ magica_mahou_shoujo_selection.0002.b:0 "让她保持自由身"

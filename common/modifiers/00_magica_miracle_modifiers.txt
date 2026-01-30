@@ -1,4 +1,4 @@
-magica_miracle_guidance_modifier = {
+﻿magica_miracle_guidance_modifier = {
 	monthly_piety = 0.2
 }
 

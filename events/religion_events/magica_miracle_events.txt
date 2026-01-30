@@ -1,4 +1,4 @@
-namespace = magica_miracle
+﻿namespace = magica_miracle
 
 magica_miracle.0001 = {
 	type = character_event

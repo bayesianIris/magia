@@ -1,0 +1,25 @@
+﻿# Proven Magical Girl Trait for Magica Religion
+
+magica_mahou_shoujo = {
+	category = fame
+	icon = martial_prowess_good.dds
+	
+	prowess = 3
+	martial = 2
+	diplomacy = 1
+	same_faith_opinion = 10
+	
+	shown_in_ruler_designer = no
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = magica_mahou_shoujo_desc
+			}
+			desc = magica_mahou_shoujo_character_desc
+		}
+	}
+}

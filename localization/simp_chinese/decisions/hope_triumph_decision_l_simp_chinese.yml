@@ -3,6 +3,7 @@
  hope_triumph_decision:0 "希望得胜"
  hope_triumph_decision_desc:0 "圆环之理的福音已传遍世界各地。现在，作为信仰的守护者和世界的统治者，是时候让所有人都在圆环之理的光辉下团结起来了。通过掌控所有神圣之地，我们将向世界宣告希望的最终胜利。"
  hope_triumph_decision_tooltip:0 "宣告圆环之理的希望得胜，统一世界的信仰。"
+ hope_triumph_decision_confirm:0 "希望得胜"
  hope_triumph_decision_effect_tooltip:0 "圆环之理将成为世界的唯一真理，所有其他信仰的统治者都将面临改信的选择。"
  
  # Holy Site Requirements

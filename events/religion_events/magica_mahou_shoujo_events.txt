@@ -1,0 +1,129 @@
+﻿namespace = magica_mahou_shoujo_selection
+
+# 魔法少女候选人选择事件
+# 在每个信仰 magica_religion 的 12-16 岁小孩身上触发
+# 用于随机决定谁成为已被证实的魔法少女
+
+magica_mahou_shoujo_selection.0001 = {
+	type = character_event
+	title = magica_mahou_shoujo_selection.0001.t
+	desc = magica_mahou_shoujo_selection.0001.desc
+	theme = faith
+	override_background = { event_background = throne_room }
+	
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+
+	trigger = {
+		age >= 12
+		age <= 16
+		is_female = yes
+		faith.religion = religion:magica_religion
+		NOT = { has_trait = magica_mahou_shoujo }
+	}
+
+	immediate = {
+		save_scope_as = candidate_girl
+	}
+
+	option = {
+		name = magica_mahou_shoujo_selection.0001.a
+		add_trait = magica_mahou_shoujo
+		add_character_modifier = {
+			modifier = magica_mahou_shoujo_awakening_modifier
+			years = 10
+		}
+		
+		# 如果候选人出身卑微，通知其当地领主触发招募事件
+		if = {
+			limit = {
+				NOT = { is_landed = yes }
+				exists = liege
+				liege = {
+					is_playable_character = yes
+				}
+			}
+			liege = {
+				trigger_event = {
+					id = magica_mahou_shoujo_selection.0002
+					days = 3
+				}
+				save_scope_as = local_liege
+			}
+		}
+	}
+}
+
+# 领主招募卑微出身魔法少女的事件
+magica_mahou_shoujo_selection.0002 = {
+	type = character_event
+	title = magica_mahou_shoujo_selection.0002.t
+	desc = magica_mahou_shoujo_selection.0002.desc
+	theme = court
+	override_background = { event_background = throne_room }
+	
+	left_portrait = {
+		character = root
+		animation = personality_shrewd
+	}
+
+	trigger = {
+		is_playable_character = yes
+	}
+
+	immediate = {
+		# 获取最近获得魔法少女特质的女性
+		root.realm = {
+			random_realm_character = {
+				limit = {
+					is_female = yes
+					age >= 12
+					age <= 16
+					has_trait = magica_mahou_shoujo
+					NOT = { is_landed = yes }
+					faith.religion = religion:magica_religion
+					liege = root
+				}
+				save_scope_as = mahou_shoujo_recruit
+			}
+		}
+	}
+
+	option = {
+		name = magica_mahou_shoujo_selection.0002.a
+		# 招募为廷臣
+		if = {
+			limit = {
+				exists = scope:mahou_shoujo_recruit
+			}
+			scope:mahou_shoujo_recruit = {
+				add_courtier = root
+				add_opinion = {
+					modifier = honored_opinion
+					opinion = 30
+					target = root
+				}
+			}
+		}
+		add_prestige = moderate_prestige_gain
+	}
+
+	option = {
+		name = magica_mahou_shoujo_selection.0002.b
+		# 拒绝招募
+		if = {
+			limit = {
+				exists = scope:mahou_shoujo_recruit
+			}
+			scope:mahou_shoujo_recruit = {
+				add_opinion = {
+					modifier = disappointed_opinion
+					opinion = -10
+					target = root
+				}
+			}
+		}
+	}
+}
