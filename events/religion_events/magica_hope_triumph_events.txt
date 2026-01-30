@@ -1,0 +1,365 @@
+namespace = magica_hope_triumph
+
+# Emperor declares Hope Triumph
+magica_hope_triumph.0100 = {
+	type = character_event
+	title = magica_hope_triumph.0100.t
+	desc = {
+		desc = magica_hope_triumph.0100.desc.intro
+		first_valid = {
+			# As madokamist_orthodox
+			triggered_desc = {
+				trigger = {
+					faith = faith:madokamist_orthodox
+				}
+				desc = magica_hope_triumph.0100.desc.orthodox
+			}
+			# As madokamist_martial
+			triggered_desc = {
+				trigger = {
+					faith = faith:madokamist_martial
+				}
+				desc = magica_hope_triumph.0100.desc.martial
+			}
+			# As madokamist_romance
+			triggered_desc = {
+				trigger = {
+					faith = faith:madokamist_romance
+				}
+				desc = magica_hope_triumph.0100.desc.romance
+			}
+			# And Everybody else
+			triggered_desc = {
+				trigger = {
+					NOR = {
+						faith = faith:madokamist_orthodox
+						faith = faith:madokamist_martial
+						faith = faith:madokamist_romance
+					}
+				}
+				desc = magica_hope_triumph.0100.desc.generic
+			}
+		}
+	}
+	theme = realm
+	left_portrait = {
+		character = scope:scoped_emperor
+		animation = personality_zealous
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_faith_conversion"
+		save_scope_as = scoped_emperor
+		faith = { save_scope_as = mending_faith }
+		hope_triumph_scripted_effect = yes
+		legend_seed_great_deed_faith_effect = {
+			ANTAGONIST = none
+			OLD_FAITH = none
+		}
+	}
+
+	option = {
+		name = magica_hope_triumph.0100.a
+	}
+}
+
+# Other Magica followers get chance to convert.
+magica_hope_triumph.0101 = {
+	type = character_event
+	title = magica_hope_triumph.0100.t
+	desc = {
+		desc = magica_hope_triumph.0101.desc.intro
+		first_valid = {
+			# As madokamist_orthodox
+			triggered_desc = {
+				trigger = {
+					scope:mending_faith = faith:madokamist_orthodox
+				}
+				desc = magica_hope_triumph.0101.desc.orthodox
+			}
+			# As madokamist_martial
+			triggered_desc = {
+				trigger = {
+					scope:mending_faith = faith:madokamist_martial
+				}
+				desc = magica_hope_triumph.0101.desc.martial
+			}
+			# As madokamist_romance
+			triggered_desc = {
+				trigger = {
+					scope:mending_faith = faith:madokamist_romance
+				}
+				desc = magica_hope_triumph.0101.desc.romance
+			}
+			# And Everybody else
+			triggered_desc = {
+				trigger = {
+					NOR = {
+						scope:mending_faith = faith:madokamist_orthodox
+						scope:mending_faith = faith:madokamist_martial
+						scope:mending_faith = faith:madokamist_romance
+					}
+				}
+				desc = magica_hope_triumph.0101.desc.generic
+			}
+		}
+	}
+	theme = realm
+	left_portrait = {
+		character = scope:scoped_emperor
+		animation = personality_zealous
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_faith_conversion"
+		faith = { save_scope_as = old_faith }
+	}
+
+	option = {
+		name = magica_hope_triumph.0101.a
+		trigger = {
+			OR = {
+				is_ai = no
+				NOT = { has_trait = zealous } # Never!
+			}
+		}
+		set_character_faith = scope:mending_faith
+		if = {
+			limit = { 
+				scope:mending_faith = { has_doctrine = doctrine_monotheist }
+			}
+			custom_description_no_bullet = { text = mandala_monotheist_warning_tt }
+		}
+		every_held_title = {
+			title_tier = county
+			set_county_faith = scope:mending_faith
+		}
+		ai_chance = {
+			base = 80
+			modifier = { # Where the wind blows, I sail.
+				add = 20
+				has_trait = cynical
+			}
+		}
+	}
+	option = {
+		name = magica_hope_triumph.0101.b
+		ai_chance = {
+			base = 20
+			ai_value_modifier = {
+				ai_zeal = 1.0
+			}
+			modifier = {
+				add = 20
+				has_trait = zealous
+			}
+		}
+	}
+}
+
+# Non-Magica rulers get chance to convert - three choices
+magica_hope_triumph.0102 = {
+	type = character_event
+	title = magica_hope_triumph.0100.t
+	desc = {
+		desc = magica_hope_triumph.0102.desc.intro
+		first_valid = {
+			# As madokamist_orthodox
+			triggered_desc = {
+				trigger = {
+					scope:mending_faith = faith:madokamist_orthodox
+				}
+				desc = magica_hope_triumph.0102.desc.orthodox
+			}
+			# As madokamist_martial
+			triggered_desc = {
+				trigger = {
+					scope:mending_faith = faith:madokamist_martial
+				}
+				desc = magica_hope_triumph.0102.desc.martial
+			}
+			# As madokamist_romance
+			triggered_desc = {
+				trigger = {
+					scope:mending_faith = faith:madokamist_romance
+				}
+				desc = magica_hope_triumph.0102.desc.romance
+			}
+			# And Everybody else
+			triggered_desc = {
+				trigger = {
+					NOR = {
+						scope:mending_faith = faith:madokamist_orthodox
+						scope:mending_faith = faith:madokamist_martial
+						scope:mending_faith = faith:madokamist_romance
+					}
+				}
+				desc = magica_hope_triumph.0102.desc.generic
+			}
+		}
+	}
+	theme = realm
+	left_portrait = {
+		character = scope:scoped_emperor
+		animation = personality_zealous
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_faith_conversion"
+		faith = { save_scope_as = old_faith }
+	}
+
+	# Convert to Orthodox branch
+	option = {
+		name = magica_hope_triumph.0102.a
+		trigger = {
+			OR = {
+				is_ai = no
+				NOT = { has_trait = zealous }
+			}
+		}
+		set_character_faith = faith:madokamist_orthodox
+		if = {
+			limit = { 
+				faith:madokamist_orthodox = { has_doctrine = doctrine_monotheist }
+			}
+			custom_description_no_bullet = { text = mandala_monotheist_warning_tt }
+		}
+		every_held_title = {
+			title_tier = county
+			set_county_faith = faith:madokamist_orthodox
+		}
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = 10
+				has_trait = compassionate
+			}
+			modifier = {
+				add = 10
+				has_trait = just
+			}
+		}
+	}
+
+	# Convert to Martial branch
+	option = {
+		name = magica_hope_triumph.0102.b
+		trigger = {
+			OR = {
+				is_ai = no
+				NOT = { has_trait = zealous }
+			}
+		}
+		set_character_faith = faith:madokamist_martial
+		if = {
+			limit = { 
+				faith:madokamist_martial = { has_doctrine = doctrine_monotheist }
+			}
+			custom_description_no_bullet = { text = mandala_monotheist_warning_tt }
+		}
+		every_held_title = {
+			title_tier = county
+			set_county_faith = faith:madokamist_martial
+		}
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = 10
+				has_trait = brave
+			}
+			modifier = {
+				add = 10
+				has_trait = ambitious
+			}
+		}
+	}
+
+	# Convert to Romance branch
+	option = {
+		name = magica_hope_triumph.0102.c
+		trigger = {
+			OR = {
+				is_ai = no
+				NOT = { has_trait = zealous }
+			}
+		}
+		set_character_faith = faith:madokamist_romance
+		if = {
+			limit = { 
+				faith:madokamist_romance = { has_doctrine = doctrine_monotheist }
+			}
+			custom_description_no_bullet = { text = mandala_monotheist_warning_tt }
+		}
+		every_held_title = {
+			title_tier = county
+			set_county_faith = faith:madokamist_romance
+		}
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = 10
+				has_trait = lustful
+			}
+			modifier = {
+				add = 10
+				has_trait = gregarious
+			}
+		}
+	}
+
+	# Refuse
+	option = {
+		name = magica_hope_triumph.0102.d
+		ai_chance = {
+			base = 10
+			ai_value_modifier = {
+				ai_zeal = 1.0
+			}
+			modifier = {
+				add = 30
+				has_trait = zealous
+			}
+		}
+	}
+}
+
+# Notify same-faith players
+magica_hope_triumph.0103 = {
+	type = character_event
+	title = magica_hope_triumph.0100.t
+	desc = magica_hope_triumph.0103.desc
+	theme = realm
+	left_portrait = {
+		character = scope:scoped_emperor
+		animation = personality_zealous
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_faith_conversion"
+	}
+
+	option = {
+		name = magica_hope_triumph.0103.a
+	}
+}
+
+# Notify other-religion players
+magica_hope_triumph.0104 = {
+	type = character_event
+	title = magica_hope_triumph.0100.t
+	desc = magica_hope_triumph.0104.desc
+	theme = realm
+	left_portrait = {
+		character = scope:scoped_emperor
+		animation = personality_zealous
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_faith_conversion"
+	}
+
+	option = {
+		name = magica_hope_triumph.0104.a
+	}
+}

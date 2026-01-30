@@ -1,0 +1,29 @@
+﻿l_simp_chinese:
+ # Hope Triumph Decision
+ hope_triumph_decision:0 "希望得胜"
+ hope_triumph_decision_desc:0 "圆环之理的福音已传遍世界各地。现在，作为信仰的守护者和世界的统治者，是时候让所有人都在圆环之理的光辉下团结起来了。通过掌控所有神圣之地，我们将向世界宣告希望的最终胜利。"
+ hope_triumph_decision_tooltip:0 "宣告圆环之理的希望得胜，统一世界的信仰。"
+ hope_triumph_decision_effect_tooltip:0 "圆环之理将成为世界的唯一真理，所有其他信仰的统治者都将面临改信的选择。"
+ 
+ # Holy Site Requirements
+ hope_triumph_jerusalem_bishop:0 "耶路撒冷的持有者信仰与你相同"
+ hope_triumph_mecca_bishop:0 "麦加的持有者信仰与你相同"
+ hope_triumph_roma_bishop:0 "罗马的持有者信仰与你相同"
+ hope_triumph_santiago_bishop:0 "圣地亚哥的持有者信仰与你相同"
+ hope_triumph_koln_bishop:0 "科隆的持有者信仰与你相同"
+ hope_triumph_byzantion_bishop:0 "君士坦丁堡的持有者信仰与你相同"
+ hope_triumph_varanasi_bishop:0 "瓦拉纳西的持有者信仰与你相同"
+ hope_triumph_lhasa_bishop:0 "拉萨的持有者信仰与你相同"
+ hope_triumph_bodh_gaya_bishop:0 "菩提伽耶的持有者信仰与你相同"
+ hope_triumph_ise_bishop:0 "伊势的持有者信仰与你相同"
+ hope_triumph_no_rite:0 "你的信仰不会在创建时保留宗教领袖"
+ 
+ # Fervor changes
+ fervor_gain_hope_triumph:0 "希望得胜"
+ fervor_loss_hope_triumph:0 "希望破灭"
+ 
+ # Tooltips
+ every_magica_faith.tt:0 "所有其他圆环之理分支"
+ 
+ # Nickname
+ nick_the_savior:0 "救世主"

@@ -1,0 +1,121 @@
+# 希望得胜决议
+# Hope Triumph Decision for Magica Religion
+
+hope_triumph_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+	}
+	desc = hope_triumph_decision_desc
+	selection_tooltip = hope_triumph_decision_tooltip
+	decision_group_type = major
+
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 0
+		empire = 120
+		hegemony = 120
+	}
+
+	is_shown = {
+		is_ruler = yes
+		is_playable_character = yes
+		faith.religion = religion:magica_religion #Magica Only
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_hope_triumph
+			}
+		}
+		highest_held_title_tier > 4 #Only Emperors
+	}
+
+	is_valid = {
+		piety_level >= max_piety_level
+		completely_controls = title:c_jerusalem
+		completely_controls = title:c_mecca
+		completely_controls = title:c_roma
+		completely_controls = title:c_santiago
+		completely_controls = title:c_cologne
+		completely_controls = title:c_byzantion
+		completely_controls = title:c_varanasi
+		completely_controls = title:c_lhasa
+		completely_controls = title:c_gaya
+		completely_controls = title:c_ise
+		custom_description = {
+			text = "hope_triumph_jerusalem_bishop"
+			title:c_jerusalem.holder.religion = root.faith.religion
+		}
+		custom_description = {
+			text = "hope_triumph_mecca_bishop"
+			title:c_mecca.holder.religion = root.faith.religion
+		}
+		custom_description = {
+			text = "hope_triumph_roma_bishop"
+			title:c_roma.holder.religion = root.faith.religion
+		}
+		custom_description = {
+			text = "hope_triumph_santiago_bishop"
+			title:c_santiago.holder.religion = root.faith.religion
+		}
+		custom_description = {
+			text = "hope_triumph_koln_bishop"
+			title:c_cologne.holder.religion = root.faith.religion
+		}
+		custom_description = {
+			text = "hope_triumph_byzantion_bishop"
+			title:c_byzantion.holder.religion = root.faith.religion
+		}
+		custom_description = {
+			text = "hope_triumph_varanasi_bishop"
+			title:c_varanasi.holder.religion = root.faith.religion
+		}
+		custom_description = {
+			text = "hope_triumph_lhasa_bishop"
+			title:c_lhasa.holder.religion = root.faith.religion
+		}
+		custom_description = {
+			text = "hope_triumph_bodh_gaya_bishop"
+			title:c_gaya.holder.religion = root.faith.religion
+		}
+		custom_description = {
+			text = "hope_triumph_ise_bishop"
+			title:c_ise.holder.religion = root.faith.religion
+		}
+		custom_description = {
+			text = "hope_triumph_no_rite"
+			root.faith = { NOT = { has_doctrine_parameter = maintains_head_of_faith_on_creation } }
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+		top_liege = this
+	}
+
+	effect = {
+		gain_holy_legend_seed_tooltip_effect = yes
+		custom_tooltip = hope_triumph_decision_effect_tooltip
+		show_as_tooltip = {
+			hope_triumph_scripted_effect = yes
+		}
+		trigger_event = magica_hope_triumph.0100
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_hope_triumph
+			}
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

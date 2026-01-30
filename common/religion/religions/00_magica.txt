@@ -72,7 +72,7 @@
 		{ name = "holy_order_knights_of_nagisa" }
 	}
 
-	holy_order_maa = { teutonic_knights }
+	holy_order_maa = { cataphract }
 
 	localization = {
 		#HighGod

@@ -1,0 +1,37 @@
+﻿l_simp_chinese:
+ # Event 0100 - Emperor declares Hope Triumph
+ magica_hope_triumph.0100.t:0 "希望得胜！"
+ magica_hope_triumph.0100.desc.intro:0 "经过多年的奋斗和牺牲，所有圆环之理的神圣之地都回到了真正信仰的怀抱。现在，是时候向世界宣告了：希望已经得胜，绝望将永远消散！自此刻起，万物都将沐浴在圆神的光辉之下。\n\n"
+ magica_hope_triumph.0100.desc.orthodox:0 "作为正统派的信徒，我将以慈悲和智慧引导世人走向救赎之路。"
+ magica_hope_triumph.0100.desc.martial:0 "作为武派的战士，我将以力量和勇气扫除一切阻碍希望的黑暗。"
+ magica_hope_triumph.0100.desc.romance:0 "作为浪漫派的使者，我将以爱与理解让世界沐浴在温暖的光辉中。"
+ magica_hope_triumph.0100.desc.generic:0 "作为圆环之理的追随者，我将引领世界走向新的纪元。"
+ magica_hope_triumph.0100.a:0 "希望的时代已经到来！"
+ 
+ # Event 0101 - Other Magica followers conversion
+ magica_hope_triumph.0101.desc.intro:0 "[scoped_emperor.GetTitledFirstName]已经掌控了所有圣地，并宣告希望得胜。所有圆环之理的分支现在都应该团结在[scoped_emperor.GetHerHis]的信仰之下。\n\n"
+ magica_hope_triumph.0101.desc.orthodox:0 "正统派将成为唯一被认可的圆环之理信仰。"
+ magica_hope_triumph.0101.desc.martial:0 "武派将成为唯一被认可的圆环之理信仰。"
+ magica_hope_triumph.0101.desc.romance:0 "浪漫派将成为唯一被认可的圆环之理信仰。"
+ magica_hope_triumph.0101.desc.generic:0 "[scoped_emperor.GetFaith.GetAdjective]将成为唯一被认可的圆环之理信仰。"
+ magica_hope_triumph.0101.a:0 "我愿意改信[mending_faith.GetName]。"
+ magica_hope_triumph.0101.b:0 "我坚守自己的信仰！"
+ 
+ # Event 0102 - Non-Magica rulers conversion (three choices)
+ magica_hope_triumph.0102.desc.intro:0 "传言说，[scoped_emperor.GetTitledFirstName]已经掌控了世界上所有的神圣之地，并宣告了圆环之理的希望得胜。[scoped_emperor.GetSheHe]声称这是真神的意志，要求所有统治者都应皈依圆环之理。\n\n"
+ magica_hope_triumph.0102.desc.orthodox:0 "[scoped_emperor.GetSheHe]邀请我加入正统派，在慈悲与智慧中寻求救赎。"
+ magica_hope_triumph.0102.desc.martial:0 "[scoped_emperor.GetSheHe]邀请我加入武派，用力量与勇气守护希望。"
+ magica_hope_triumph.0102.desc.romance:0 "[scoped_emperor.GetSheHe]邀请我加入浪漫派，在爱与理解中拥抱光明。"
+ magica_hope_triumph.0102.desc.generic:0 "[scoped_emperor.GetSheHe]邀请我加入圆环之理，接受希望的祝福。"
+ magica_hope_triumph.0102.a:0 "我愿意皈依正统派。"
+ magica_hope_triumph.0102.b:0 "我愿意皈依武派。"
+ magica_hope_triumph.0102.c:0 "我愿意皈依浪漫派。"
+ magica_hope_triumph.0102.d:0 "我坚守祖先的信仰。"
+ 
+ # Event 0103 - Notify same-faith players
+ magica_hope_triumph.0103.desc:0 "[scoped_emperor.GetTitledFirstName]已经宣告希望得胜！所有圆环之理的圣地现在都在[scoped_emperor.GetHerHis]的掌控之下。这是我们信仰的伟大胜利！"
+ magica_hope_triumph.0103.a:0 "希望万岁！"
+ 
+ # Event 0104 - Notify other-religion players
+ magica_hope_triumph.0104.desc:0 "[scoped_emperor.GetTitledFirstName]声称已经统一了圆环之理的所有圣地，并宣告希望得胜。这对世界的信仰格局将产生深远的影响..."
+ magica_hope_triumph.0104.a:0 "让我们拭目以待。"

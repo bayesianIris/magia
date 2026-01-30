@@ -1,0 +1,57 @@
+# Hope Triumph Scripted Effects for Magica Religion
+
+hope_triumph_scripted_effect = {
+	root.faith = {
+		if = { #If from obscure branch of Magica, make it official.
+			limit = {
+				root.faith = { NOT = { has_doctrine = special_doctrine_madokamist } }
+			}
+			add_doctrine = special_doctrine_madokamist
+		}
+		change_fervor = {
+			value = 25
+			desc = fervor_gain_hope_triumph
+		}
+		hidden_effect = {
+			religion = {
+				every_faith = {
+					limit = {
+						this != religious_head.faith
+					}
+					remove_religious_head_title = yes
+				}
+			}
+		}
+	}
+	every_player = { #Notify all players of the same Faith.
+		limit = {
+			this != root
+			faith = root.faith
+		}
+		trigger_event = magica_hope_triumph.0103
+	}
+	every_ruler = { #Notify rulers of other Magica branches that they are no longer valid and offer chance at conversion.
+		limit = {
+			faith.religion = root.faith.religion
+			faith != root.faith
+			NOT = { government_has_flag = government_is_theocracy }
+			this != this.faith.religious_head
+		}
+		trigger_event = magica_hope_triumph.0101
+	}
+	every_ruler = { #Notify all non-Magica rulers and offer conversion
+		limit = {
+			faith.religion != root.faith.religion
+			NOT = { government_has_flag = government_is_theocracy }
+			this != this.faith.religious_head
+		}
+		trigger_event = magica_hope_triumph.0102
+	}
+	every_player = { #Then notify all other players that might be around.
+		limit = {
+			faith.religion != root.faith.religion
+		}
+		trigger_event = magica_hope_triumph.0104
+	}
+	set_nickname_effect = { NICKNAME = nick_the_savior }
+}
