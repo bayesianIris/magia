@@ -1,0 +1,12 @@
+﻿l_english:
+
+ magica_miracle.0001.t:0 "Rumors of a Glimmer"
+ magica_miracle.0001.desc:0 "Recently a vague tale has spread through your lands: a sickly person woke outside the prayer hall, claiming to have dreamed of a gentle light. Witnesses disagree—some call it a revelation from the Goddess Madoka, while others say it was merely a change in the weather and well-mixed herbs."
+ magica_miracle.0001.a:0 "Treat it as a sign from the Goddess."
+ magica_miracle.0001.b:0 "Record it carefully to soothe the people."
+ magica_miracle.0001.c:0 "Mere coincidence."
+
+ seek_magica_miracle_decision:0 "Seek the Glimmer of the Goddess"
+ seek_magica_miracle_decision_desc:0 "You order the collection of rumors and the investigation of prayer halls and believers, trying to discern the Goddess's glimmer between hearsay and testimony."
+ seek_magica_miracle_decision_tooltip:0 "Triggers an event about rumors of a 'miracle'."
+ seek_magica_miracle_decision_confirm:0 "Seek the Glimmer of the Goddess"

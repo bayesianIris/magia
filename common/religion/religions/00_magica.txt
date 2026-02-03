@@ -278,49 +278,6 @@
 				{ name = "holy_order_knights_of_nagisa" coat_of_arms = "ho_knights_of_santiago" }
 			}
 
-			localization = { # Utilizes the 'West Christian' Saints, shared by Catholics and Orthodox
-				#FertilityGod
-				FertilityGodName = madokamist_fertility_god_name
-				FertilityGodNamePossessive = madokamist_fertility_god_name_possessive
-				FertilityGodSheHe = CHARACTER_SHEHE_SHE
-				FertilityGodHerHis = CHARACTER_HERHIS_HER
-				FertilityGodHerHim = CHARACTER_HERHIM_HER
-
-				#WealthGod
-				WealthGodName = madokamist_wealth_god_name
-				WealthGodNamePossessive = madokamist_wealth_god_name_possessive
-				WealthGodSheHe = CHARACTER_SHEHE_SHE
-				WealthGodHerHis = CHARACTER_HERHIS_HER
-				WealthGodHerHim = CHARACTER_HERHIM_HER
-
-				#HouseholdGod
-				HouseholdGodName = madokamist_household_god_name
-				HouseholdGodNamePossessive = madokamist_household_god_name_possessive
-				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
-				HouseholdGodHerHis = CHARACTER_HERHIS_HER
-				HouseholdGodHerHim = CHARACTER_HERHIM_HER
-
-				#KnowledgeGod
-				KnowledgeGodName = madokamist_knowledge_god_name
-				KnowledgeGodNamePossessive = madokamist_knowledge_god_name_possessive
-				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
-				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
-				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
-
-				#WarGod
-				WarGodName = madokamist_war_god_name
-				WarGodNamePossessive = madokamist_war_god_name_possessive
-				WarGodSheHe = CHARACTER_SHEHE_SHE
-				WarGodHerHis = CHARACTER_HERHIS_HER
-				WarGodHerHim = CHARACTER_HERHIM_HER
-
-				#WaterGod
-				WaterGodName = madokamist_water_god_name
-				WaterGodNamePossessive = madokamist_water_god_name_possessive
-				WaterGodSheHe = CHARACTER_SHEHE_SHE
-				WaterGodHerHis = CHARACTER_HERHIS_HER
-				WaterGodHerHim = CHARACTER_HERHIM_HER
-			}
 		}
 
 		madokamist_martial = {
@@ -355,49 +312,6 @@
 				{ name = "holy_order_knights_of_nagisa" coat_of_arms = "ho_knights_of_santiago" }
 			}
 
-			localization = { # Utilizes the 'West Christian' Saints, shared by Catholics and Orthodox
-				#FertilityGod
-				FertilityGodName = madokamist_fertility_god_name
-				FertilityGodNamePossessive = madokamist_fertility_god_name_possessive
-				FertilityGodSheHe = CHARACTER_SHEHE_SHE
-				FertilityGodHerHis = CHARACTER_HERHIS_HER
-				FertilityGodHerHim = CHARACTER_HERHIM_HER
-
-				#WealthGod
-				WealthGodName = madokamist_wealth_god_name
-				WealthGodNamePossessive = madokamist_wealth_god_name_possessive
-				WealthGodSheHe = CHARACTER_SHEHE_SHE
-				WealthGodHerHis = CHARACTER_HERHIS_HER
-				WealthGodHerHim = CHARACTER_HERHIM_HER
-
-				#HouseholdGod
-				HouseholdGodName = madokamist_household_god_name
-				HouseholdGodNamePossessive = madokamist_household_god_name_possessive
-				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
-				HouseholdGodHerHis = CHARACTER_HERHIS_HER
-				HouseholdGodHerHim = CHARACTER_HERHIM_HER
-
-				#KnowledgeGod
-				KnowledgeGodName = madokamist_knowledge_god_name
-				KnowledgeGodNamePossessive = madokamist_knowledge_god_name_possessive
-				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
-				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
-				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
-
-				#WarGod
-				WarGodName = madokamist_war_god_name
-				WarGodNamePossessive = madokamist_war_god_name_possessive
-				WarGodSheHe = CHARACTER_SHEHE_SHE
-				WarGodHerHis = CHARACTER_HERHIS_HER
-				WarGodHerHim = CHARACTER_HERHIM_HER
-
-				#WaterGod
-				WaterGodName = madokamist_water_god_name
-				WaterGodNamePossessive = madokamist_water_god_name_possessive
-				WaterGodSheHe = CHARACTER_SHEHE_SHE
-				WaterGodHerHis = CHARACTER_HERHIS_HER
-				WaterGodHerHim = CHARACTER_HERHIM_HER
-			}			
 		}
 
 		madokamist_romance = {
@@ -440,49 +354,6 @@
 				{ name = "holy_order_knights_of_nagisa" coat_of_arms = "ho_knights_of_santiago" }
 			}
 
-			localization = { # Utilizes the 'West Christian' Saints, shared by Catholics and Orthodox
-				#FertilityGod
-				FertilityGodName = madokamist_fertility_god_name
-				FertilityGodNamePossessive = madokamist_fertility_god_name_possessive
-				FertilityGodSheHe = CHARACTER_SHEHE_SHE
-				FertilityGodHerHis = CHARACTER_HERHIS_HER
-				FertilityGodHerHim = CHARACTER_HERHIM_HER
-
-				#WealthGod
-				WealthGodName = madokamist_wealth_god_name
-				WealthGodNamePossessive = madokamist_wealth_god_name_possessive
-				WealthGodSheHe = CHARACTER_SHEHE_SHE
-				WealthGodHerHis = CHARACTER_HERHIS_HER
-				WealthGodHerHim = CHARACTER_HERHIM_HER
-
-				#HouseholdGod
-				HouseholdGodName = madokamist_household_god_name
-				HouseholdGodNamePossessive = madokamist_household_god_name_possessive
-				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
-				HouseholdGodHerHis = CHARACTER_HERHIS_HER
-				HouseholdGodHerHim = CHARACTER_HERHIM_HER
-
-				#KnowledgeGod
-				KnowledgeGodName = madokamist_knowledge_god_name
-				KnowledgeGodNamePossessive = madokamist_knowledge_god_name_possessive
-				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
-				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
-				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
-
-				#WarGod
-				WarGodName = madokamist_war_god_name
-				WarGodNamePossessive = madokamist_war_god_name_possessive
-				WarGodSheHe = CHARACTER_SHEHE_SHE
-				WarGodHerHis = CHARACTER_HERHIS_HER
-				WarGodHerHim = CHARACTER_HERHIM_HER
-
-				#WaterGod
-				WaterGodName = madokamist_water_god_name
-				WaterGodNamePossessive = madokamist_water_god_name_possessive
-				WaterGodSheHe = CHARACTER_SHEHE_SHE
-				WaterGodHerHis = CHARACTER_HERHIS_HER
-				WaterGodHerHim = CHARACTER_HERHIM_HER
-			}			
 		}
 	}
 }

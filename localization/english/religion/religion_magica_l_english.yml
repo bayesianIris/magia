@@ -1,0 +1,143 @@
+﻿l_english:
+ 
+ madokamist_orthodox:0 "Law of Cycles - Orthodox"
+ madokamist_orthodox_adj:0 "Law of Cycles - Orthodox"
+ madokamist_orthodox_adherent:0 "Law of Cycles adherent"
+ madokamist_orthodox_adherent_plural:0 "Law of Cycles adherents"
+ madokamist_martial:0 "Law of Cycles - Martial"
+ madokamist_martial_adj:0 "Law of Cycles - Martial"
+ madokamist_martial_adherent:0 "Law of Cycles adherent"
+ madokamist_martial_adherent_plural:0 "Law of Cycles adherents"
+ madokamist_romance:0 "Law of Cycles - Romance"
+ madokamist_romance_adj:0 "Law of Cycles - Romance"
+ madokamist_romance_adherent:0 "Law of Cycles adherent"
+ madokamist_romance_adherent_plural:0 "Law of Cycles adherents"
+
+ madokamist_orthodox_desc:0 "The Orthodox branch of the Law of Cycles centers on fulfilling the Ultimate Madoka's wish. Through her redemption, all magical girls have gained the eternity of hope so their efforts are not erased by despair. They dedicate themselves to spreading her teachings, bringing her wish ever closer to realization through the practice of hope and stepping into a new world."
+ rf_magica:0 "Magical Girl Religious Group"
+ ### Base religion name
+ magica_religion:0 "Law of Cycles Faith"
+ magica_religion_adj:0 "Law of Cycles"
+ magica_religion_adherent:0 "Law of Cycles believer"
+ magica_religion_adherent_plural:0 "Law of Cycles believers"
+ magica_religion_desc:0 "The Law of Cycles runs through the past, the present, and all possible worlds. Magical girls swear by hope, walk the path of sacrifice, and are ultimately redeemed by the Goddess who transcends causality. Under the guidance of magical girls, the faithful strive to fulfill the Goddess's wish: to turn suffering into hope and despair into salvation."
+
+ ### High God (Ultimate Madoka)
+ magica_high_god_name:0 "Ultimate Madoka"
+ magica_high_god_name_2:0 "$Madokami$"
+ magica_high_god_name_3:0 "$magica_high_god_name$"
+ magica_high_god_name_possessive:0 "Ultimate Madoka's"
+ magica_high_god_name_alternate:0 "She"
+ magica_high_god_name_alternate_possessive:0 "Her"
+
+ ### Creator god (fallback: Ultimate Madoka)
+ magica_creator_god_name:0 "$magica_high_god_name$"
+ magica_creator_god_name_possessive:0 "$magica_high_god_name_possessive$"
+
+ ### Health god (Madoka as a human)
+ magica_health_god_name:0 "Madoka Kaname"
+ magica_health_god_name_possessive:0 "Madoka Kaname's"
+
+ ### Fertility god (fallback to Ultimate Madoka)
+ magica_fertility_god_name:0 "$magica_high_god_name$"
+ magica_fertility_god_name_possessive:0 "$magica_high_god_name_possessive$"
+
+ ### Wealth god (fallback to Ultimate Madoka)
+ magica_wealth_god_name:0 "$magica_high_god_name$"
+ magica_wealth_god_name_possessive:0 "$magica_high_god_name_possessive$"
+
+ ### Household god (fallback to Madoka Kaname)
+ magica_household_god_name:0 "$magica_health_god_name$"
+ magica_household_god_name_possessive:0 "$magica_health_god_name_possessive$"
+
+ ### Fate god (fallback to Ultimate Madoka)
+ magica_fate_god_name:0 "$magica_high_god_name$"
+ magica_fate_god_name_possessive:0 "$magica_high_god_name_possessive$"
+
+ ### Knowledge god (fallback to Ultimate Madoka)
+ magica_knowledge_god_name:0 "$magica_high_god_name$"
+ magica_knowledge_god_name_possessive:0 "$magica_high_god_name_possessive$"
+
+ ### War god (fallback to Ultimate Madoka)
+ magica_war_god_name:0 "$magica_high_god_name$"
+ magica_war_god_name_possessive:0 "$magica_high_god_name_possessive$"
+
+ ### Trickster god (assigned to a magical girl)
+ magica_trickster_god_name:0 "Kyoko Sakura"
+ magica_trickster_god_name_possessive:0 "Kyoko Sakura's"
+
+ ### Night god (fallback to Ultimate Madoka)
+ magica_night_god_name:0 "$magica_high_god_name$"
+ magica_night_god_name_possessive:0 "$magica_high_god_name_possessive$"
+
+ ### Water god (fallback to Madoka Kaname, like Christianity where water=health)
+ magica_water_god_name:0 "$magica_health_god_name$"
+ magica_water_god_name_possessessive:0 "$magica_health_god_name_possessive$"
+
+ ### List of good gods
+ magica_good_god_jesus:0 "$magica_health_god_name$"
+ magica_good_god_christ:0 "$magica_high_god_name$"
+
+ ### Devils / evil gods
+ magica_devil_name:0 "Witch"
+ magica_devil_name_possessive:0 "Witch's"
+ magica_evil_god_lucifer:0 "Witch of Original Sin"
+ magica_evil_god_beelzebub:0 "Witch of Gluttony"
+ magica_evil_god_mephistopheles:0 "Witch of Curses"
+
+ ### Death deity
+ magica_death_deity_name:0 "Witch of Endings"
+ magica_death_deity_name_possessive:0 "Witch of Endings'"
+
+ ### Houses of worship / relics
+ magica_house_of_worship:0 "Prayer Hall"
+ magica_house_of_worship_2:0 "$magica_house_of_worship$"
+ magica_house_of_worship_3:0 "$magica_house_of_worship$"
+ magica_house_of_worship_plural:0 "Prayer Halls"
+
+ ### Sacred symbol
+ magica_religious_symbol:0 "Soul Gem"
+ magica_religious_symbol_2:0 "$magica_religious_symbol$"
+ magica_religious_symbol_3:0 "$magica_religious_symbol$"
+
+ ### Religious texts
+ magica_religious_text:0 "Puella Magi Madoka Magica"
+ magica_religious_text_2:0 "Magia Record"
+ magica_religious_text_3:0 "Puella Magi Madoka Magica Side Story"
+
+ ### Religious head
+ magica_religious_head_title:0 "Mentor"
+ magica_religious_head_title_name:0 "Institute of the Cycles"
+
+ ### Devotee terms
+ magica_devotee_male:0 "Cycle Acolyte"
+ magica_devotee_male_plural:0 "Cycle Acolytes"
+ magica_devotee_female:0 "Cycle Acolyte"
+ magica_devotee_female_plural:0 "Cycle Acolytes"
+ magica_devotee_neuter:0 "Cycle Acolyte"
+ magica_devotee_neuter_plural:0 "Cycle Acolytes"
+
+ ### Priests / clergy
+ magica_priest_female:0 "Guide"
+ magica_priest_female_plural:0 "Guides"
+ magica_priest_alternate_plural:0 "Apostles of the Cycles"
+
+ ### Bishops
+ magica_bishop:0 "Halo Mentor"
+ magica_bishop_plural:0 "Halo Mentors"
+
+ ### Afterlife
+ magica_positive_afterlife:0 "Realm of Hope"
+ magica_positive_afterlife_2:0 "Embrace of the Goddess"
+ magica_positive_afterlife_3:0 "Land of the Cycles"
+
+ magica_negative_afterlife:0 "Abyss of Despair"
+ magica_negative_afterlife_2:0 "Tomb of Witchification"
+ magica_negative_afterlife_3:0 "Dark Cycle"
+
+ ### Witch god
+ magica_witchgodname_the_horned_god:0 "Law of Cycles"
+ magica_witchgodname_the_horned_god_possessive:0 "Law of Cycles'"
+
+ madokamist_war_god_name:0 "$magica_war_god_name$"
+ madokamist_war_god_name_possessive:0 "$magica_war_god_name_possessive$"

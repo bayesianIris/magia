@@ -1,0 +1,27 @@
+﻿l_english:
+ # Hope Triumph Decision
+ hope_triumph_decision:0 "Hope Triumph"
+ hope_triumph_decision_desc:0 "The gospel of the Law of Cycles has spread across the world. Now, as guardian of the faith and ruler of the world, it is time for all to unite under the light of the Law of Cycles. By controlling every holy site, we will proclaim the final victory of hope."
+ hope_triumph_decision_tooltip:0 "Proclaim the Hope Triumph of the Law of Cycles and unify the world's faith."
+ hope_triumph_decision_confirm:0 "Hope Triumph"
+ hope_triumph_decision_effect_tooltip:0 "The Law of Cycles will become the world's sole truth, and rulers of all other faiths will face the choice to convert."
+ 
+ # Holy Site Requirements
+ hope_triumph_jerusalem_bishop:0 "The holder of Jerusalem shares your faith"
+ hope_triumph_mecca_bishop:0 "The holder of Mecca shares your faith"
+ hope_triumph_roma_bishop:0 "The holder of Rome shares your faith"
+ hope_triumph_santiago_bishop:0 "The holder of Santiago shares your faith"
+ hope_triumph_koln_bishop:0 "The holder of Cologne shares your faith"
+ hope_triumph_byzantion_bishop:0 "The holder of Constantinople shares your faith"
+ hope_triumph_varanasi_bishop:0 "The holder of Varanasi shares your faith"
+ hope_triumph_lhasa_bishop:0 "The holder of Lhasa shares your faith"
+ hope_triumph_bodh_gaya_bishop:0 "The holder of Bodh Gaya shares your faith"
+ hope_triumph_ise_bishop:0 "The holder of Ise shares your faith"
+ hope_triumph_no_rite:0 "Your faith will not retain a religious head when created"
+ 
+ # Fervor changes
+ fervor_gain_hope_triumph:0 "Hope Triumph"
+ fervor_loss_hope_triumph:0 "Hope Shattered"
+ 
+ # Tooltips
+ every_magica_faith.tt:0 "All other Law of Cycles branches"

@@ -1,0 +1,37 @@
+﻿l_english:
+ # Event 0100 - Emperor declares Hope Triumph
+ magica_hope_triumph.0100.t:0 "Hope Triumph!"
+ magica_hope_triumph.0100.desc.intro:0 "After years of struggle and sacrifice, every holy site of the Law of Cycles has returned to the embrace of the true faith. Now it is time to proclaim to the world: hope has triumphed, and despair shall fade forever! From this moment onward, all things will bask in the radiance of the Goddess Madoka.\n\n"
+ magica_hope_triumph.0100.desc.orthodox:0 "As a follower of the Orthodox branch, I will guide all people toward salvation with mercy and wisdom."
+ magica_hope_triumph.0100.desc.martial:0 "As a warrior of the Martial branch, I will sweep away all darkness that hinders hope with strength and courage."
+ magica_hope_triumph.0100.desc.romance:0 "As a messenger of the Romance branch, I will bathe the world in warm light through love and understanding."
+ magica_hope_triumph.0100.desc.generic:0 "As a follower of the Law of Cycles, I will lead the world into a new era."
+ magica_hope_triumph.0100.a:0 "The age of hope has come!"
+ 
+ # Event 0101 - Other Magica followers conversion
+ magica_hope_triumph.0101.desc.intro:0 "[scoped_emperor.GetTitledFirstName] has taken control of every holy site and proclaimed the Hope Triumph. All branches of the Law of Cycles should now unite under [scoped_emperor.GetHerHis] faith.\n\n"
+ magica_hope_triumph.0101.desc.orthodox:0 "The Orthodox branch will become the only recognized faith of the Law of Cycles."
+ magica_hope_triumph.0101.desc.martial:0 "The Martial branch will become the only recognized faith of the Law of Cycles."
+ magica_hope_triumph.0101.desc.romance:0 "The Romance branch will become the only recognized faith of the Law of Cycles."
+ magica_hope_triumph.0101.desc.generic:0 "[scoped_emperor.GetFaith.GetAdjective] will become the only recognized faith of the Law of Cycles."
+ magica_hope_triumph.0101.a:0 "I will convert to [mending_faith.GetName]."
+ magica_hope_triumph.0101.b:0 "I stand firm in my own faith!"
+ 
+ # Event 0102 - Non-Magica rulers conversion (three choices)
+ magica_hope_triumph.0102.desc.intro:0 "Rumors say that [scoped_emperor.GetTitledFirstName] has seized every holy site in the world and proclaimed the Hope Triumph of the Law of Cycles. [scoped_emperor.GetSheHe] claims it is the will of the true god and demands that all rulers should convert to the Law of Cycles.\n\n"
+ magica_hope_triumph.0102.desc.orthodox:0 "[scoped_emperor.GetSheHe] invites me to join the Orthodox branch, seeking salvation through mercy and wisdom."
+ magica_hope_triumph.0102.desc.martial:0 "[scoped_emperor.GetSheHe] invites me to join the Martial branch, guarding hope with strength and courage."
+ magica_hope_triumph.0102.desc.romance:0 "[scoped_emperor.GetSheHe] invites me to join the Romance branch, embracing light through love and understanding."
+ magica_hope_triumph.0102.desc.generic:0 "[scoped_emperor.GetSheHe] invites me to join the Law of Cycles and accept the blessing of hope."
+ magica_hope_triumph.0102.a:0 "I will convert to the Orthodox branch."
+ magica_hope_triumph.0102.b:0 "I will convert to the Martial branch."
+ magica_hope_triumph.0102.c:0 "I will convert to the Romance branch."
+ magica_hope_triumph.0102.d:0 "I will keep the faith of my ancestors."
+ 
+ # Event 0103 - Notify same-faith players
+ magica_hope_triumph.0103.desc:0 "[scoped_emperor.GetTitledFirstName] has proclaimed the Hope Triumph! All holy sites of the Law of Cycles are now under [scoped_emperor.GetHerHis] control. This is a great victory for our faith!"
+ magica_hope_triumph.0103.a:0 "Long live hope!"
+ 
+ # Event 0104 - Notify other-religion players
+ magica_hope_triumph.0104.desc:0 "[scoped_emperor.GetTitledFirstName] claims to have unified all holy sites of the Law of Cycles and proclaimed the Hope Triumph. This will have far-reaching consequences for the world's faiths..."
+ magica_hope_triumph.0104.a:0 "We shall see."
