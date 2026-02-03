@@ -55,7 +55,7 @@ establish_magica_spiritual_head_decision = {
 	is_shown = {
 		is_ruler = yes
 		is_playable_character = yes
-		faith.religion = religion:magica_religion
+		faith = { has_doctrine = special_doctrine_madokamist }
 		NOT = { faith = { exists = religious_head } }
 	}
 

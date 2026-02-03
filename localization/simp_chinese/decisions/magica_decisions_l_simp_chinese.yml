@@ -2,8 +2,8 @@
 
  establish_magica_spiritual_head_decision:0 "建立圆环之理教首"
  establish_magica_spiritual_head_decision_desc:0 "如今我们已控制至少一处圣地，是时候确立统一的精神教首，以引导圆环之理的信众。"
- establish_magica_spiritual_head_decision_tooltip:0 "建立一个统一的魔法宗教教首。"
- establish_magica_spiritual_head_decision_effect_tooltip:0 "创建一个无地的王国级神权教首头衔，并让魔法宗教的所有信仰承认其为教首。"
+ establish_magica_spiritual_head_decision_tooltip:0 "为信仰圆环之理的信仰建立一个统一的教首。"
+ establish_magica_spiritual_head_decision_effect_tooltip:0 "创建一个无地的王国级神权教首头衔，并让所有含有圆环之理教义的信仰承认其为教首。"
 
  k_magica_holy_see:0 "圆环之理教廷"
  k_magica_holy_see_adj:0 "圆环之理教廷"

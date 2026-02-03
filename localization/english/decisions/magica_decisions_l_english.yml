@@ -2,8 +2,8 @@
 
  establish_magica_spiritual_head_decision:0 "Establish the Law of Cycles"
  establish_magica_spiritual_head_decision_desc:0 "With at least one holy site in our hands, we can proclaim a unified spiritual head to guide the faithful of the Law of Cycles."
- establish_magica_spiritual_head_decision_tooltip:0 "Establish a unified Magica head of faith."
- establish_magica_spiritual_head_decision_effect_tooltip:0 "Creates a landless, theocratic kingdom-tier head of faith and makes all Magica faiths recognize it."
+ establish_magica_spiritual_head_decision_tooltip:0 "Establish a unified head of faith for Madokamist faiths."
+ establish_magica_spiritual_head_decision_effect_tooltip:0 "Creates a landless, theocratic kingdom-tier head of faith and makes all Madokamist faiths recognize it."
 
  k_magica_holy_see:0 "Holy See of the Law of Cycles"
  k_magica_holy_see_adj:0 "Law of Cycles"
