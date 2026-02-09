@@ -2,10 +2,11 @@
 
  magica_miracle.0001.t: "微光的传闻"
  magica_miracle.0001.desc: "近来在你的领地中流传着一则含糊其辞的故事：一名病弱者在祈愿殿外醒来，声称梦见一束温柔的光。见证者各执一词，有人称其为圆神的启示，也有人说只是恰逢天候转暖与草药调配得当。"
- magica_miracle.0001.a: "将其视为圆神的提示。"
- magica_miracle.0001.b: "谨慎记录，以安抚人心。"
+ magica_miracle.0001.a: "这是圆神的恩赐！"
+ magica_miracle.0001.b: "让更多人知道我们领地发生的事情"
  magica_miracle.0001.c: "不过是巧合。"
 
  seek_magica_miracle_decision: "寻访圆神微光"
  seek_magica_miracle_decision_desc: "你命人收集传闻、查访各地祈愿殿与信徒，试图在流言与见证之间辨认圆神的微光。"
- seek_magica_miracle_decision_tooltip: "触发一则关于“奇迹”传闻的事件。" seek_magica_miracle_decision_confirm: "寻访圆神微光"
+ seek_magica_miracle_decision_tooltip: "触发一则关于“奇迹”传闻的事件。" 
+ seek_magica_miracle_decision_confirm: "寻访圆神微光"
