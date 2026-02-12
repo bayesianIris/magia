@@ -4174,9 +4174,13 @@
 		traits = {
 			virtues = { 
 				lifestyle_mystic = { 
-					scale = 5 
-					weight = 2 
-				} 
+					scale = 1
+					weight = 1
+				}
+				magica_mahou_shoujo = {
+					scale = 6
+					weight = 2
+				}
 			}
 		}
 		
