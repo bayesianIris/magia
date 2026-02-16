@@ -1,3 +1,4 @@
 ﻿l_simp_chinese:
   doctrine_magica_gender_law_name: "魔法少女性别法"
   doctrine_parameter_combatant_including_magica: "女性总是能成为军事人员"
+  doctrine_parameter_magica_elective_succession_enabled: "可使用魔法少女选举继承"

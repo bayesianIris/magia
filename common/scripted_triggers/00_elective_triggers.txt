@@ -320,6 +320,40 @@ feudal_elective_potential_landless_dynastic_candidate_trigger = {
 	has_unelectable_government_trigger = no
 }
 
+magica_elective_potential_close_family_candidate_trigger = {
+	is_close_family_of = scope:holder
+	feudal_elective_potential_landless_dynastic_candidate_trigger = yes
+}
+
+magica_elective_potential_realm_mahou_shoujo_candidate_trigger = {
+	save_temporary_scope_as = potential_candidate
+	has_trait = magica_mahou_shoujo
+	OR = {
+		any_liege_or_above = {
+			this = scope:holder
+		}
+		scope:holder = { top_liege = this }
+	}
+	OR = { #If the title controls the faith, candidates must be of the same faith.
+		scope:holder = {
+			NAND = {
+				exists = faith.religious_head
+				this = scope:holder.faith.religious_head
+			}
+		}
+		faith = scope:holder.faith
+	}
+	NOT = { #Landless characters should not be heirs to Theocracies/Republics.
+		any_heir_title = {
+			holder ?= {
+				has_unelectable_government_trigger = yes
+			}
+		}
+	}
+	has_unelectable_trait_trigger = no
+	has_unelectable_government_trigger = no
+}
+
 byzantine_elective_deformed_candidate_trigger = {
 	OR = {
 		has_trait = disfigured

@@ -1,0 +1,9 @@
+elector_voting_pattern_magica_mahou_shoujo_elective_modifier = {
+	modifier = {
+		desc = tooltip_magica_elector_vote_mahou_shoujo
+		add = 150
+		scope:candidate = {
+			has_trait = magica_mahou_shoujo
+		}
+	}
+}

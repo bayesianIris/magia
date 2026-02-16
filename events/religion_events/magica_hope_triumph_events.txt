@@ -4,6 +4,7 @@
 magica_hope_triumph.0100 = {
 	type = character_event
 	title = magica_hope_triumph.0100.t
+	window = fullscreen_event
 	desc = {
 		desc = magica_hope_triumph.0100.desc.intro
 		first_valid = {

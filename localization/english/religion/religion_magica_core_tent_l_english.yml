@@ -1,3 +1,4 @@
 ﻿l_english:
  doctrine_magica_gender_law_name:0 "Magical Girl Gender Law"
  doctrine_parameter_combatant_including_magica:0 "Women can always serve as combatants"
+ doctrine_parameter_magica_elective_succession_enabled:0 "Can use Magical Girl Elective succession"

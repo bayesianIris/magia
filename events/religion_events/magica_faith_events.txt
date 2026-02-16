@@ -1,4 +1,4 @@
-﻿
+﻿# 有待删除
 heresy.0006 = {
 	hidden = yes
 	scope = faith

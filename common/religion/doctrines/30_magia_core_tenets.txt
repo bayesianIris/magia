@@ -4187,6 +4187,7 @@
 		parameters = {
 			tenet_esotericism_mystic_education = yes
 			mystic_birthright_active = yes
+			magica_elective_succession_enabled = yes
 		}
 	}
 }

@@ -1,0 +1,9 @@
+﻿l_english:
+ magica_elective_succession_law:0 "Magical Girl Elective"
+ magica_elective_succession_law_effects:0 "The [ruler|E] and all direct [de_jure|E] [vassals|E] of one or two [ranks|E] below the [title|E] can nominate a [title_heir|E]. Valid candidates include the ruler's [close_family|E], as well as characters in the ruler's [realm|E] who have the [GetTrait('magica_mahou_shoujo').GetName( GetNullCharacter )] trait and belong to at least one of the following: [title|E] claimants, [de_jure|E] vassals of the [title|E], the ruler's direct vassals, spouses, or [dynasty|E] members."
+ magica_elective_candidates:0 "Close Family and Realm Magical Girls"
+ magica_elective_candidates_tooltip:0 "In order to be a valid Candidate under Magical Girl Elective, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a legitimate [close_family|E] member of the current ruler, who is not in line to inherit a Theocracy or Republic. Children of a candidate cannot be nominated\n$EFFECT_LIST_BULLET$Be in the ruler's [realm|E] and have the [GetTrait('magica_mahou_shoujo').GetName( GetNullCharacter )] trait"
+ magica_elective_electors:0 "$feudal_elective_electors$"
+ magica_elective_electors_tooltip:0 "$feudal_elective_electors_tooltip$"
+ tooltip_magica_elector_vote_mahou_shoujo:0 "[candidate.GetSheHe|U] is a [GetTrait('magica_mahou_shoujo').GetName( candidate.Self )]: $VALUE|=+0$"
+ succession_laws_must_have_magica_elective_faith_parameter:0 "Your [faith|E] does not support Magical Girl Elective."
