@@ -4,15 +4,21 @@
  trait_magica_mahou_shoujo:0 "已被证实的魔法少女"
  magica_mahou_shoujo:0 "已被证实的魔法少女"
  magica_mahou_shoujo_desc:0 "经过时间考验，这位女性已经证实了她的魔法力量，是一位真正的魔法少女。"
- magica_mahou_shoujo_character_desc:0 "你已被证实为一位魔法少女。作为信仰圆环之理的忠实信徒，你拥有超凡的力量和使命。"
+ magica_mahou_shoujo_character_desc:0 "你的魔法少女身份已经被证实。作为信仰圆环之理的忠实信徒，你拥有超凡的力量和使命。"
 
  # 事件本地化 - 0001
  magica_mahou_shoujo_selection.0001.t:0 "魔法少女的呼唤"
- magica_mahou_shoujo_selection.0001.desc:0 "当你走过[Root.GetLocation]的街道时，一股神圣的光芒笼罩了你。来自圆环之理女神的力量在你的血管中觉醒。你感到前所未有的力量和使命——你被选中成为一位魔法少女，为信仰和善良而战。"
- magica_mahou_shoujo_selection.0001.a:0 "我接受这份使命。"
+ magica_mahou_shoujo_selection.0001.desc:0 "幽暗的独处时刻，那只洁白得近乎透明的奇异生物悄无声息地降临。\n\n“和我签订契约，成为魔法少女吧。”它那毫无感情波动的声音在脑海中响起。\n\n只要点头，你就能握住那份足以扭转因果的力量。虽然从此必须身披铠甲，投身于永无止境的战场，步入一条无法回头的荆棘之路。\n\n如果传说中的“圆环之理”真的存在，如果那份救赎与希望的规则真的凌驾于万物之上……那么，所谓魔法少女的末路，似乎也不再那么令人绝望。"
+
+ magica_mahou_shoujo_selection.0001.a:0 "我有一个愿望"
 
  # 事件本地化 - 0002
  magica_mahou_shoujo_selection.0002.t:0 "年轻的魔法少女"
  magica_mahou_shoujo_selection.0002.desc:0 "你的领地内出现了一位年轻的魔法少女——[scope:mahou_shoujo_recruit.GetName]。这样的人才应该被好好利用。你是否应该邀请她加入你的廷臣？"
  magica_mahou_shoujo_selection.0002.a:0 "邀请她成为我的廷臣"
  magica_mahou_shoujo_selection.0002.b:0 "让她保持自由身"
+
+ # 事件本地化 - 魔法少女压力终点
+ magica_mahou_shoujo_stress.0001.t:0 "灵魂宝石的尽头"
+ magica_mahou_shoujo_stress.0001.desc:0 "诅咒堆积如山，灵魂宝石终于黯淡到无法承载。你看见圆环之理的光芒，听见温柔而坚定的呼唤。那并非恐惧，而是引导。你将离开这个世界，被圆环之理接纳。"
+ magica_mahou_shoujo_stress.0001.a:0 "随圆神而去"

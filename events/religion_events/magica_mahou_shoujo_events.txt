@@ -17,7 +17,7 @@ magica_mahou_shoujo_selection.0001 = {
 	}
 
 	trigger = {
-		age >= 12
+		age >= 10
 		age <= 16
 		is_female = yes
 		faith.religion = religion:magica_religion
@@ -31,6 +31,10 @@ magica_mahou_shoujo_selection.0001 = {
 	option = {
 		name = magica_mahou_shoujo_selection.0001.a
 		add_trait = magica_mahou_shoujo
+		add_character_flag = {
+			flag = magica_mahou_shoujo_stress_cooldown
+			days = 365
+		}
 		add_character_modifier = {
 			modifier = magica_mahou_shoujo_awakening_modifier
 			years = 10
@@ -79,7 +83,7 @@ magica_mahou_shoujo_selection.0002 = {
 			random_realm_character = {
 				limit = {
 					is_female = yes
-					age >= 12
+					age >= 10
 					age <= 16
 					has_trait = magica_mahou_shoujo
 					NOT = { is_landed = yes }

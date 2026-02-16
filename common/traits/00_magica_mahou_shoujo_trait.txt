@@ -6,6 +6,8 @@ magica_mahou_shoujo = {
 	martial = 2
 	diplomacy = 1
 	same_faith_opinion = 10
+	stress_gain_mult = 1.0
+	stress_loss_mult = -0.75
 	
 	shown_in_ruler_designer = yes
 	valid_sex = female

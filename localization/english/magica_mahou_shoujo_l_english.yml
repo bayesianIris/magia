@@ -1,17 +1,23 @@
 ﻿l_english:
 
  # Mahou Shoujo Trait
+ trait_magica_mahou_shoujo:0 "Proven Magical Girl"
  magica_mahou_shoujo:0 "Proven Magical Girl"
  magica_mahou_shoujo_desc:0 "Tested through time, this woman has proven herself to be a true magical girl with supernatural powers."
  magica_mahou_shoujo_character_desc:0 "You have been proven as a magical girl. As a faithful follower of Madoka, you possess extraordinary power and purpose."
 
  # Events - 0001
  magica_mahou_shoujo_selection.0001.t:0 "The Call of a Magical Girl"
- magica_mahou_shoujo_selection.0001.desc:0 "As you walk through the streets of [Root.GetLocation], a sacred light envelops you. The power of the Madoka goddess awakens in your veins. You feel an unprecedented sense of power and purpose—you have been chosen to become a magical girl, to fight for faith and goodness."
- magica_mahou_shoujo_selection.0001.a:0 "I accept this mission."
+ magica_mahou_shoujo_selection.0001.desc:0 "In a dark, solitary moment, that strange creature—white, almost translucent—appears without a sound.\n\n\"Make a contract with me, and become a magical girl.\" Its voice, utterly devoid of emotion, echoes in your mind.\n\nWith a single nod, you can grasp a power mighty enough to bend causality itself. Yet from that moment on, you must don your armor, throw yourself into an endless battlefield, and walk a thorn-strewn path from which there is no return.\n\nIf the legendary \"Law of Cycles\" truly exists, if that law of salvation and hope truly stands above all things... then perhaps the final fate of magical girls is not quite so despairing after all."
+ magica_mahou_shoujo_selection.0001.a:0 "I have a wish"
 
  # Events - 0002
  magica_mahou_shoujo_selection.0002.t:0 "A Young Magical Girl"
  magica_mahou_shoujo_selection.0002.desc:0 "A young magical girl has appeared in your realm—[scope:mahou_shoujo_recruit.GetName]. Such talented individuals should be put to good use. Should you invite her to join your court?"
  magica_mahou_shoujo_selection.0002.a:0 "Invite her to become my courtier"
  magica_mahou_shoujo_selection.0002.b:0 "Leave her as she is"
+
+ # Events - Magical Girl Stress End
+ magica_mahou_shoujo_stress.0001.t:0 "The Soul Gem's End"
+ magica_mahou_shoujo_stress.0001.desc:0 "Curses have piled too high, and the Soul Gem has dimmed beyond bearing. You glimpse the light of the Law of Cycles and hear a gentle, unwavering call. It is not fear, but guidance. You will leave this world, welcomed into the Law of Cycles."
+ magica_mahou_shoujo_stress.0001.a:0 "Go with the Cycle"

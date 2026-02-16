@@ -1,0 +1,21 @@
+namespace = magica_mahou_shoujo_stress
+
+# Magical girl death at maximum stress
+magica_mahou_shoujo_stress.0001 = {
+	type = character_event
+	title = magica_mahou_shoujo_stress.0001.t
+	desc = magica_mahou_shoujo_stress.0001.desc
+	theme = mental_break
+
+	left_portrait = {
+		character = root
+		animation = sad
+	}
+
+	option = {
+		name = magica_mahou_shoujo_stress.0001.a
+		death = {
+			death_reason = death_stress
+		}
+	}
+}
