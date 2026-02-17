@@ -1,0 +1,49 @@
+namespace = magica_mahou_shoujo_duel
+
+# 魔法少女随机生死决斗事件
+magica_mahou_shoujo_duel.0001 = {
+	type = character_event
+	title = magica_mahou_shoujo_duel.0001.t
+	desc = magica_mahou_shoujo_duel.0001.desc
+	theme = mental_break
+
+	left_portrait = {
+		character = root
+		animation = anger
+	}
+
+	trigger = {
+		is_alive = yes
+		has_trait = magica_mahou_shoujo
+	}
+
+	immediate = {
+		create_character = {
+			age = { 16 20 }
+			gender_female_chance = { value = 50 }
+			faith = root.faith
+			culture = root.culture
+			prowess = { 4 20 }
+			dynasty = none
+			save_scope_as = duel_opponent
+		}
+	}
+
+	option = {
+		name = magica_mahou_shoujo_duel.0001.a
+		configure_start_single_combat_effect = {
+			SC_INITIATOR = root
+			SC_ATTACKER = root
+			SC_DEFENDER = scope:duel_opponent
+			FATALITY = always
+			FIXED = no
+			LOCALE = temple
+			OUTPUT_EVENT = single_combat.1006
+			INVALIDATION_EVENT = single_combat.1006
+		}
+	}
+
+	after = {
+		magica_mahou_shoujo_duel_loop_aftereffects = yes
+	}
+}

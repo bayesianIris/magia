@@ -59,6 +59,8 @@ magica_mahou_shoujo_selection.0001 = {
 	after = {
 		# 启动魔法少女年度压力检查循环
 		magica_mahou_shoujo_stress_event_aftereffects = yes
+		# 启动魔法少女随机生死决斗循环
+		magica_mahou_shoujo_duel_loop_aftereffects = yes
 	}
 }
 

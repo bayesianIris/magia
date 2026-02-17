@@ -21,3 +21,8 @@
  magica_mahou_shoujo_stress.0001.t:0 "The Soul Gem's End"
  magica_mahou_shoujo_stress.0001.desc:0 "Curses have piled too high, and the Soul Gem has dimmed beyond bearing. You glimpse the light of the Law of Cycles and hear a gentle, unwavering call. It is not fear, but guidance. You will leave this world, welcomed into the Law of Cycles."
  magica_mahou_shoujo_stress.0001.a:0 "Go with the Cycle"
+
+ # Events - Magical Girl Death Duel
+ magica_mahou_shoujo_duel.0001.t:0 "An Avatar of Despair"
+ magica_mahou_shoujo_duel.0001.desc:0 "Darkness gathers into a shape, as if a Witch or Beast is watching. Your Soul Gem warms, a warning that there is no retreat. To keep moving forward, you must face despair here and now."
+ magica_mahou_shoujo_duel.0001.a:0 "Raise your weapon and fight"

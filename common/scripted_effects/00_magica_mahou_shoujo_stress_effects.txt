@@ -15,3 +15,77 @@ magica_mahou_shoujo_stress_event_aftereffects = {
 		}
 	}
 }
+
+# 魔法少女随机生死决斗循环效果
+# 使用随机列表在一年或两年后再次触发
+magica_mahou_shoujo_duel_loop_aftereffects = {
+	if = {
+		limit = {
+			is_alive = yes
+			has_trait = magica_mahou_shoujo
+		}
+
+		random_list = {
+			10 = {
+				trigger_event = {
+					id = magica_mahou_shoujo_duel.0001
+					days = 365
+				}
+			}
+			10 = {
+				trigger_event = {
+					id = magica_mahou_shoujo_duel.0001
+					days = 405
+				}
+			}
+			10 = {
+				trigger_event = {
+					id = magica_mahou_shoujo_duel.0001
+					days = 446
+				}
+			}
+			10 = {
+				trigger_event = {
+					id = magica_mahou_shoujo_duel.0001
+					days = 486
+				}
+			}
+			10 = {
+				trigger_event = {
+					id = magica_mahou_shoujo_duel.0001
+					days = 527
+				}
+			}
+			10 = {
+				trigger_event = {
+					id = magica_mahou_shoujo_duel.0001
+					days = 568
+				}
+			}
+			10 = {
+				trigger_event = {
+					id = magica_mahou_shoujo_duel.0001
+					days = 609
+				}
+			}
+			10 = {
+				trigger_event = {
+					id = magica_mahou_shoujo_duel.0001
+					days = 650
+				}
+			}
+			10 = {
+				trigger_event = {
+					id = magica_mahou_shoujo_duel.0001
+					days = 691
+				}
+			}
+			10 = {
+				trigger_event = {
+					id = magica_mahou_shoujo_duel.0001
+					days = 730
+				}
+			}
+		}
+	}
+}

@@ -24,3 +24,8 @@
  magica_mahou_shoujo_stress.0001.a:0 "随圆神而去" 
  # Tooltip 本地化
  magica_mahou_shoujo_annual_stress_check_tt:0 "一年后将进行下次年度压力检查"
+
+ # 事件本地化 - 魔法少女生死决斗
+ magica_mahou_shoujo_duel.0001.t:0 "与绝望的战斗"
+ magica_mahou_shoujo_duel.0001.desc:0 "角落里的阴影似乎比寻常更为浓重，仿佛在那里潜伏着某种扭曲之物。空气沉闷而凝滞，黑暗在角落里凝成实体，你能感觉到某种目光落在自己身上。灵魂宝石微微发亮，提醒你这是一场不容退却的战斗。为了继续前行，你必须在此刻直面绝望。"
+ magica_mahou_shoujo_duel.0001.a:0 "举起武器，与之决战"
