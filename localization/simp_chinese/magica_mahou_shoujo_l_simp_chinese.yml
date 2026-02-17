@@ -10,7 +10,7 @@
  magica_mahou_shoujo_selection.0001.t:0 "魔法少女的呼唤"
  magica_mahou_shoujo_selection.0001.desc:0 "幽暗的独处时刻，那只洁白得近乎透明的奇异生物悄无声息地降临。\n\n“和我签订契约，成为魔法少女吧。”它那毫无感情波动的声音在脑海中响起。\n\n只要点头，你就能握住那份足以扭转因果的力量。虽然从此必须身披铠甲，投身于永无止境的战场，步入一条无法回头的荆棘之路。\n\n如果传说中的“圆环之理”真的存在，如果那份救赎与希望的规则真的凌驾于万物之上……那么，所谓魔法少女的末路，似乎也不再那么令人绝望。"
 
- magica_mahou_shoujo_selection.0001.a:0 "我有一个愿望"
+ magica_mahou_shoujo_selection.0001.a:0 "......我有一个愿望"
 
  # 事件本地化 - 0002
  magica_mahou_shoujo_selection.0002.t:0 "年轻的魔法少女"
@@ -21,4 +21,6 @@
  # 事件本地化 - 魔法少女压力终点
  magica_mahou_shoujo_stress.0001.t:0 "灵魂宝石的尽头"
  magica_mahou_shoujo_stress.0001.desc:0 "诅咒堆积如山，灵魂宝石终于黯淡到无法承载。你看见圆环之理的光芒，听见温柔而坚定的呼唤。那并非恐惧，而是引导。你将离开这个世界，被圆环之理接纳。"
- magica_mahou_shoujo_stress.0001.a:0 "随圆神而去"
+ magica_mahou_shoujo_stress.0001.a:0 "随圆神而去" 
+ # Tooltip 本地化
+ magica_mahou_shoujo_annual_stress_check_tt:0 "一年后将进行下次年度压力检查"

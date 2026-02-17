@@ -127,13 +127,13 @@
  magica_bishop_plural: "光环导师"
 
  ### 来世
- magica_positive_afterlife: "希望之界"
- magica_positive_afterlife_2: "圆神的怀抱"
- magica_positive_afterlife_3: "圆环之境"
+ magica_positive_afterlife: "圆环之理的接引"
+ magica_positive_afterlife_2: "因果消失的彼岸"
+ magica_positive_afterlife_3: "永恒的救济"
 
- magica_negative_afterlife: "绝望深渊"
- magica_negative_afterlife_2: "魔女化之冢"
- magica_negative_afterlife_3: "黑暗轮回"
+ magica_negative_afterlife: "魔女化的诅咒"
+ magica_negative_afterlife_2: "闭锁的结界"
+ magica_negative_afterlife_3: "背叛的深渊"
 
  ### 巫术之神
  magica_witchgodname_the_horned_god: "圆环之理"

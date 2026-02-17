@@ -57,9 +57,77 @@ stress_threshold.0001 = {
 		is_imprisoned = no
 	}
 
-
+	debug_log="[Stress Threshold] Stress threshold event triggered for character: [Root]"
 	immediate = {
+		# 魔法少女特殊处理：去掉cooldown检查，保留其他原版逻辑
 		if = {
+			limit = {
+				has_trait = magica_mahou_shoujo
+			}
+			# 压力等级为1或0时，触发等级1事件
+			if = {
+				limit = { stress_level <= 1 }
+				if = {
+					limit = { exists = var:mental_break_deceased_character }
+					trigger_event = { id = stress_threshold_special.1001 days = 0 }
+				}
+				else_if = {
+					limit = {
+						has_trait = rakish
+						has_trait = celibate
+					}
+					trigger_event = { id = stress_threshold_special.2001 days = 0 }
+				}
+				else = {
+					trigger_event = { on_action = stress_threshold_level_1_event days = 0 }
+				}
+			}
+			# 压力等级为2时，触发等级2事件
+			else_if = {
+				limit = { stress_level = 2 }
+				if = {
+					limit = { exists = var:mental_break_deceased_character }
+					trigger_event = { id = stress_threshold_special.1001 days = 0 }
+				}
+				else_if = {
+					limit = {
+						has_trait = rakish
+						has_trait = celibate
+					}
+					trigger_event = { id = stress_threshold_special.2001 days = 0 }
+				}
+				else = {
+					trigger_event = { on_action = stress_threshold_level_2_event days = 0 }
+				}
+			}
+			# 压力等级为3或更高时，触发等级3事件
+			else_if = {
+				limit = { stress_level >= 3 }
+				if = {
+					limit = { has_character_flag = magica_mahou_shoujo_stress_level_3_once }
+					trigger_event = { id = magica_mahou_shoujo_stress.0001 days = 0 }
+				}
+				else = {
+					add_character_flag = magica_mahou_shoujo_stress_level_3_once
+					if = {
+						limit = { exists = var:mental_break_deceased_character }
+						trigger_event = { id = stress_threshold_special.1001 days = 0 }
+					}
+					else_if = {
+						limit = {
+							has_trait = rakish
+							has_trait = celibate
+						}
+						trigger_event = { id = stress_threshold_special.2001 days = 0 }
+					}
+					else = {
+						trigger_event = { on_action = stress_threshold_level_3_event days = 0 }
+					}
+				}
+			}
+		}
+		# 以下是原版逻辑
+		else_if = {
 			limit = {
 				stress_level = 1
 				NOT = {
@@ -203,7 +271,33 @@ stress_threshold.0002 = {
 	}
 
 	immediate = {
+		# 魔法少女特殊处理：去掉cooldown检查，保留其他原版逻辑
 		if = {
+			limit = {
+				has_trait = magica_mahou_shoujo
+			}
+			if = {
+				limit = { stress_level >= 3 }
+				if = {
+					limit = { has_character_flag = magica_mahou_shoujo_stress_level_3_once }
+					trigger_event = { id = magica_mahou_shoujo_stress.0001 days = 0 }
+				}
+				else = {
+					add_character_flag = magica_mahou_shoujo_stress_level_3_once
+					trigger_event = { on_action = stress_threshold_level_3_event_prison days = 0 }
+				}
+			}
+			else_if = {
+				limit = { stress_level = 2 }
+				trigger_event = { on_action = stress_threshold_level_2_event_prison days = 0 }
+			}
+			else = {
+				# 压力等级为1或0时，都触发等级1事件
+				trigger_event = { on_action = stress_threshold_level_1_event_prison days = 0 }
+			}
+		}
+		# 以下是原版逻辑
+		else_if = {
 			limit = {
 				stress_level >= 3
 				NOT = { has_character_flag = stress_threshold_event_3_cooldown }
@@ -239,72 +333,15 @@ stress_threshold.0005 = {
 	hidden = yes
 
 	trigger = {
-		OR = {
-			NOR = {
-				has_character_flag = stress_threshold_event_1_cooldown
-				has_character_flag = stress_threshold_event_2_cooldown
-				has_character_flag = stress_threshold_event_3_cooldown
-			}
-			AND = {
-				has_trait = magica_mahou_shoujo
-				NOT = { has_character_flag = magica_mahou_shoujo_stress_cooldown }
-			}
+		NOR = {
+			has_character_flag = stress_threshold_event_1_cooldown
+			has_character_flag = stress_threshold_event_2_cooldown
+			has_character_flag = stress_threshold_event_3_cooldown
 		}
 	}
 
 	immediate = {
 		if = {
-			limit = {
-				has_trait = magica_mahou_shoujo
-				NOT = { has_character_flag = magica_mahou_shoujo_stress_cooldown }
-			}
-			add_character_flag = {
-				flag = magica_mahou_shoujo_stress_cooldown
-				days = 365
-			}
-			if = {
-				limit = {
-					is_imprisoned = yes
-				}
-				if = {
-					limit = {
-						NOT = { stress_level >= 1 }
-					}
-					trigger_event = { on_action = stress_threshold_level_1_event_prison days = 0 }
-				}
-				else_if = {
-					limit = { stress_level >= 3 }
-					trigger_event = { on_action = stress_threshold_level_3_event_prison days = 0 }
-				}
-				else_if = {
-					limit = { stress_level >= 2 }
-					trigger_event = { on_action = stress_threshold_level_2_event_prison days = 0 }
-				}
-				else = {
-					trigger_event = { on_action = stress_threshold_level_1_event_prison days = 0 }
-				}
-			}
-			else = {
-				if = {
-					limit = {
-						NOT = { stress_level >= 1 }
-					}
-					trigger_event = { on_action = stress_threshold_level_1_event days = 0 }
-				}
-				else_if = {
-					limit = { stress_level >= 3 }
-					trigger_event = { on_action = stress_threshold_level_3_event days = 0 }
-				}
-				else_if = {
-					limit = { stress_level >= 2 }
-					trigger_event = { on_action = stress_threshold_level_2_event days = 0 }
-				}
-				else = {
-					trigger_event = { on_action = stress_threshold_level_1_event days = 0 }
-				}
-			}
-		}
-		else_if = {
 			limit = {
 				has_perk = mental_resilience_perk
 			}

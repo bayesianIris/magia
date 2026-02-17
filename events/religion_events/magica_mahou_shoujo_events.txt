@@ -31,10 +31,6 @@ magica_mahou_shoujo_selection.0001 = {
 	option = {
 		name = magica_mahou_shoujo_selection.0001.a
 		add_trait = magica_mahou_shoujo
-		add_character_flag = {
-			flag = magica_mahou_shoujo_stress_cooldown
-			days = 365
-		}
 		add_character_modifier = {
 			modifier = magica_mahou_shoujo_awakening_modifier
 			years = 10
@@ -57,6 +53,11 @@ magica_mahou_shoujo_selection.0001 = {
 				save_scope_as = local_liege
 			}
 		}
+	}
+	
+	after = {
+		# 启动魔法少女年度压力检查循环
+		magica_mahou_shoujo_stress_event_aftereffects = yes
 	}
 }
 

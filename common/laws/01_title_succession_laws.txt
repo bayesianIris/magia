@@ -282,6 +282,14 @@
 		}
 		flag = elective_succession_law
 		title_allegiance_opinion = 10
+		ai_will_do = {
+			if = {
+				limit = {
+					faith = { has_doctrine_parameter = magica_elective_succession_enabled }
+				}
+				value = 1000
+			}
+		}
 		revoke_cost = {
 			prestige = change_title_succession_law_prestige_cost
 		}

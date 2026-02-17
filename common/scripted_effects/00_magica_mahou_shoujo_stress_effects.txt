@@ -1,0 +1,17 @@
+# 魔法少女年度压力检查效果
+# 在完成压力检查后调用，调度下一年的检查
+
+magica_mahou_shoujo_stress_event_aftereffects = {
+	if = {
+		limit = {
+			is_alive = yes
+			has_trait = magica_mahou_shoujo
+		}
+		
+		# 调度下一年的年度压力检查 (365天)
+		trigger_event = {
+			id = magica_mahou_shoujo_stress.0002
+			days = 365
+		}
+	}
+}

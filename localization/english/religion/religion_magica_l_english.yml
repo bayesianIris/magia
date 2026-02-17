@@ -127,13 +127,13 @@
  magica_bishop_plural:0 "Halo Mentors"
 
  ### Afterlife
- magica_positive_afterlife:0 "Realm of Hope"
- magica_positive_afterlife_2:0 "Embrace of the Goddess"
- magica_positive_afterlife_3:0 "Land of the Cycles"
+ magica_positive_afterlife:0 "Guide of the Law of Cycles"
+ magica_positive_afterlife_2:0 "Shore Beyond Causality"
+ magica_positive_afterlife_3:0 "Eternal Salvation"
 
- magica_negative_afterlife:0 "Abyss of Despair"
- magica_negative_afterlife_2:0 "Tomb of Witchification"
- magica_negative_afterlife_3:0 "Dark Cycle"
+ magica_negative_afterlife:0 "Curse of Witchification"
+ magica_negative_afterlife_2:0 "Sealed Barrier"
+ magica_negative_afterlife_3:0 "Abyss of Betrayal"
 
  ### Witch god
  magica_witchgodname_the_horned_god:0 "Law of Cycles"
