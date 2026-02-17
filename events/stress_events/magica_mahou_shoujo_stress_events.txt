@@ -32,6 +32,7 @@ magica_mahou_shoujo_stress.0002 = {
 	}
 	immediate = {
 		# 根据囚禁状态调用对应的压力事件处理器
+		add_stress = medium_stress_impact_gain
 		if = {
 			limit = { is_imprisoned = yes }
 			trigger_event = { id = stress_threshold.0002 days = 0 }
