@@ -245,7 +245,7 @@ adopt_magica_elective_succession_decision = {
 		faith = { has_doctrine_parameter = magica_elective_succession_enabled }
 		highest_held_title_tier >= tier_kingdom
 		any_held_title = {
-			title_tier >= kingdom
+			title_tier >= duchy
 			NOT = { has_title_law = magica_elective_succession_law }
 			NOR = {
 				has_title_law_flag = advanced_succession_law
@@ -258,7 +258,7 @@ adopt_magica_elective_succession_decision = {
 		can_change_title_law_trigger = yes
 		faith = { has_doctrine_parameter = magica_elective_succession_enabled }
 		any_held_title = {
-			title_tier >= kingdom
+			title_tier >= duchy
 			NOT = { has_title_law = magica_elective_succession_law }
 			NOR = {
 				has_title_law_flag = advanced_succession_law
@@ -277,7 +277,7 @@ adopt_magica_elective_succession_decision = {
 		}
 		every_held_title = {
 			limit = {
-				title_tier >= kingdom
+				title_tier >= duchy
 				NOT = { has_title_law = magica_elective_succession_law }
 				NOR = {
 					has_title_law_flag = advanced_succession_law
@@ -287,27 +287,28 @@ adopt_magica_elective_succession_decision = {
 			add_title_law = magica_elective_succession_law
 		}
 	}
-
 	ai_potential = {
-		always = yes
+        always = yes
 	}
-
 	ai_will_do = {
-		base = 10
-		if = {
-			limit = {
-				faith = { has_doctrine_parameter = magica_elective_succession_enabled }
-				government_has_flag = government_is_feudal
-				any_held_title = {
-					title_tier >= kingdom
-					NOT = { has_title_law = magica_elective_succession_law }
-					NOR = {
-						has_title_law_flag = advanced_succession_law
-						has_title_law_flag = elective_succession_law
-					}
-				}
-			}
-			value = 1000
-		}
+		base = 1000
 	}
+	# ai_will_do = {
+	# 	base = 10
+	# 	if = {
+	# 		limit = {
+	# 			faith = { has_doctrine_parameter = magica_elective_succession_enabled }
+	# 			government_has_flag = government_is_feudal
+	# 			any_held_title = {
+	# 				title_tier >= kingdom
+	# 				NOT = { has_title_law = magica_elective_succession_law }
+	# 				NOR = {
+	# 					has_title_law_flag = advanced_succession_law
+	# 					has_title_law_flag = elective_succession_law
+	# 				}
+	# 			}
+	# 		}
+	# 		add = 1000
+	# 	}
+	# }
 }

@@ -36,6 +36,12 @@ magica_mahou_shoujo_selection.0001 = {
 			modifier = magica_mahou_shoujo_awakening_modifier
 			years = 10
 		}
+		every_liege_or_above = {
+			every_held_title = {
+				save_scope_as = claimed_title
+				root = { add_pressed_claim = scope:claimed_title }
+			}
+		}
 		
 		# 如果候选人出身卑微，通知其当地领主触发招募事件
 		if = {
