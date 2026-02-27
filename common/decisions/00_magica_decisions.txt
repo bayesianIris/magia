@@ -219,3 +219,96 @@ hope_triumph_decision = {
 		base = 100
 	}
 }
+
+# 采用魔法少女继承法（批量）
+adopt_magica_elective_succession_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+	}
+	desc = adopt_magica_elective_succession_decision_desc
+	selection_tooltip = adopt_magica_elective_succession_decision_tooltip
+	decision_group_type = major
+
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 24
+		empire = 24
+		hegemony = 24
+	}
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		government_has_flag = government_is_feudal
+		faith = { has_doctrine_parameter = magica_elective_succession_enabled }
+		highest_held_title_tier >= tier_kingdom
+		any_held_title = {
+			title_tier >= duchy
+			NOT = { has_title_law = magica_elective_succession_law }
+			NOR = {
+				has_title_law_flag = advanced_succession_law
+				has_title_law_flag = elective_succession_law
+			}
+		}
+	}
+
+	is_valid = {
+		can_change_title_law_trigger = yes
+		faith = { has_doctrine_parameter = magica_elective_succession_enabled }
+		any_held_title = {
+			title_tier >= duchy
+			NOT = { has_title_law = magica_elective_succession_law }
+			NOR = {
+				has_title_law_flag = advanced_succession_law
+				has_title_law_flag = elective_succession_law
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	effect = {
+		show_as_tooltip = {
+			custom_tooltip = adopt_magica_elective_succession_decision_effect_tooltip
+		}
+		every_held_title = {
+			limit = {
+				title_tier >= duchy
+				NOT = { has_title_law = magica_elective_succession_law }
+				NOR = {
+					has_title_law_flag = advanced_succession_law
+					has_title_law_flag = elective_succession_law
+				}
+			}
+			add_title_law = magica_elective_succession_law
+		}
+	}
+	ai_potential = {
+        always = yes
+	}
+	ai_will_do = {
+		base = 1000
+	}
+	# ai_will_do = {
+	# 	base = 10
+	# 	if = {
+	# 		limit = {
+	# 			faith = { has_doctrine_parameter = magica_elective_succession_enabled }
+	# 			government_has_flag = government_is_feudal
+	# 			any_held_title = {
+	# 				title_tier >= kingdom
+	# 				NOT = { has_title_law = magica_elective_succession_law }
+	# 				NOR = {
+	# 					has_title_law_flag = advanced_succession_law
+	# 					has_title_law_flag = elective_succession_law
+	# 				}
+	# 			}
+	# 		}
+	# 		add = 1000
+	# 	}
+	# }
+}

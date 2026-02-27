@@ -11,3 +11,8 @@
  magica_religious_head.0001.t:0 "A New Head of the Law of Cycles"
  magica_religious_head.0001.desc:0 "After long awaiting, the Law of Cycles has finally welcomed a new spiritual head. [ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName] has been chosen to lead the faith and guide all believers toward a radiant future.\n\nThis new head of faith represents the unity and hope of the Law of Cycles. [ROOT.Char.GetFaith.GetReligiousHead.GetSheHe|U] shall spread the truth of magical girls and bring salvation to the world. Countless faithful rejoice at this momentous occasion."
  magica_religious_head.0001.a:0 "May the Law of Cycles ever shine"
+
+ adopt_magica_elective_succession_decision:0 "Adopt Magical Girl Succession"
+ adopt_magica_elective_succession_decision_desc:0 "The old laws of succession are rife with injustice and chaos. If magical girls exist, then magical girls—who bear great power and responsibility—should rightfully lead society."
+ adopt_magica_elective_succession_decision_tooltip:0 "Set all your eligible kingdom-tier and higher titles to Magica Elective Succession."
+ adopt_magica_elective_succession_decision_effect_tooltip:0 "All eligible kingdom-tier and higher titles you hold will adopt Magica Elective Succession."

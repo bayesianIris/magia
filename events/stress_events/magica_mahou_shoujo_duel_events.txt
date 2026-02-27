@@ -20,10 +20,11 @@ magica_mahou_shoujo_duel.0001 = {
 	immediate = {
 		create_character = {
 			age = { 16 20 }
-			gender_female_chance = { value = 50 }
+			name = "despair entity"
+			gender_female_chance = {value = 100}
 			faith = root.faith
 			culture = root.culture
-			prowess = { 4 20 }
+			prowess = { 4 15 }
 			dynasty = none
 			save_scope_as = duel_opponent
 		}

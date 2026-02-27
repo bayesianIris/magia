@@ -11,3 +11,8 @@
  magica_religious_head.0001.t:0 "圆环之理的新导师"
  magica_religious_head.0001.desc:0 "在漫长的等待之后，圆环之理终于迎来了新的精神教首。[ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName]被选为这一信仰的领导者，将引导所有信众走向光辉的未来。\n\n这位新的信仰领袖代表了圆环之理的统一与希望。[ROOT.Char.GetFaith.GetReligiousHead.GetSheHe]将传播魔法少女的真理，为世界带来救赎。无数信众为这一伟大时刻而欢欣鼓舞。"
  magica_religious_head.0001.a:0 "愿圆环之理的光辉永远闪耀"
+
+ adopt_magica_elective_succession_decision:0 "采用魔法少女继承制"
+ adopt_magica_elective_succession_decision_desc:0 "旧的继承法充满着不公和混乱，如果魔法少女存在，拥有强大力量和责任的魔法少女理应成为社会的领导。"
+ adopt_magica_elective_succession_decision_tooltip:0 "把你持有的王国及以上头衔改为魔法少女继承法。"
+ adopt_magica_elective_succession_decision_effect_tooltip:0 "所有符合条件的王国及以上头衔将采用魔法少女继承法。"
