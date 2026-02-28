@@ -1,3 +1,3 @@
 ﻿NChildbirth = {
-	MIN_FEMALE_REPRODUCTION_AGE = 12 # 确保immortal trait外表年龄对生育的影响
+	MIN_FEMALE_REPRODUCTION_AGE = 14 # 确保immortal trait外表年龄对生育的影响
 }
