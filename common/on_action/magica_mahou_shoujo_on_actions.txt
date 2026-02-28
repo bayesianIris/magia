@@ -11,7 +11,7 @@ on_birthday_magica_mahou_shoujo = {
 	}
 	effect = {
 		random = {
-			chance = 5
+			chance = 10
 			trigger_event = magica_mahou_shoujo_selection.0001
 		}
 	}
