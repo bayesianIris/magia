@@ -1,0 +1,30 @@
+﻿# 圆环之理相关的脚本效果
+
+# 应用圆环之理历史到指定头衔及其领地
+apply_historic_madokamist_game_rule_effect = {
+    if = {
+        limit = {
+            has_game_rule = historicity_hre_madokamist_historic_always 
+            exists = title:e_hre
+        }
+        title:e_hre.holder ?= { convert_to_madokamist_game_start_effect = yes }
+    }
+    # France.
+    if = {
+        limit = {
+            has_game_rule = historicity_france_madokamist_historic_always
+            exists = title:k_france
+        }
+        title:k_france.holder ?= { convert_to_madokamist_game_start_effect = yes }
+    }
+}
+
+convert_to_madokamist_game_start_effect = {
+	set_character_faith = faith:madokamist_orthodox
+    every_vassal_or_below = {
+        set_character_faith = faith:madokamist_orthodox
+    }
+    every_sub_realm_county = {
+        set_county_faith = faith:madokamist_orthodox
+    }		
+}

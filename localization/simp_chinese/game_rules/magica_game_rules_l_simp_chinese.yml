@@ -1,0 +1,17 @@
+﻿l_simp_chinese:
+
+ rule_historicity_hre_madokamist: "神圣罗马帝国-圆环之理信仰"
+ 
+ setting_historicity_hre_madokamist_gameplay_no: "游戏玩法"
+ setting_historicity_hre_madokamist_gameplay_no_desc: "神圣罗马帝国按照游戏机制发展。"
+ 
+ setting_historicity_hre_madokamist_historic_always: "历史圆环之理"
+ setting_historicity_hre_madokamist_historic_always_desc: "神圣罗马帝国从游戏开始时就皈依圆环之理-正统派信仰。"
+
+ rule_historicity_france_madokamist: "法兰西王国-圆环之理信仰"
+ 
+ setting_historicity_france_madokamist_gameplay_no: "游戏玩法"
+ setting_historicity_france_madokamist_gameplay_no_desc: "法兰西王国按照游戏机制发展。"
+ 
+ setting_historicity_france_madokamist_historic_always: "历史圆环之理"
+ setting_historicity_france_madokamist_historic_always_desc: "法兰西王国从游戏开始时就皈依圆环之理-正统派信仰。"

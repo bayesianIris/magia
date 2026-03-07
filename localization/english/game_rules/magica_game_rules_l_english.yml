@@ -1,0 +1,17 @@
+﻿l_english:
+
+ rule_historicity_hre_madokamist: "Holy Roman Empire - Madokamist Religion"
+ 
+ setting_historicity_hre_madokamist_gameplay_no: "Gameplay"
+ setting_historicity_hre_madokamist_gameplay_no_desc: "The Holy Roman Empire develops according to gameplay mechanics."
+ 
+ setting_historicity_hre_madokamist_historic_always: "Historic Madokamist"
+ setting_historicity_hre_madokamist_historic_always_desc: "The Holy Roman Empire embraces the Madokamist Orthodox faith from the beginning of the game."
+
+ rule_historicity_france_madokamist: "Kingdom of France - Madokamist Religion"
+ 
+ setting_historicity_france_madokamist_gameplay_no: "Gameplay"
+ setting_historicity_france_madokamist_gameplay_no_desc: "The Kingdom of France develops according to gameplay mechanics."
+ 
+ setting_historicity_france_madokamist_historic_always: "Historic Madokamist"
+ setting_historicity_france_madokamist_historic_always_desc: "The Kingdom of France embraces the Madokamist Orthodox faith from the beginning of the game."

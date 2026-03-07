@@ -1,0 +1,13 @@
+# 圆环之理相关的游戏开始事件
+
+on_game_start_after_lobby_magica_madokamist = {
+	effect = {
+		apply_historic_madokamist_game_rule_effect = yes
+	}
+}
+
+on_game_start_after_lobby = {
+	on_actions = {
+		on_game_start_after_lobby_magica_madokamist
+	}
+}
