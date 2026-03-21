@@ -17,6 +17,12 @@
  magica_mahou_shoujo_selection.0002.a:0 "Invite her to become my courtier"
  magica_mahou_shoujo_selection.0002.b:0 "Leave her as she is"
 
+ # Events - 0005
+ magica_mahou_shoujo_selection.0005.t:0 "Identity Confirmation"
+ magica_mahou_shoujo_selection.0005.desc:0 "As a follower of the Law of Cycles, are you yourself a proven magical girl who has made a contract?\n\nTip: Proven magical girls gain many benefits, but also bear enormous risks."
+ magica_mahou_shoujo_selection.0005.a:0 "I am a proven magical girl"
+ magica_mahou_shoujo_selection.0005.b:0 "I am merely an ordinary believer"
+
  # Events - Magical Girl Stress End
  magica_mahou_shoujo_stress.0001.t:0 "The Soul Gem's End"
  magica_mahou_shoujo_stress.0001.desc:0 "Curses have piled too high, and the Soul Gem has dimmed beyond bearing. You glimpse the light of the Law of Cycles and hear a gentle, unwavering call. It is not fear, but guidance. You will leave this world, welcomed into the Law of Cycles."

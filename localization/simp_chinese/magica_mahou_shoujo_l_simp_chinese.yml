@@ -18,6 +18,12 @@
  magica_mahou_shoujo_selection.0002.a:0 "邀请她成为我的廷臣"
  magica_mahou_shoujo_selection.0002.b:0 "让她保持自由身"
 
+ # 事件本地化 - 0005
+ magica_mahou_shoujo_selection.0005.t:0 "开局设定"
+ magica_mahou_shoujo_selection.0005.desc:0 "作为圆环之理的信徒，你，是否本身是一名签订了契约的魔法少女？\n\n提示：已被证实的魔法少女拥有很多的增益，但同时也承担着作为魔法少女的巨大风险"
+ magica_mahou_shoujo_selection.0005.a:0 "我是一名魔法少女"
+ magica_mahou_shoujo_selection.0005.b:0 "我只是普通的信徒"
+
  # 事件本地化 - 魔法少女压力终点
  magica_mahou_shoujo_stress.0001.t:0 "灵魂宝石的尽头"
  magica_mahou_shoujo_stress.0001.desc:0 "诅咒堆积如山，灵魂宝石终于黯淡到无法承载。你看见圆环之理的光芒，听见温柔而坚定的呼唤。那并非恐惧，而是引导。你将离开这个世界，被圆环之理接纳。"

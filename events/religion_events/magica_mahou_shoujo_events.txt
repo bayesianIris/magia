@@ -70,6 +70,56 @@ magica_mahou_shoujo_selection.0001 = {
 	}
 }
 
+
+magica_mahou_shoujo_selection.0005 = {
+	type = character_event
+	title = magica_mahou_shoujo_selection.0005.t
+	desc = magica_mahou_shoujo_selection.0005.desc
+	theme = faith
+	override_background = { event_background = throne_room }
+	
+	left_portrait = {
+		character = root
+		animation = personality_curious
+	}
+
+	trigger = {
+		is_ai = no
+		faith.religion = religion:magica_religion
+	}
+
+	immediate = {
+		save_scope_as = player_character
+	}
+
+	# 我是魔法少女
+	option = {
+		name = magica_mahou_shoujo_selection.0005.a
+
+		trigger = {
+			age >= 10
+			age <= 16
+			is_female = yes
+		}
+		show_as_unavailable = {
+			OR = {
+				age < 10
+				age > 16
+				is_female = no		
+			}
+
+		}
+		trigger_event = magica_mahou_shoujo_selection.0001
+		
+	}
+
+	# 我只是一个普通人
+	option = {
+		name = magica_mahou_shoujo_selection.0005.b
+	}
+}
+
+
 # 领主招募卑微出身魔法少女的事件
 magica_mahou_shoujo_selection.0002 = {
 	type = character_event
@@ -141,3 +191,6 @@ magica_mahou_shoujo_selection.0002 = {
 		}
 	}
 }
+
+# 玩家魔法少女选择事件
+# player magica event

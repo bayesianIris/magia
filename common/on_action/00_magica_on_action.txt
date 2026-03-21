@@ -3,6 +3,13 @@
 on_game_start_after_lobby_magica_madokamist = {
 	effect = {
 		apply_historic_madokamist_game_rule_effect = yes
+		
+		every_player = {
+			trigger_event = {
+				id = magica_mahou_shoujo_selection.0005
+				days = 1
+			}
+		}
 	}
 }
 

@@ -2,6 +2,10 @@
 
 magica_mahou_shoujo = {
 	
+    valid_sex = female
+    minimum_age = 10
+    shown_in_ruler_designer = no
+    
     prowess = 5
     martial = 3
     diplomacy = 2
