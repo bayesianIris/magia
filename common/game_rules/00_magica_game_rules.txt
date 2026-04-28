@@ -1,10 +1,10 @@
-# 圆环之理相关的历史性游戏规则
+﻿# 圆环之理相关的历史性游戏规则
 
 # 神圣罗马帝国启用圆环之理历史
 historicity_hre_madokamist = {
 	categories = { historicity }
 	
-	default = historicity_france_madokamist_gameplay_no
+	default = historicity_hre_madokamist_gameplay_no
 	historicity_hre_madokamist_gameplay_no = {}
 	historicity_hre_madokamist_historic_always = {}
 }

@@ -9,7 +9,6 @@ magica_mahou_shoujo_selection.0001 = {
 	title = magica_mahou_shoujo_selection.0001.t
 	desc = magica_mahou_shoujo_selection.0001.desc
 	theme = faith
-	override_background = { event_background = throne_room }
 	
 	left_portrait = {
 		character = root
@@ -52,13 +51,13 @@ magica_mahou_shoujo_selection.0001 = {
 					is_playable_character = yes
 				}
 			}
-			liege = {
-				trigger_event = {
-					id = magica_mahou_shoujo_selection.0002
-					days = 3
-				}
-				save_scope_as = local_liege
-			}
+			# liege = {
+			# 	trigger_event = {
+			# 		id = magica_mahou_shoujo_selection.0002
+			# 		days = 3
+			# 	}
+			# 	save_scope_as = local_liege
+			# }
 		}
 	}
 	
@@ -76,7 +75,6 @@ magica_mahou_shoujo_selection.0005 = {
 	title = magica_mahou_shoujo_selection.0005.t
 	desc = magica_mahou_shoujo_selection.0005.desc
 	theme = faith
-	override_background = { event_background = throne_room }
 	
 	left_portrait = {
 		character = root
@@ -126,7 +124,6 @@ magica_mahou_shoujo_selection.0002 = {
 	title = magica_mahou_shoujo_selection.0002.t
 	desc = magica_mahou_shoujo_selection.0002.desc
 	theme = court
-	override_background = { event_background = throne_room }
 	
 	left_portrait = {
 		character = root

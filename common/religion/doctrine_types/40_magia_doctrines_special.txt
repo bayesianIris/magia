@@ -1,0 +1,11 @@
+﻿special_doctrine_is_magica_faith = {
+	parameters = {
+		combatant_including_magica = yes
+		female_dominated_council = no
+	}
+}
+special_doctrine_madokamist = {
+	parameters = {
+		hostility_override_special_doctrine_madokamist = 0
+	}
+}

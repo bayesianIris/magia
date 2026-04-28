@@ -1,4 +1,4 @@
-version="1.0"
+version="1.1"
 tags={
 	"Religion"
 	"Decisions"
@@ -10,5 +10,5 @@ tags={
 }
 name="magia"
 picture="thumbnail.png"
-supported_version="1.*"
+supported_version="1.19.*"
 remote_file_id="3656716259"

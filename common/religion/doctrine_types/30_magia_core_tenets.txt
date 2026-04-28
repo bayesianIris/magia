@@ -1,0 +1,52 @@
+﻿tenet_society_of_magica = {
+	icon = core_tenet_esotericism
+
+	is_shown = {
+		religion_tag = magica_religion
+	}
+	can_pick = {
+		#			always = yes
+	}
+
+	piety_cost = {
+		if = {
+			limit = {
+				always = no
+			}
+			value = faith_tenet_cost_low
+		}
+		else = {
+			value = faith_tenet_cost_massive
+		}
+
+		# # Multiplier for keeping same tenet
+		# if = {
+		# 	limit = { has_doctrine = tenet_extinction_of_dharma }
+		# 	multiply = faith_unchanged_doctrine_cost_mult
+		# }
+	}
+
+	character_modifier = {
+		prowess = 4
+		tolerance_advantage_mod = 2
+	}
+
+	traits = {
+		virtues = { 
+			lifestyle_mystic = { 
+				scale = 1
+				weight = 1
+			}
+			magica_mahou_shoujo = {
+				scale = 6
+				weight = 2
+			}
+		}
+	}
+	
+	parameters = {
+		tenet_esotericism_mystic_education = yes
+		mystic_birthright_active = yes
+		magica_elective_succession_enabled = yes
+	}
+}
