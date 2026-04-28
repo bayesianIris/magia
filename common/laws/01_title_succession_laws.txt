@@ -258,7 +258,10 @@
 	# Magica Elective
 	magica_elective_succession_law = {
 		can_have = {
-			government_has_flag = government_is_feudal
+			OR = {
+				government_has_flag = government_is_feudal
+				government_has_flag = government_is_japan_feudal
+			}
 			highest_held_title_tier >= tier_duchy
 			# NOR = {
 			# 	culture = { has_cultural_parameter = witenagemot_succession_enabled }

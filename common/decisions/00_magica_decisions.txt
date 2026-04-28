@@ -250,14 +250,17 @@ adopt_magica_elective_succession_decision = {
 	is_shown = {
 		is_ruler = yes
 		is_landed = yes
-		government_has_flag = government_is_feudal
+		OR = {
+			government_has_flag = government_is_feudal
+			government_has_flag = government_is_japan_feudal
+		}
 		faith = { has_doctrine_parameter = magica_elective_succession_enabled }
 		highest_held_title_tier >= tier_kingdom
 		any_held_title = {
 			title_tier >= duchy
 			NOT = { has_title_law = magica_elective_succession_law }
 			NOR = {
-				has_title_law_flag = advanced_succession_law
+				# has_title_law_flag = advanced_succession_law
 				has_title_law_flag = elective_succession_law
 			}
 		}
@@ -270,7 +273,7 @@ adopt_magica_elective_succession_decision = {
 			title_tier >= duchy
 			NOT = { has_title_law = magica_elective_succession_law }
 			NOR = {
-				has_title_law_flag = advanced_succession_law
+				# has_title_law_flag = advanced_succession_law
 				has_title_law_flag = elective_succession_law
 			}
 		}
@@ -289,7 +292,7 @@ adopt_magica_elective_succession_decision = {
 				title_tier >= duchy
 				NOT = { has_title_law = magica_elective_succession_law }
 				NOR = {
-					has_title_law_flag = advanced_succession_law
+					# has_title_law_flag = advanced_succession_law
 					has_title_law_flag = elective_succession_law
 				}
 			}
