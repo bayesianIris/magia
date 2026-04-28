@@ -1,4 +1,4 @@
-# Hope Triumph Scripted Effects for Magica Religion
+﻿# Hope Triumph Scripted Effects for Magica Religion
 
 hope_triumph_scripted_effect = {
 	root.faith = {

@@ -1,4 +1,4 @@
-create_magica_spiritual_head_effect = {
+﻿create_magica_spiritual_head_effect = {
 	# Create a new unlanded cleric as the Head of Faith
 	create_character = {
 		location = root.capital_province

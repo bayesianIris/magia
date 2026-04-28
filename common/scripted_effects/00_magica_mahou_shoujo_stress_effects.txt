@@ -1,4 +1,4 @@
-# 魔法少女年度压力检查效果
+﻿# 魔法少女年度压力检查效果
 # 在完成压力检查后调用，调度下一年的检查
 
 magica_mahou_shoujo_stress_event_aftereffects = {

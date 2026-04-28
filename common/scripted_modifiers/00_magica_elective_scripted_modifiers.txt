@@ -1,4 +1,4 @@
-elector_voting_pattern_magica_mahou_shoujo_elective_modifier = {
+﻿elector_voting_pattern_magica_mahou_shoujo_elective_modifier = {
 	modifier = {
 		desc = tooltip_magica_elector_vote_mahou_shoujo
 		add = 150
