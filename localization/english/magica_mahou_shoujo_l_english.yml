@@ -7,7 +7,7 @@
  magica_mahou_shoujo_character_desc:0 "You have been proven as a magical girl. As a faithful follower of Madoka, you possess extraordinary power and purpose."
  trait_magica_mahou_shoujo_rules_correction:0 "Magical Girl Rules Correction"
  magica_mahou_shoujo_rules_correction:0 "Magical Girl Rules Correction"
- magica_mahou_shoujo_rules_correction_desc:0 "A correction trait used to cancel the original magical girl trait's bonuses when Magical Girl Mechanics are disabled."
+ trait_magica_mahou_shoujo_rules_correction_desc:0 "A correction trait used to cancel the original magical girl trait's bonuses when Magical Girl Mechanics are disabled."
 
  # Events - 0001
  magica_mahou_shoujo_selection.0001.t:0 "The Call of a Magical Girl"
