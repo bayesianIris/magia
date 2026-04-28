@@ -32,6 +32,12 @@ magica_mahou_shoujo_selection.0001 = {
 		name = magica_mahou_shoujo_selection.0001.a
 		add_trait = magica_mahou_shoujo
 		add_trait = immortal
+		if = {
+			limit = {
+				NOT = { has_game_rule = magica_mahou_shoujo_rules_disabled }
+			}
+			add_trait = immortal
+		}
 		add_character_modifier = {
 			modifier = magica_mahou_shoujo_awakening_modifier
 			years = 10
@@ -41,6 +47,17 @@ magica_mahou_shoujo_selection.0001 = {
 				save_scope_as = claimed_title
 				root = { add_pressed_claim = scope:claimed_title }
 			}
+		}
+
+		# 根据规则决定是否添加修正 trait（用于禁用模式）
+		if = {
+			limit = { has_game_rule = magica_mahou_shoujo_rules_disabled }
+			root = { 
+				add_trait = magica_mahou_shoujo_rules_correction
+			}
+		}
+		else = {
+			root = { remove_trait = magica_mahou_shoujo_rules_correction }
 		}
 		
 		# 如果候选人出身卑微，通知其当地领主触发招募事件
@@ -63,10 +80,13 @@ magica_mahou_shoujo_selection.0001 = {
 	}
 	
 	after = {
-		# 启动魔法少女年度压力检查循环
-		magica_mahou_shoujo_stress_event_aftereffects = yes
-		# 启动魔法少女随机生死决斗循环
-		magica_mahou_shoujo_duel_loop_aftereffects = yes
+		if = {
+			limit = { has_game_rule = magica_mahou_shoujo_rules_enabled }
+			# 启动魔法少女年度压力检查循环
+			magica_mahou_shoujo_stress_event_aftereffects = yes
+			# 启动魔法少女随机生死决斗循环
+			magica_mahou_shoujo_duel_loop_aftereffects = yes
+		}
 	}
 }
 

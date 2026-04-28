@@ -17,3 +17,12 @@ historicity_france_madokamist = {
 	historicity_france_madokamist_gameplay_no = {}
 	historicity_france_madokamist_historic_always = {}
 }
+# 魔法少女机制游戏规则
+magica_mahou_shoujo_rules = {
+    categories = { gameplay }
+    
+    default = magica_mahou_shoujo_rules_enabled
+    magica_mahou_shoujo_rules_enabled = {}
+    magica_mahou_shoujo_rules_disabled = {}
+    magica_mahou_shoujo_rules_buff_only = {}
+}
