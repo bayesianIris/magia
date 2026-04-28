@@ -3,7 +3,9 @@
 on_game_start_after_lobby_magica_madokamist = {
 	effect = {
 		apply_historic_madokamist_game_rule_effect = yes
-		
+		# 根据魔法少女规则，应用或移除修正 trait
+		apply_magica_mahou_shoujo_rules_correction = yes
+
 		every_player = {
 			trigger_event = {
 				id = magica_mahou_shoujo_selection.0005

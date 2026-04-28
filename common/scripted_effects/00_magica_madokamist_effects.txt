@@ -28,3 +28,25 @@ convert_to_madokamist_game_start_effect = {
         set_county_faith = faith:madokamist_orthodox
     }		
 }
+
+
+# 为魔法少女规则（禁用时）应用或移除修正 trait
+apply_magica_mahou_shoujo_rules_correction = {
+    if = {
+        limit = { has_game_rule = magica_mahou_shoujo_rules_disabled }
+        every_character = {
+            if = {
+                limit = { has_trait = magica_mahou_shoujo }
+                add_trait = magica_mahou_shoujo_rules_correction
+            }
+        }
+    }
+    else = {
+        every_character = {
+            if = {
+                limit = { has_trait = magica_mahou_shoujo_rules_correction }
+                remove_trait = magica_mahou_shoujo_rules_correction
+            }
+        }
+    }
+}
