@@ -3,17 +3,17 @@
  rule_historicity_hre_madokamist: "神圣罗马帝国-圆环之理信仰"
  
  setting_historicity_hre_madokamist_gameplay_no: "游戏玩法"
- setting_historicity_hre_madokamist_gameplay_no_desc: "神圣罗马帝国按照游戏机制发展。"
+ setting_historicity_hre_madokamist_gameplay_no_desc: "神圣罗马帝国按照游戏机制发展，不会皈依圆环之理。"
  
- setting_historicity_hre_madokamist_historic_always: "历史圆环之理"
+ setting_historicity_hre_madokamist_historic_always: "圆环之理的时代"
  setting_historicity_hre_madokamist_historic_always_desc: "神圣罗马帝国从游戏开始时就皈依圆环之理-正统派信仰。"
 
  rule_historicity_france_madokamist: "法兰西王国-圆环之理信仰"
  
  setting_historicity_france_madokamist_gameplay_no: "游戏玩法"
- setting_historicity_france_madokamist_gameplay_no_desc: "法兰西王国按照游戏机制发展。"
+ setting_historicity_france_madokamist_gameplay_no_desc: "法兰西王国按照游戏机制发展，不会皈依圆环之理。"
  
- setting_historicity_france_madokamist_historic_always: "历史圆环之理"
+ setting_historicity_france_madokamist_historic_always: "圆环之理的时代"
  setting_historicity_france_madokamist_historic_always_desc: "法兰西王国从游戏开始时就皈依圆环之理-正统派信仰。"
 
 # 魔法少女机制
@@ -23,7 +23,7 @@ setting_magica_mahou_shoujo_rules_enabled: "启用"
 setting_magica_mahou_shoujo_rules_enabled_desc: "标准模式，启用全部魔法少女机制，包括魔法少女压力和战斗机制，且保留魔法少女特质的全部效果。"
 
 setting_magica_mahou_shoujo_rules_disabled: "无"
-setting_magica_mahou_shoujo_rules_disabled_desc: "禁用所有魔法少女机制。魔法少女特质仅作为描述，不提供任何 buff和属于魔法少女的特殊效果。"
+setting_magica_mahou_shoujo_rules_disabled_desc: "禁用所有魔法少女机制。魔法少女特质仅作为描述，取消所有buff和属于魔法少女的特殊效果。"
 
 setting_magica_mahou_shoujo_rules_buff_only: "仅保留buff"
 setting_magica_mahou_shoujo_rules_buff_only_desc: "保留魔法少女特质的 buff 效果，不启用魔法少女的压力和战斗机制（这可能影响平衡）。"

@@ -15,3 +15,15 @@
  
  setting_historicity_france_madokamist_historic_always: "Historic Madokamist"
  setting_historicity_france_madokamist_historic_always_desc: "The Kingdom of France embraces the Madokamist Orthodox faith from the beginning of the game."
+
+ # Magical Girl Mechanics
+ rule_magica_mahou_shoujo_rules:0 "Magical Girl Mechanics"
+
+ setting_magica_mahou_shoujo_rules_enabled:0 "Enabled"
+ setting_magica_mahou_shoujo_rules_enabled_desc:0 "Standard mode. Enables all magical girl mechanics, including magical girl stress and combat mechanics, while keeping all effects of the magical girl trait."
+
+ setting_magica_mahou_shoujo_rules_disabled:0 "Disabled"
+ setting_magica_mahou_shoujo_rules_disabled_desc:0 "Disables all magical girl mechanics. The magical girl trait remains as flavor text only, with all buffs and magical girl-specific effects removed."
+
+ setting_magica_mahou_shoujo_rules_buff_only:0 "Buffs Only"
+ setting_magica_mahou_shoujo_rules_buff_only_desc:0 "Keeps the magical girl trait's buff effects, without magical girl stress or combat mechanics. This may affect balance."

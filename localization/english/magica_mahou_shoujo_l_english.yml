@@ -5,11 +5,17 @@
  magica_mahou_shoujo:0 "Proven Magical Girl"
  magica_mahou_shoujo_desc:0 "Tested through time, this woman has proven herself to be a true magical girl with supernatural powers."
  magica_mahou_shoujo_character_desc:0 "You have been proven as a magical girl. As a faithful follower of Madoka, you possess extraordinary power and purpose."
+ trait_magica_mahou_shoujo_rules_correction:0 "Magical Girl Rules Correction"
+ magica_mahou_shoujo_rules_correction:0 "Magical Girl Rules Correction"
+ magica_mahou_shoujo_rules_correction_desc:0 "A correction trait used to cancel the original magical girl trait's bonuses when Magical Girl Mechanics are disabled."
 
  # Events - 0001
  magica_mahou_shoujo_selection.0001.t:0 "The Call of a Magical Girl"
  magica_mahou_shoujo_selection.0001.desc:0 "In a dark, solitary moment, that strange creature—white, almost translucent—appears without a sound.\n\n\"Make a contract with me, and become a magical girl.\" Its voice, utterly devoid of emotion, echoes in your mind.\n\nWith a single nod, you can grasp a power mighty enough to bend causality itself. Yet from that moment on, you must don your armor, throw yourself into an endless battlefield, and walk a thorn-strewn path from which there is no return.\n\nIf the legendary \"Law of Cycles\" truly exists, if that law of salvation and hope truly stands above all things... then perhaps the final fate of magical girls is not quite so despairing after all."
  magica_mahou_shoujo_selection.0001.a:0 "I have a wish"
+
+ # Tooltip Localization
+ magica_mahou_shoujo_annual_stress_check_tt:0 "The next annual stress check will occur in one year."
 
  # Events - 0002
  magica_mahou_shoujo_selection.0002.t:0 "A Young Magical Girl"
