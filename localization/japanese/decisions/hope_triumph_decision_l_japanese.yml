@@ -1,0 +1,27 @@
+﻿l_japanese:
+ # Hope Triumph Decision
+ hope_triumph_decision:0 "希望の勝利"
+ hope_triumph_decision_desc:0 "円環の理の福音は世界中に広まった。今こそ、信仰の守護者であり世界の支配者として、皆を円環の理の光の下に団結させる時だ。すべての聖地を掌握することで、希望の最終的な勝利を世界に宣言しよう。"
+ hope_triumph_decision_tooltip:0 "円環の理の希望の勝利を宣言し、世界の信仰を統一する。"
+ hope_triumph_decision_confirm:0 "希望の勝利"
+ hope_triumph_decision_effect_tooltip:0 "円環の理が世界唯一の真理となり、他の信仰を持つすべての統治者は改宗の選択を迫られる。"
+ 
+ # Holy Site Requirements
+ hope_triumph_jerusalem_bishop:0 "エルサレムの保持者の信仰があなたと同じ"
+ hope_triumph_mecca_bishop:0 "メッカの保持者の信仰があなたと同じ"
+ hope_triumph_roma_bishop:0 "ローマの保持者の信仰があなたと同じ"
+ hope_triumph_santiago_bishop:0 "サンティアゴの保持者の信仰があなたと同じ"
+ hope_triumph_koln_bishop:0 "ケルンの保持者の信仰があなたと同じ"
+ hope_triumph_byzantion_bishop:0 "コンスタンティノープルの保持者の信仰があなたと同じ"
+ hope_triumph_varanasi_bishop:0 "ヴァーラーナシーの保持者の信仰があなたと同じ"
+ hope_triumph_lhasa_bishop:0 "ラサの保持者の信仰があなたと同じ"
+ hope_triumph_bodh_gaya_bishop:0 "ブッダガヤの保持者の信仰があなたと同じ"
+ hope_triumph_ise_bishop:0 "伊勢の保持者の信仰があなたと同じ"
+ hope_triumph_no_rite:0 "あなたの信仰は創設時に宗教指導者を保持しない"
+ 
+ # Fervor changes
+ fervor_gain_hope_triumph:0 "希望の勝利"
+ fervor_loss_hope_triumph:0 "希望の崩壊"
+ 
+ # Tooltips
+ every_magica_faith.tt:0 "他のすべての円環の理の分派"

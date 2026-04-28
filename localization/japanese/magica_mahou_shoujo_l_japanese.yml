@@ -1,0 +1,40 @@
+﻿l_japanese:
+
+ # 魔法少女の特質
+ trait_magica_mahou_shoujo:0 "証明された魔法少女"
+ magica_mahou_shoujo:0 "証明された魔法少女"
+ magica_mahou_shoujo_desc:0 "時を経て確かな力を証明した、この女性は真に超常の力を持つ魔法少女である。"
+ magica_mahou_shoujo_character_desc:0 "あなたは魔法少女であることが証明された。円環の理に仕える忠実な信徒として、あなたは並外れた力と使命を有している。"
+ trait_magica_mahou_shoujo_rules_correction:0 "魔法少女機構補正"
+ magica_mahou_shoujo_rules_correction:0 "魔法少女機構補正"
+ trait_magica_mahou_shoujo_rules_correction_desc:0 "ルール設定に応じて、元の魔法少女特質のすべての強化を打ち消す。"
+
+ # Event 0001
+ magica_mahou_shoujo_selection.0001.t:0 "魔法少女の呼び声"
+ magica_mahou_shoujo_selection.0001.desc:0 "暗く孤独なひととき、白くほとんど半透明の奇妙な生き物が音もなく現れる。\n\n「私と契約して、魔法少女になってよ。」感情の一切ないその声が、あなたの心に響く。\n\n一度うなずくだけで、因果さえ捻じ曲げるほどの力を手にできる。だがその瞬間から、あなたは鎧をまとい、終わりのない戦場へ身を投じ、決して引き返せない茨の道を歩むことになる。\n\nもし伝説の「円環の理」が本当に存在するのなら、その救済と希望の法が万物の上に立つのなら……魔法少女たちの最期も、そう絶望だけではないのかもしれない。"
+ magica_mahou_shoujo_selection.0001.a:0 "……願いがある"
+
+ # Event 0002
+ magica_mahou_shoujo_selection.0002.t:0 "若き魔法少女"
+ magica_mahou_shoujo_selection.0002.desc:0 "あなたの領内に若い魔法少女——[scope:mahou_shoujo_recruit.GetName]——が現れた。このような才能は有効に活用すべきだ。彼女を宮廷に招くべきだろうか。"
+ magica_mahou_shoujo_selection.0002.a:0 "彼女を宮廷に招く"
+ magica_mahou_shoujo_selection.0002.b:0 "そのまま自由にさせておく"
+
+ # Event 0005
+ magica_mahou_shoujo_selection.0005.t:0 "開始設定"
+ magica_mahou_shoujo_selection.0005.desc:0 "円環の理の信徒として、あなた自身は契約を結んだ魔法少女なのだろうか？\n\nヒント: 証明された魔法少女は多くの恩恵を得るが、同時に魔法少女として大きな危険を負う。"
+ magica_mahou_shoujo_selection.0005.a:0 "私は魔法少女だ"
+ magica_mahou_shoujo_selection.0005.b:0 "私はただの普通の信徒だ"
+
+ # Tooltip
+ magica_mahou_shoujo_annual_stress_check_tt:0 "次回の年次ストレスチェックは1年後に行われる"
+
+ # Stress End
+ magica_mahou_shoujo_stress.0001.t:0 "ソウルジェムの果て"
+ magica_mahou_shoujo_stress.0001.desc:0 "呪いは山のように積み重なり、ソウルジェムはついに耐えられないほど曇った。あなたは円環の理の光を見、優しく揺るぎない呼び声を聞く。それは恐怖ではなく、導きだ。あなたはこの世界を去り、円環の理に迎え入れられる。"
+ magica_mahou_shoujo_stress.0001.a:0 "円神（アルティメットまどか）とともに行く"
+
+ # Duel
+ magica_mahou_shoujo_duel.0001.t:0 "絶望との戦い"
+ magica_mahou_shoujo_duel.0001.desc:0 "隅の影は尋常でないほど濃く、そこに何か歪んだものが潜んでいるかのようだ。空気は重く淀み、闇が部屋の隅で実体を持つ。何者かの視線を感じる。ソウルジェムがかすかに輝き、これは退くことの許されない戦いだと告げている。前へ進み続けるために、今この瞬間に絶望と向き合わねばならない。"
+ magica_mahou_shoujo_duel.0001.a:0 "武器を手に取り、決着をつける"

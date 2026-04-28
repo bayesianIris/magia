@@ -1,0 +1,12 @@
+﻿l_japanese:
+
+ magica_miracle.0001.t: "微光の噂"
+ magica_miracle.0001.desc: "最近、あなたの領内では曖昧な噂が広まっている。病弱な者が祈願殿の外で目を覚まし、やさしい光の夢を見たと語ったのだ。目撃者の話は食い違い、それを円神（アルティメットまどか）のお告げだという者もいれば、ただ気候が暖かくなり薬の調合がうまくいっただけだという者もいる。"
+ magica_miracle.0001.a: "これは円神（アルティメットまどか）の恩寵だ！"
+ magica_miracle.0001.b: "我らの領地で起きたことをもっと多くの人に知らせよう"
+ magica_miracle.0001.c: "ただの偶然だ。"
+
+ seek_magica_miracle_decision: "円神（アルティメットまどか）の微光を探す"
+ seek_magica_miracle_decision_desc: "あなたは噂を集め、各地の祈願殿と信徒を調べ、流言と証言のあいだから円神（アルティメットまどか）の微光を見極めようとする。"
+ seek_magica_miracle_decision_tooltip: "『奇跡』の噂に関する事件を発生させる。"
+ seek_magica_miracle_decision_confirm: "円神（アルティメットまどか）の微光を探す"

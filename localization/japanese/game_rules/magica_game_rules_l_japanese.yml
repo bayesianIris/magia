@@ -1,0 +1,28 @@
+﻿l_japanese:
+ rule_historicity_hre_madokamist: "神聖ローマ帝国 - 円環の理信仰"
+ 
+ setting_historicity_hre_madokamist_gameplay_no: "ゲームプレイ"
+ setting_historicity_hre_madokamist_gameplay_no_desc: "神聖ローマ帝国はゲーム機構に従って発展し、円環の理へは改宗しない。"
+ 
+ setting_historicity_hre_madokamist_historic_always: "円環の理の時代"
+ setting_historicity_hre_madokamist_historic_always_desc: "神聖ローマ帝国はゲーム開始時から円環の理 - 正統派の信仰に帰依している。"
+
+ rule_historicity_france_madokamist: "フランス王国 - 円環の理信仰"
+ 
+ setting_historicity_france_madokamist_gameplay_no: "ゲームプレイ"
+ setting_historicity_france_madokamist_gameplay_no_desc: "フランス王国はゲーム機構に従って発展し、円環の理へは改宗しない。"
+ 
+ setting_historicity_france_madokamist_historic_always: "円環の理の時代"
+ setting_historicity_france_madokamist_historic_always_desc: "フランス王国はゲーム開始時から円環の理 - 正統派の信仰に帰依している。"
+
+ # 魔法少女機構
+ rule_magica_mahou_shoujo_rules:0 "魔法少女機構"
+
+ setting_magica_mahou_shoujo_rules_enabled:0 "有効"
+ setting_magica_mahou_shoujo_rules_enabled_desc:0 "標準モード。魔法少女のストレスと戦闘機構を含む、すべての魔法少女機構を有効にし、魔法少女特質の効果もすべて保持する。"
+
+ setting_magica_mahou_shoujo_rules_disabled:0 "無効"
+ setting_magica_mahou_shoujo_rules_disabled_desc:0 "すべての魔法少女機構を無効にする。魔法少女特質は説明文だけとなり、すべてのバフと魔法少女固有の効果が除去される。"
+
+ setting_magica_mahou_shoujo_rules_buff_only:0 "バフのみ"
+ setting_magica_mahou_shoujo_rules_buff_only_desc:0 "魔法少女特質のバフ効果のみを残し、魔法少女のストレスと戦闘機構は有効にしない。バランスに影響する可能性がある。"

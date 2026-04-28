@@ -1,0 +1,143 @@
+﻿l_japanese:
+ 
+ madokamist_orthodox: "円環の理 - 正統派"
+ madokamist_orthodox_adj: "円環の理 - 正統派"
+ madokamist_orthodox_adherent: "円環の理の信徒"
+ madokamist_orthodox_adherent_plural: "円環の理の信徒"
+ madokamist_martial: "円環の理 - 尚武派"
+ madokamist_martial_adj: "円環の理 - 尚武派"
+ madokamist_martial_adherent: "円環の理の信徒"
+ madokamist_martial_adherent_plural: "円環の理の信徒"
+ madokamist_romance: "円環の理 - 情感派"
+ madokamist_romance_adj: "円環の理 - 情感派"
+ madokamist_romance_adherent: "円環の理の信徒"
+ madokamist_romance_adherent_plural: "円環の理の信徒"
+
+ madokamist_orthodox_desc: "正統派における円環の理の核心は、円神（アルティメットまどか）の願いを実現することにある。円神の救済によって、すべての魔法少女は彼女によって希望の永続を得て、その成果が絶望に呑まれることはない。彼らは円神の教えを広め、希望を実践することで円神の願いをより実現へ近づけ、新たな世界へと歩み出す。"
+ rf_magica: "魔法少女宗教グループ"
+ ### 基礎宗教名
+ magica_religion: "円環の理信仰"
+ magica_religion_adj: "円環の理信仰"
+ magica_religion_adherent: "円環の理の信徒"
+ magica_religion_adherent_plural: "円環の理の信徒"
+ magica_religion_desc: "円環の理は過去、現在、そしてあらゆる可能世界を貫いている。魔法少女は希望を誓い、犠牲を道とし、やがて円神が因果を超越して永遠の救済者となる。信徒は魔法少女の導きのもと、円神の願いを実現するために尽くす。苦難を希望へ、絶望を救済へと変えるのだ。"
+
+ ### 高位神（円神）
+ magica_high_god_name: "円神（アルティメットまどか）"
+ magica_high_god_name_2: "$magica_high_god_name$"
+ magica_high_god_name_3: "$magica_high_god_name$"
+ magica_high_god_name_possessive: "円神（アルティメットまどか）の"
+ magica_high_god_name_alternate: "彼女"
+ magica_high_god_name_alternate_possessive: "彼女の"
+
+ ### 創造神（fallback：円神）
+ magica_creator_god_name: "$magica_high_god_name$"
+ magica_creator_god_name_possessive: "$magica_high_god_name_possessive$"
+
+ ### 健康神（人間時代の鹿目まどか）
+ magica_health_god_name: "鹿目まどか"
+ magica_health_god_name_possessive: "鹿目まどかの"
+
+ ### 生育神（該当なし → fallback to 円神）
+ magica_fertility_god_name: "$magica_high_god_name$"
+ magica_fertility_god_name_possessive: "$magica_high_god_name_possessive$"
+
+ ### 富の神（該当なし → fallback to 円神）
+ magica_wealth_god_name: "$magica_high_god_name$"
+ magica_wealth_god_name_possessive: "$magica_high_god_name_possessive$"
+
+ ### 家宅神（該当なし → fallback to 鹿目まどか）
+ magica_household_god_name: "$magica_health_god_name$"
+ magica_household_god_name_possessive: "$magica_health_god_name_possessive$"
+
+ ### 運命神（該当なし → fallback to 円神）
+ magica_fate_god_name: "$magica_high_god_name$"
+ magica_fate_god_name_possessive: "$magica_high_god_name_possessive$"
+
+ ### 知識神（該当なし → fallback to 円神）
+ magica_knowledge_god_name: "$magica_high_god_name$"
+ magica_knowledge_god_name_possessive: "$magica_high_god_name_possessive$"
+
+ ### 戦争神（該当なし → fallback to 円神）
+ magica_war_god_name: "$magica_high_god_name$"
+ magica_war_god_name_possessive: "$magica_high_god_name_possessive$"
+
+ ### 欺瞞/奸計の神（該当なし → キリスト教にならって魔法少女を割り当てる）
+ magica_trickster_god_name: "佐倉杏子"
+ magica_trickster_god_name_possessive: "佐倉杏子の"
+
+ ### 夜の神（該当なし → fallback to 円神）
+ magica_night_god_name: "$magica_high_god_name$"
+ magica_night_god_name_possessive: "$magica_high_god_name_possessive$"
+
+ ### 水の神（該当なし → fallback to 鹿目まどか、キリスト教の water=health に相当）
+ magica_water_god_name: "$magica_health_god_name$"
+ magica_water_god_name_possessessive: "$magica_health_god_name_possessive$"
+
+ ### 善神一覧
+ magica_good_god_jesus: "$magica_health_god_name$"
+ magica_good_god_christ: "$magica_high_god_name$"
+
+ ### 魔神 / 悪神
+ magica_devil_name: "魔女"
+ magica_devil_name_possessive: "魔女の"
+ magica_evil_god_lucifer: "原罪の魔女"
+ magica_evil_god_beelzebub: "暴食の魔女"
+ magica_evil_god_mephistopheles: "呪いの魔女"
+
+ ### 死の神
+ magica_death_deity_name: "終焉の魔女"
+ magica_death_deity_name_possessive: "終焉の魔女の"
+
+ ### 礼拝所 / 聖遺物
+ magica_house_of_worship: "祈願殿"
+ magica_house_of_worship_2: "$magica_house_of_worship$"
+ magica_house_of_worship_3: "$magica_house_of_worship$"
+ magica_house_of_worship_plural: "祈願殿堂"
+
+ ### 聖なる象徴
+ magica_religious_symbol: "ソウルジェム"
+ magica_religious_symbol_2: "$magica_religious_symbol$"
+ magica_religious_symbol_3: "$magica_religious_symbol$"
+
+ ### 宗教典籍
+ magica_religious_text: "『魔法少女まどか☆マギカ』"
+ magica_religious_text_2: "『マギアレコード』"
+ magica_religious_text_3: "『魔法少女おりこ☆マギカ外伝』"
+
+ ### 宗教指導者
+ magica_religious_head_title: "導師"
+ magica_religious_head_title_name: "円理院"
+
+ ### 信徒呼称
+ magica_devotee_male: "円理侍従"
+ magica_devotee_male_plural: "円理侍従"
+ magica_devotee_female: "円理侍従"
+ magica_devotee_female_plural: "円理侍従"
+ magica_devotee_neuter: "円理侍従"
+ magica_devotee_neuter_plural: "円理侍従"
+
+ ### 司祭 / 神職
+ magica_priest_female: "導き手"
+ magica_priest_female_plural: "導き手"
+ magica_priest_alternate_plural: "円理の使徒"
+
+ ### 主教
+ magica_bishop: "光輪導師"
+ magica_bishop_plural: "光輪導師"
+
+ ### 来世
+ magica_positive_afterlife: "円環の理への導き"
+ magica_positive_afterlife_2: "因果なき彼方"
+ magica_positive_afterlife_3: "永遠の救済"
+
+ magica_negative_afterlife: "魔女化の呪い"
+ magica_negative_afterlife_2: "閉ざされた結界"
+ magica_negative_afterlife_3: "裏切りの深淵"
+
+ ### 魔法使いの神
+ magica_witchgodname_the_horned_god: "円環の理"
+ magica_witchgodname_the_horned_god_possessive: "円環の理の"
+
+ madokamist_war_god_name: "$magica_war_god_name$"
+ madokamist_war_god_name_possessive: "$magica_war_god_name_possessive$"

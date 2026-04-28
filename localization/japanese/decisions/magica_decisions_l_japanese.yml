@@ -1,0 +1,18 @@
+﻿l_japanese:
+
+ establish_magica_spiritual_head_decision:0 "円環の理の精神的教首を建立する"
+ establish_magica_spiritual_head_decision_desc:0 "すでに少なくとも一つの聖地を掌握した今、円環の理の信徒を導く統一された精神的教首を定める時だ。"
+ establish_magica_spiritual_head_decision_tooltip:0 "円環の理を奉じる信仰に統一された教首を設置する。"
+ establish_magica_spiritual_head_decision_effect_tooltip:0 "地を持たない王国級の神権教首称号を創設し、円環の理の教義を含むすべての信仰にそれを教首として承認させる。"
+
+ k_magica_holy_see:0 "円環の理教廷"
+ k_magica_holy_see_adj:0 "円環の理教廷"
+
+ magica_religious_head.0001.t:0 "円環の理の新たな導師"
+ magica_religious_head.0001.desc:0 "長い待機の末、円環の理はついに新たな精神的教首を迎えた。[ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName]がこの信仰の指導者に選ばれ、すべての信徒を輝かしい未来へ導く。\n\nこの新たな信仰指導者は、円環の理の統一と希望を象徴する。[ROOT.Char.GetFaith.GetReligiousHead.GetSheHe]は魔法少女の真理を広め、世界に救済をもたらすだろう。無数の信徒がこの偉大な瞬間を歓喜している。"
+ magica_religious_head.0001.a:0 "円環の理の輝きが永遠に照らしますように"
+
+ adopt_magica_elective_succession_decision:0 "魔法少女継承制を採用する"
+ adopt_magica_elective_succession_decision_desc:0 "古い継承法は不公平と混乱に満ちている。もし魔法少女が存在するのなら、その強大な力と責務を負う魔法少女こそ社会の指導者となるべきだ。"
+ adopt_magica_elective_succession_decision_tooltip:0 "保有する王国級以上の称号を魔法少女継承法に変更する。"
+ adopt_magica_elective_succession_decision_effect_tooltip:0 "条件を満たすすべての王国級以上の称号が魔法少女継承法を採用する。"

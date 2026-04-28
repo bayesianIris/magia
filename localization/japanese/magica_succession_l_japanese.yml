@@ -1,0 +1,9 @@
+﻿l_japanese:
+ magica_elective_succession_law:0 "魔法少女選挙制"
+ magica_elective_succession_law_effects:0 "この[title|E]より一つか二つ下位の[ranks|E]にある[ruler|E]と、すべての直属[de_jure|E][vassals|E]は[title_heir|E]を指名できる。候補者には統治者の[close_family|E]に加え、統治者の[realm|E]内にいて[GetTrait('magica_mahou_shoujo').GetName( GetNullCharacter )]特質を持ち、かつ次のいずれかに該当する者が含まれる。[title|E]請求者、[de_jure|E]封臣、統治者の直属封臣、統治者の配偶者、[dynasty|E]の構成員。"
+ magica_elective_candidates:0 "近親と領内の魔法少女"
+ magica_elective_candidates_tooltip:0 "魔法少女選挙制の有効候補者となるには、以下のいずれかを満たす必要がある。\n$EFFECT_LIST_BULLET$現統治者の正当な[close_family|E]であり、神権制または共和制の継承順位に入っていないこと。候補者の子は指名できない。\n$EFFECT_LIST_BULLET$統治者の[realm|E]内にいて、[GetTrait('magica_mahou_shoujo').GetName( GetNullCharacter )]特質を持つこと"
+ magica_elective_electors:0 "$feudal_elective_electors$"
+ magica_elective_electors_tooltip:0 "$feudal_elective_electors_tooltip$"
+ tooltip_magica_elector_vote_mahou_shoujo:0 "[candidate.GetSheHe|U]は[GetTrait('magica_mahou_shoujo').GetName( candidate.Self )]だ：$VALUE|=+0$"
+ succession_laws_must_have_magica_elective_faith_parameter:0 "あなたの[faith|E]は魔法少女選挙制を認めていない。"

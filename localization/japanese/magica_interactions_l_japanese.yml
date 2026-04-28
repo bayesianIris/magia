@@ -1,0 +1,6 @@
+﻿l_japanese:
+ magica_debug_interaction:0 "魔法少女Modデバッグオプション"
+ magica_hope_triumph_conversion_interaction:0 "正信への回帰を求める"
+ magica_hope_triumph_conversion_desc:0 "この人物に我らの信仰へ改宗するよう求める。円環の理の啓示により、同宗教の信徒はこの要請を受け入れやすくなる。"
+ HOPE_TRIUMPH_SAME_RELIGION_REASON:0 "希望の勝利：同宗教の信徒は強く心を動かされる"
+ magica_hope_triumph_conversion_success:0 "改宗成功"

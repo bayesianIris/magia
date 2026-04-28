@@ -1,0 +1,3 @@
+﻿l_japanese:
+ nick_the_savior:0 "救世主"
+ nick_the_savior_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat]が円環の理の布教と世界信仰の統一に尽力したことで、[Select_CString(CHARACTER.IsLocalPlayer,'あなた',Select_CString(CHARACTER.IsFemale,'彼女','彼'))|U]は無数の信徒の心における救世主となった。"
